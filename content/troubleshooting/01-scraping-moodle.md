@@ -1,5 +1,5 @@
 ---
-title: "01 — scraping Moodle: 0 archivos en Actions, funciona en local"
+title: "01 — scraping moodle"
 date: 2026-04-09
 tags: [meta, troubleshooting, scraping, github-actions]
 ---
