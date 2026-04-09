@@ -1,9 +1,9 @@
 # kdef
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="public/banner-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="public/banner-light.png">
-  <img alt="kdef banner" src="public/banner-light.png" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="quartz/static/banner-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="quartz/static/banner-light.png">
+  <img alt="kdef banner" src="quartz/static/banner-light.png" width="100%">
 </picture>
 
 > Automated knowledge garden for students of the Cyber Defense degree program at UNDEF (Argentina).
