@@ -133,14 +133,14 @@ selects which `slug` values from that file should be processed.
 ## Contributing
 
 - Add student notes in `content/notas-colaborativas/`.
-- Follow the contribution guide in `content/porque-kdef/18-como-contribuir.md`.
+- Follow the contribution guide in [porque-kdef/18-como-contribuir](https://kdef.com.ar/porque-kdef/18-como-contribuir).
 - Do **not** edit `content/notas-automaticas/` manually.
 
 ## Replicating this model
 
 To reuse this setup for other degree programs, see:
 
-- `content/porque-kdef/19-copiar-modelo.md`
+- [porque-kdef/19-copiar-modelo](https://kdef.com.ar/porque-kdef/19-copiar-modelo)
 
 ## License
 

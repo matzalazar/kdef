@@ -10,16 +10,8 @@ export default ((opts?: Options) => {
     const links = Object.entries(opts?.links ?? {})
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <p>
-          creado con ❤️ por matzalazar
-          {links.map(([text, link]) => (
-            <span key={link}>
-              {" - "}
-              <a href={link}>{text.toLowerCase()}</a>
-            </span>
-          ))}
-        </p>
-        <p>si querés un jardín digital para tu carrera, <a href="mailto:matias.zalazar@icloud.com">me podés escribir</a> :)</p>
+        <p>cultivado con ❤️ por <a href="https://github.com/matzalazar">matzalazar</a></p>
+        <p>¿querés replicar esto? <a href="mailto:matias.zalazar@icloud.com">escribime</a></p>
       </footer>
     )
   }
