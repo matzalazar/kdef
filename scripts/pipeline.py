@@ -16,7 +16,7 @@ Configuración (todas desde variables de entorno):
   MOODLE_URL          URL base del Moodle
   MOODLE_USER         Usuario de Moodle
   MOODLE_PASS         Contraseña de Moodle
-  GITHUB_MODELS_KEY   API key para GitHub Models (LLM primario)
+  MODELS_API_KEY   API key para GitHub Models (LLM primario)
   OPENROUTER_API_KEY  API key para OpenRouter (LLM secundario)
   GEMINI_API_KEY      API key para Google Gemini (LLM terciario / fallback)
   DRY_RUN             'true' para modo simulación, no escribe archivos
@@ -99,7 +99,7 @@ def load_config() -> dict:
         "moodle_url": os.getenv("MOODLE_URL", ""),
         "moodle_user": os.getenv("MOODLE_USER", ""),
         "moodle_pass": os.getenv("MOODLE_PASS", ""),
-        "github_models_key": os.getenv("GITHUB_MODELS_KEY", ""),
+        "github_models_key": os.getenv("MODELS_API_KEY", ""),
         "openrouter_api_key": os.getenv("OPENROUTER_API_KEY", ""),
         "gemini_api_key": os.getenv("GEMINI_API_KEY", ""),
         "tracked_subjects": tracked_subjects,
@@ -420,7 +420,7 @@ def run_pipeline(config: dict) -> None:
             model = "dry-run/mock"
             log.info("Dry-run sin LLM keys — usando modelo mock")
         else:
-            log.error("No hay LLM configurado (GITHUB_MODELS_KEY, OPENROUTER_API_KEY o GEMINI_API_KEY)")
+            log.error("No hay LLM configurado (MODELS_API_KEY, OPENROUTER_API_KEY o GEMINI_API_KEY)")
             sys.exit(1)
 
     # Cargar manifest para saber qué ya fue procesado

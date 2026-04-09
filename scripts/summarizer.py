@@ -493,9 +493,9 @@ def summarize_document(path: Path, model: str, academic_year: str = "") -> Docum
     provider, _, model_name = model.partition("/")
 
     if provider == "github":
-        api_key = os.getenv("GITHUB_MODELS_KEY", "")
+        api_key = os.getenv("MODELS_API_KEY", "")
         if not api_key:
-            raise ValueError("GITHUB_MODELS_KEY no está configurado")
+            raise ValueError("MODELS_API_KEY no está configurado")
         raw_summary = _summarize_with_github_models(text, path.name, api_key, model_name, academic_year)
 
     elif provider == "openrouter":

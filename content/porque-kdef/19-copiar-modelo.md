@@ -47,7 +47,7 @@ Variables de entorno necesarias: `MOODLE_URL`, `MOODLE_USER`, `MOODLE_PASS`.
 
 El pipeline intenta en orden: GitHub Models → OpenRouter → Gemini. Configurá al menos uno en `.env`:
 
-- `GITHUB_MODELS_KEY`
+- `MODELS_API_KEY`
 - `OPENROUTER_API_KEY`
 - `GEMINI_API_KEY`
 

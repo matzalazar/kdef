@@ -65,7 +65,7 @@ Código: `scripts/summarizer.py` → `summarize_document()`.
 
 - `github/...`:
   - usa `openai` SDK con `base_url="https://models.inference.ai.azure.com"`.
-  - usa `GITHUB_MODELS_KEY` del entorno.
+  - usa `MODELS_API_KEY` del entorno.
   - límite de input: 25.000 caracteres. `temperature=0.3`, `max_tokens=3800`.
 - `openrouter/...`:
   - usa `openai` SDK con `base_url="https://openrouter.ai/api/v1"`.

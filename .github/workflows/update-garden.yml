@@ -90,7 +90,7 @@ jobs:
           MOODLE_URL: ${{ secrets.MOODLE_URL }}
           MOODLE_USER: ${{ secrets.MOODLE_USER }}
           MOODLE_PASS: ${{ secrets.MOODLE_PASS }}
-          GITHUB_MODELS_KEY: ${{ secrets.GITHUB_MODELS_KEY }}
+          MODELS_API_KEY: ${{ secrets.MODELS_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           # Modo dry-run: el pipeline corre pero no escribe archivos ni hace commit

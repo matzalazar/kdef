@@ -21,15 +21,15 @@ Archivo de referencia: `.env.example`.
 | `MOODLE_USER` | Sí (no dry-run) | Usuario Moodle | Sensible |
 | `MOODLE_PASS` | Sí (no dry-run) | Password Moodle | Sensible |
 | `TRACKED_SUBJECTS` | No | Filtra materias por `slug` | `all`/vacío = todas habilitadas |
-| `GITHUB_MODELS_KEY` | Sí (si se usa GitHub Models) | LLM primario | Usa OpenAI SDK con `base_url` de GitHub Models |
+| `MODELS_API_KEY` | Sí (si se usa GitHub Models) | LLM primario | Usa OpenAI SDK con `base_url` de GitHub Models |
 | `OPENROUTER_API_KEY` | Sí (si se usa OpenRouter) | LLM secundario | Usa OpenAI SDK con `base_url` de OpenRouter |
-| `GEMINI_API_KEY` | Sí (si se usa Gemini) | LLM terciario/fallback | Solo si no hay `GITHUB_MODELS_KEY` ni `OPENROUTER_API_KEY` |
+| `GEMINI_API_KEY` | Sí (si se usa Gemini) | LLM terciario/fallback | Solo si no hay `MODELS_API_KEY` ni `OPENROUTER_API_KEY` |
 | `DRY_RUN` | No | Simulación | En dry-run no se escriben archivos ni manifest |
 | `FORCE_REPROCESS` | No | Ignora manifest | Reprocesa todo (si hay archivos descargados) |
 
 ### Selección de LLM
 
-- Si existe `GITHUB_MODELS_KEY` → modelo `github/gpt-4o-mini`.
+- Si existe `MODELS_API_KEY` → modelo `github/gpt-4o-mini`.
 - Else si existe `OPENROUTER_API_KEY` → modelo `openrouter/openai/gpt-oss-20b:free`.
 - Else si existe `GEMINI_API_KEY` → modelo `gemini/gemini-1.5-flash`.
 - Else:

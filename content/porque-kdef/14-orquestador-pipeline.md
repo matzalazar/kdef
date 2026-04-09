@@ -37,7 +37,7 @@ En modo **no dry-run**, faltantes en `MOODLE_URL|MOODLE_USER|MOODLE_PASS` → ex
 
 ## Selección de modelo LLM
 
-- Si hay `GITHUB_MODELS_KEY` → `github/gpt-4o-mini`.
+- Si hay `MODELS_API_KEY` → `github/gpt-4o-mini`.
 - Else si hay `OPENROUTER_API_KEY` → `openrouter/openai/gpt-oss-20b:free`.
 - Else si hay `GEMINI_API_KEY` → `gemini/gemini-1.5-flash`.
 - Else: en dry-run → `dry-run/mock`; fuera de dry-run → exit(1).
