@@ -82,6 +82,34 @@ jobs:
         run: |
           python -m unittest discover -s tests
 
+      # Debug temporal — ver qué HTML devuelve Moodle desde los IPs de GitHub
+      # Eliminar este step una vez resuelto el issue de scraping
+      - name: Debug — HTML curso 549
+        env:
+          MOODLE_URL: ${{ secrets.MOODLE_URL }}
+          MOODLE_USER: ${{ secrets.MOODLE_USER }}
+          MOODLE_PASS: ${{ secrets.MOODLE_PASS }}
+        run: |
+          python - <<'EOF'
+          from scripts.auth import create_moodle_session
+          from scripts.scraper import _base_url, _tile_section_links, _extract_activity_links_from_soup
+          from bs4 import BeautifulSoup
+          import os
+          s = create_moodle_session(os.getenv("MOODLE_URL"), os.getenv("MOODLE_USER"), os.getenv("MOODLE_PASS"))
+          r = s.get(f"{_base_url(os.getenv('MOODLE_URL'))}/course/view.php?id=549", timeout=30)
+          print("=== URL FINAL ===")
+          print(r.url)
+          soup = BeautifulSoup(r.text, "html.parser")
+          tiles = soup.select('li[id^="tile-"]')
+          sections = soup.select('li[id^="section-"]')
+          mods = [a["href"] for a in soup.select('a[href]') if "/mod/" in a.get("href", "")]
+          print(f"=== tiles: {len(tiles)}, sections: {len(sections)}, mod links: {len(mods)} ===")
+          print("=== MOD LINKS (primeros 10) ===")
+          for m in mods[:10]: print(m)
+          print("=== HTML (primeros 2000 chars) ===")
+          print(r.text[:2000])
+          EOF
+
       # Ejecutar el pipeline principal
       # Las variables de entorno se inyectan desde los secrets del repositorio
       # DRY_RUN y FORCE_REPROCESS vienen del input del workflow_dispatch
