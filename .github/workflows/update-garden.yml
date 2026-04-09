@@ -27,12 +27,12 @@ on:
       dry_run:
         description: 'Modo dry-run (no hace commit ni deploy)'
         required: false
-        default: 'false'
+        default: false
         type: boolean
       force_reprocess:
         description: 'Forzar re-procesamiento de todos los documentos (ignora manifest)'
         required: false
-        default: 'false'
+        default: false
         type: boolean
 
 # Permisos mínimos necesarios para el workflow
@@ -81,6 +81,17 @@ jobs:
       - name: Ejecutar tests del pipeline
         run: |
           python -m unittest discover -s tests
+
+      # Conectar el runner a Tailscale usando la Pi como exit node
+      # El tráfico hacia Moodle sale desde la IP residencial de la Pi (100.109.72.5)
+      # en vez de los rangos de AWS que Moodle puede bloquear
+      - name: Conectar a Tailscale (exit node via raspberrypi)
+        uses: tailscale/github-action@v2
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:ci
+          exit-node: 100.109.72.5
 
       # Ejecutar el pipeline principal
       # Las variables de entorno se inyectan desde los secrets del repositorio
