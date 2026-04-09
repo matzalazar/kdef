@@ -1,0 +1,774 @@
+// =============================================================================
+// kdef — Terminal/hacker console aesthetic
+// Inspirado en late.sh y estética de consola verde fósforo
+// Todas las propiedades visuales se controlan aquí.
+// NO modificar funcionalidad core de Quartz — solo propiedades visuales.
+// =============================================================================
+
+@use "./base.scss";
+
+// -----------------------------------------------------------------------------
+// Tipografía: monospace absoluto, sin excepciones
+// -----------------------------------------------------------------------------
+@font-face {
+  font-family: "JetBrains Mono";
+  src: local("JetBrains Mono"), local("JetBrainsMono");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+:root {
+  --font-mono: "JetBrains Mono", "Fira Code", "Cascadia Code", "Consolas", monospace;
+  --terminal-font-size: 0.8rem;
+  --terminal-bg: #0d0d0d;
+  --terminal-surface: #0a0a0a;
+  --terminal-surface-2: #111111;
+  --terminal-code-bg: #080808;
+  --terminal-code-inline-bg: #111111;
+  --terminal-code-text: #b0b0b0;
+  --terminal-border: #1a1a1a;
+  --terminal-border-strong: #222222;
+  --terminal-text: #ffffff;
+  --terminal-muted: #b0b0b0;
+  --terminal-accent: #00ff41;
+  --terminal-accent-dim: #009922;
+  --terminal-placeholder: #444444;
+  --terminal-selection-bg: #00ff41;
+  --terminal-selection-text: #0d0d0d;
+  --terminal-scroll-track: #080808;
+  --terminal-scroll-thumb: #2a2a2a;
+}
+
+:root[saved-theme="light"] {
+  --terminal-bg: #f7f7f7;
+  --terminal-surface: #ffffff;
+  --terminal-surface-2: #f1f1f1;
+  --terminal-code-bg: #f1f1f1;
+  --terminal-code-inline-bg: #ececec;
+  --terminal-code-text: #111111;
+  --terminal-border: #d8d8d8;
+  --terminal-border-strong: #c6c6c6;
+  --terminal-text: #111111;
+  --terminal-muted: #4a4a4a;
+  --terminal-accent: #007a2b;
+  --terminal-accent-dim: #00661f;
+  --terminal-placeholder: #666666;
+  --terminal-selection-bg: #007a2b;
+  --terminal-selection-text: #f7f7f7;
+  --terminal-scroll-track: #efefef;
+  --terminal-scroll-thumb: #b8b8b8;
+}
+
+* {
+  font-family: var(--font-mono) !important;
+  letter-spacing: 0.02em;
+}
+
+// -----------------------------------------------------------------------------
+// Reset de bordes: cero radios, todo ángulo recto
+// -----------------------------------------------------------------------------
+*,
+*::before,
+*::after {
+  border-radius: 0 !important;
+}
+
+// -----------------------------------------------------------------------------
+// Fondo y colores base
+// -----------------------------------------------------------------------------
+body {
+  background-color: var(--terminal-bg) !important;
+  color: var(--terminal-muted) !important;
+}
+
+// El contenido principal tiene el verde fosforescente como color dominante
+#quartz-body {
+  background-color: var(--terminal-bg);
+}
+
+// -----------------------------------------------------------------------------
+// Tipografía y encabezados con prefijos de terminal
+// -----------------------------------------------------------------------------
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+span,
+a,
+text {
+  font-size: 0.8em !important;
+  line-height: 1.5 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--terminal-accent) !important;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-top: 1em;
+}
+
+p,
+li,
+span,
+a,
+text {
+  color: var(--terminal-text) !important;
+}
+
+h1::before {
+  content: "# ";
+  color: var(--terminal-accent);
+  opacity: 0.8;
+}
+
+h2::before {
+  content: "## ";
+  color: var(--terminal-accent);
+  opacity: 0.7;
+}
+
+h3::before {
+  content: "### ";
+  color: var(--terminal-accent);
+  opacity: 0.6;
+}
+
+h4::before,
+h5::before,
+h6::before {
+  content: "> ";
+  color: var(--terminal-accent);
+  opacity: 0.5;
+}
+
+// -----------------------------------------------------------------------------
+// Título del sitio — animación de cursor parpadeante
+// -----------------------------------------------------------------------------
+.page-title {
+  color: var(--terminal-accent) !important;
+  font-size: 0.8em !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  text-transform: lowercase;
+
+  &::after {
+    content: "_";
+    display: inline-block;
+    animation: blink-cursor 1.1s step-end infinite;
+    color: var(--terminal-accent);
+    margin-left: 2px;
+  }
+}
+
+@keyframes blink-cursor {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Links — estilo rutas de terminal / comandos
+// -----------------------------------------------------------------------------
+a {
+  color: var(--terminal-text) !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    color: var(--terminal-accent) !important;
+    border-bottom-color: var(--terminal-accent);
+  }
+
+  &:visited {
+    color: #009922 !important;
+  }
+}
+
+// Links internos con prefijo de ruta
+.internal {
+  &::before {
+    content: "./";
+    color: var(--terminal-accent);
+    opacity: 0.7;
+    font-size: 0.8em;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Código inline y bloques de código
+// -----------------------------------------------------------------------------
+code,
+kbd,
+samp {
+  background-color: var(--terminal-code-inline-bg) !important;
+  color: var(--terminal-accent) !important;
+  padding: 0.1em 0.35em !important;
+  border: 1px solid var(--terminal-border) !important;
+  font-size: 0.8em !important;
+}
+
+pre {
+  background-color: var(--terminal-code-bg) !important;
+  border: 1px solid var(--terminal-border) !important;
+  border-left: 3px solid var(--terminal-accent) !important;
+  padding: 1.2em !important;
+  overflow-x: auto;
+  position: relative;
+
+  code {
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    color: var(--terminal-code-text) !important;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Barra de navegación / header
+// -----------------------------------------------------------------------------
+header,
+.navbar {
+  background-color: var(--terminal-surface) !important;
+  border-bottom: 1px solid var(--terminal-border) !important;
+}
+
+nav.breadcrumb-container {
+  color: #555555;
+  font-size: 0.8em;
+
+  a {
+    color: var(--terminal-muted) !important;
+    &::before {
+      content: none;
+    }
+    &:hover {
+      color: var(--terminal-accent) !important;
+    }
+  }
+
+  .breadcrumb-element::before {
+    content: "/";
+    color: var(--terminal-muted);
+    margin: 0 0.3em;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Sidebar izquierdo — árbol de archivos
+// -----------------------------------------------------------------------------
+.sidebar-left {
+  background-color: var(--terminal-surface) !important;
+  border-right: 1px solid var(--terminal-border) !important;
+}
+
+.folder-container,
+.folder-outer {
+  border-left: 1px solid var(--terminal-border) !important;
+}
+
+.folder-title,
+.folder-container > .fold {
+  color: var(--terminal-accent-dim) !important;
+  font-size: 0.8em;
+
+  &:hover {
+    color: var(--terminal-accent) !important;
+  }
+}
+
+// Árbol de archivos — estilo ls
+.folder-outer > li > a,
+ul.section-ul > li > a {
+  color: var(--terminal-text) !important;
+  font-size: 0.8em;
+
+  &:hover {
+    color: var(--terminal-accent) !important;
+  }
+
+  &::before {
+    content: "  ";
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Panel derecho — backlinks, graph, ToC
+// -----------------------------------------------------------------------------
+.sidebar-right {
+  background-color: var(--terminal-surface) !important;
+  border-left: 1px solid var(--terminal-border) !important;
+}
+
+.backlinks,
+.graph,
+.toc {
+  border: 1px solid var(--terminal-border) !important;
+  background-color: var(--terminal-surface-2) !important;
+  padding: 0.8em !important;
+
+  h3 {
+    color: var(--terminal-accent) !important;
+    font-size: 0.8em !important;
+    letter-spacing: 0;
+    text-transform: none;
+    font-weight: 400 !important;
+    border-bottom: 1px solid var(--terminal-border) !important;
+    margin-top: 0 !important;
+
+    &::before {
+      content: none !important;
+    }
+  }
+}
+
+// Graph — paleta terminal
+#global-graph-outer,
+#local-graph {
+  background-color: var(--terminal-surface-2) !important;
+  border: 1px solid var(--terminal-border) !important;
+}
+
+// -----------------------------------------------------------------------------
+// Tabla de contenidos (ToC)
+// -----------------------------------------------------------------------------
+.toc-content {
+  a {
+    color: var(--terminal-text) !important;
+    font-size: 0.8em;
+    &::before {
+      content: none;
+    }
+    &:hover {
+      color: var(--terminal-accent) !important;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Tablas — bordes definidos, sin bordes redondeados
+// -----------------------------------------------------------------------------
+table {
+  border-collapse: collapse !important;
+  width: 100%;
+  font-size: 0.8em;
+}
+
+th,
+td {
+  border: 1px solid var(--terminal-border-strong) !important;
+  padding: 0.5em 0.8em !important;
+}
+
+th {
+  background-color: var(--terminal-surface-2) !important;
+  color: var(--terminal-accent) !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8em;
+}
+
+tr:nth-child(even) td {
+  background-color: var(--terminal-surface);
+}
+
+tr:hover td {
+  background-color: var(--terminal-surface-2);
+}
+
+// -----------------------------------------------------------------------------
+// Blockquotes — citas como output de terminal
+// -----------------------------------------------------------------------------
+blockquote {
+  border-left: 3px solid var(--terminal-accent) !important;
+  background-color: var(--terminal-surface) !important;
+  margin: 1.5em 0 !important;
+  padding: 0.8em 1.2em !important;
+  color: var(--terminal-text) !important;
+
+  &::before {
+    content: ">> ";
+    color: var(--terminal-accent);
+    font-weight: 700;
+  }
+
+  p {
+    margin: 0;
+    display: inline;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Listas de contenido — estilo terminal
+// -----------------------------------------------------------------------------
+article ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+article ul > li {
+  position: relative;
+  padding-left: 1.2em;
+  margin-bottom: 0.4em;
+  line-height: 1.6;
+}
+
+article ul > li::before {
+  content: "-";
+  color: var(--terminal-accent);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+article ol {
+  padding-left: 1.6em;
+}
+
+article ol > li {
+  margin-bottom: 0.4em;
+  line-height: 1.6;
+}
+
+article ol > li::marker {
+  color: var(--terminal-accent);
+}
+
+// -----------------------------------------------------------------------------
+// Tags — etiquetas como badges de terminal
+// -----------------------------------------------------------------------------
+.tag,
+a.tag {
+  background-color: var(--terminal-surface-2) !important;
+  color: var(--terminal-accent) !important;
+  border: 1px solid var(--terminal-border-strong) !important;
+  padding: 0.1em 0.5em !important;
+  font-size: 0.8em !important;
+  text-transform: lowercase;
+
+  &::before {
+    content: "#" !important;
+    color: var(--terminal-accent) !important;
+  }
+
+  &:hover {
+    background-color: var(--terminal-surface) !important;
+    color: var(--terminal-accent) !important;
+    border-color: var(--terminal-accent) !important;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Barra de búsqueda
+// -----------------------------------------------------------------------------
+#search-bar,
+input[type="search"],
+input[type="text"] {
+  background-color: var(--terminal-surface) !important;
+  color: var(--terminal-accent) !important;
+  border: 1px solid var(--terminal-border-strong) !important;
+  padding: 0.4em 0.8em !important;
+  outline: none !important;
+  caret-color: var(--terminal-accent);
+
+  &:focus {
+    border-color: var(--terminal-accent) !important;
+    box-shadow: 0 0 0 1px var(--terminal-accent) !important;
+  }
+
+  &::placeholder {
+    color: var(--terminal-placeholder) !important;
+  }
+}
+
+#search-container,
+#search-space {
+  background-color: var(--terminal-bg) !important;
+  border: 1px solid var(--terminal-border-strong) !important;
+}
+
+.highlight {
+  background-color: rgba(0, 255, 65, 0.2) !important;
+  color: var(--terminal-accent) !important;
+}
+
+// -----------------------------------------------------------------------------
+// Footer
+// -----------------------------------------------------------------------------
+footer {
+  border-top: none !important;
+  background-color: var(--terminal-bg) !important;
+  color: var(--terminal-text) !important;
+  font-size: 0.8em;
+  padding: 1em;
+  white-space: nowrap;
+
+  a {
+    color: var(--terminal-text) !important;
+    &::before {
+      content: none;
+    }
+    &:hover {
+      color: var(--terminal-accent) !important;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Scrollbar — fina, oscura
+// -----------------------------------------------------------------------------
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--terminal-scroll-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--terminal-scroll-thumb);
+
+  &:hover {
+    background: var(--terminal-accent);
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--terminal-scroll-thumb) var(--terminal-scroll-track);
+}
+
+// -----------------------------------------------------------------------------
+// Selección de texto
+// -----------------------------------------------------------------------------
+::selection {
+  background-color: var(--terminal-selection-bg) !important;
+  color: var(--terminal-selection-text) !important;
+}
+
+::-moz-selection {
+  background-color: var(--terminal-selection-bg) !important;
+  color: var(--terminal-selection-text) !important;
+}
+
+// -----------------------------------------------------------------------------
+// Separadores horizontales
+// -----------------------------------------------------------------------------
+hr {
+  border: none !important;
+  border-top: 1px solid #1a1a1a !important;
+  margin: 2em 0;
+
+  &::before {
+    content: "─────────────────────────────────────────";
+    color: #1a1a1a;
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Metadatos de página (fecha, tiempo de lectura)
+// -----------------------------------------------------------------------------
+.article-title {
+  margin-bottom: 0.6em !important;
+}
+
+.article-title + .content-meta {
+  margin-top: 0.2em !important;
+}
+
+.meta,
+.content-meta {
+  color: var(--terminal-placeholder) !important;
+  font-size: 0.8em;
+  border-bottom: 1px solid var(--terminal-border);
+  padding-bottom: 0.8em;
+  margin-bottom: 1.5em;
+
+  a {
+    color: var(--terminal-placeholder) !important;
+    &::before {
+      content: none;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Página de inicio — hero text con animación
+// -----------------------------------------------------------------------------
+.page-listing {
+  h1 {
+    font-size: 0.8em !important;
+    color: var(--terminal-accent) !important;
+    font-weight: 400 !important;
+    letter-spacing: 0 !important;
+
+    &::before {
+      content: none;
+    }
+
+    &::after {
+      content: " _";
+      animation: blink-cursor 1.1s step-end infinite;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Callouts — re-mapeados a paleta terminal
+// -----------------------------------------------------------------------------
+.callout {
+  border: 1px solid var(--terminal-border-strong) !important;
+  background-color: var(--terminal-surface) !important;
+  border-left: 3px solid var(--terminal-accent) !important;
+  border-radius: 0 !important;
+
+  &[data-callout="warning"] {
+    border-left-color: var(--terminal-accent) !important;
+  }
+
+  &[data-callout="danger"],
+  &[data-callout="error"] {
+    border-left-color: #ff3333 !important;
+  }
+
+  &[data-callout="info"],
+  &[data-callout="note"] {
+    border-left-color: var(--terminal-accent) !important;
+  }
+
+  .callout-title {
+    color: var(--terminal-accent) !important;
+    font-weight: 700;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Normalización final — consola minimalista
+// -----------------------------------------------------------------------------
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+span,
+a,
+text,
+code,
+kbd,
+samp,
+pre,
+th,
+td,
+blockquote,
+.tag,
+.meta,
+.content-meta,
+.toc-content a,
+.folder-title,
+.folder-container > .fold,
+.folder-outer > li > a,
+ul.section-ul > li > a,
+footer,
+.page-title,
+.page-listing h1,
+.backlinks h3,
+.graph h3,
+.toc h3 {
+  font-size: var(--terminal-font-size) !important;
+}
+
+.sidebar-left,
+.sidebar-left *,
+.sidebar-right,
+.sidebar-right *,
+.toc,
+.toc *,
+.graph,
+.graph *,
+.backlinks,
+.backlinks * {
+  font-size: var(--terminal-font-size) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  color: var(--terminal-accent) !important;
+}
+
+p,
+li,
+span,
+a,
+text,
+td,
+blockquote,
+footer {
+  color: var(--terminal-text) !important;
+}
+
+// -----------------------------------------------------------------------------
+// Print — fondo blanco para impresión
+// -----------------------------------------------------------------------------
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: black !important;
+  }
+
+  h1::before,
+  h2::before,
+  h3::before,
+  h4::before {
+    content: none !important;
+  }
+
+  .page-title::after {
+    content: none !important;
+  }
+}

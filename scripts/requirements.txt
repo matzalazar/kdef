@@ -1,0 +1,30 @@
+# kdef pipeline — dependencias Python
+# Instalar con: pip install -r scripts/requirements.txt
+
+# Reintentos con backoff exponencial para llamadas a LLM
+tenacity>=8.2.0
+
+# Google Gemini — LLM fallback
+google-genai>=1.0.0
+
+# OpenAI SDK — usado también para GitHub Models (API compatible)
+openai>=1.35.0
+
+# Variables de entorno desde .env en desarrollo local
+python-dotenv>=1.0.0
+
+# HTTP client para scraping de Moodle
+requests>=2.31.0
+
+# Parsing de HTML para scraping de Moodle
+beautifulsoup4>=4.12.0
+
+# YAML para el catálogo declarativo del campus
+PyYAML>=6.0.1
+
+# Extracción de texto de PDFs
+pypdf>=4.0.0
+
+# Extracción de texto de documentos Office
+python-docx>=1.1.0
+python-pptx>=0.6.23
