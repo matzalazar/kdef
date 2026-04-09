@@ -1,0 +1,34 @@
+# kdef campus catalog
+#
+# `slug` es el identificador estable referenciado desde TRACKED_SUBJECTS en .env.
+# `moodle_course_id` es el ID numérico del curso en Moodle.
+#
+# Links externos: por defecto el scraper solo conserva videos de YouTube.
+# Para agregar dominios académicos adicionales (arXiv, DOI, Wikipedia, etc.)
+# implementar un allowlist en scripts/scraper.py → _is_allowed_external_link().
+
+campus:
+  name: "Facultad de la Defensa Nacional"
+  url: "https://campus.fadena.undef.edu.ar"
+
+subjects:
+  - slug: analisis-i
+    name: "Análisis Matemático I"
+    moodle_course_id: 548
+    enabled: true
+  - slug: algebra-i
+    name: "Álgebra I"
+    moodle_course_id: 545
+    enabled: true
+  - slug: gestion-servicios
+    name: "Gestión de Servicios de Información"
+    moodle_course_id: 549
+    enabled: true
+  - slug: ingles-i
+    name: "Inglés I"
+    moodle_course_id: 546
+    enabled: true
+  - slug: sistemas-operativos-i
+    name: "Sistemas Operativos I"
+    moodle_course_id: 547
+    enabled: true

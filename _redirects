@@ -1,0 +1,22 @@
+# =============================================================================
+# Cloudflare Pages — Redirects
+# Formato: https://developers.cloudflare.com/pages/configuration/redirects/
+# Sintaxis: /origen  /destino  código-HTTP
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# Redirects activos
+# ---------------------------------------------------------------------------
+
+# Redirect de www a apex domain (si se agrega www como custom domain)
+https://www.kdef.com.ar/* https://kdef.com.ar/:splat 301
+
+# ---------------------------------------------------------------------------
+# Placeholder para migraciones futuras de URL
+# Si se cambia la estructura de directorios, agregar redirects acá
+# para no romper links externos/bookmarks existentes
+# ---------------------------------------------------------------------------
+
+# Ejemplo de uso (descomentar y adaptar cuando sea necesario):
+# /old-path  /new-path  301
+# /notas/viejo-nombre  /notas/nuevo-nombre  301

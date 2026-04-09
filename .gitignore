@@ -1,0 +1,24 @@
+# Node
+node_modules/
+.npm/
+
+# Quartz build output
+public/
+quartz/.quartz-cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# TypeScript
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
