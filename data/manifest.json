@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "last_run": "2026-04-09T13:26:39.676235+00:00",
+  "files": {
+    "analisis-i/06-04-a-10-04/intro-analisis.md": {
+      "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
+      "processed_at": "2026-04-09T13:24:21.143478+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-04-a-10-04/2026-04-09-intro.md"
+    },
+    "analisis-i/06-04-a-10-04/Programa de ANALISIS I - FADENA 2026.docx.pdf": {
+      "sha256": "72db3fff0635a7ab7d41faeafa9bb8d40cb3ea54c37a01537a66d5849b678b86",
+      "processed_at": "2026-04-09T13:24:36.421669+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-04-a-10-04/2026-04-09-programa.md"
+    },
+    "analisis-i/06-04-a-10-04/CRONOGRAMA AMI -1C 2026.pdf": {
+      "sha256": "2786b33dabcaf05c690c3729a5b7d3efdb683c28142b9a11e5bd1792704f1ec5",
+      "processed_at": "2026-04-09T13:24:36.426250+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-04-a-10-04/2026-04-09-cronograma.md"
+    },
+    "algebra-i/06-04-a-10-04/intro-algebra-i.md": {
+      "sha256": "42a7fa20eced2fbf2033fcef8a048da0a6588f58313b7e0a76581296686599e9",
+      "processed_at": "2026-04-09T13:24:36.428598+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-04-a-10-04/2026-04-09-intro.md"
+    },
+    "algebra-i/06-04-a-10-04/Programa de ALGEBRA I - FADENA 2026.docx.pdf": {
+      "sha256": "b6dc1c6081c4e253a954f206144652e5e5289af2ac140cba2b18f2b7975ef2bd",
+      "processed_at": "2026-04-09T13:24:48.880563+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-04-a-10-04/2026-04-09-programa.md"
+    },
+    "algebra-i/06-04-a-10-04/CRONOGRAMA ALG_2026.pdf": {
+      "sha256": "30a21bbc43ccab82ebd7067f07ef5f3b930a1fc4ed3c2fafb25c281ba0b87b9e",
+      "processed_at": "2026-04-09T13:24:48.884823+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-04-a-10-04/2026-04-09-cronograma.md"
+    },
+    "gestion-servicios/06-04-a-10-04/Clase 0 - Presentación de la materia (GSI).pptx": {
+      "sha256": "a95704b26e23a2649b1738038c9679c7a87d79b6069bf2a8af06e157b44322fe",
+      "processed_at": "2026-04-09T13:25:00.095656+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-04-a-10-04/2026-04-09-clase.md"
+    },
+    "gestion-servicios/06-04-a-10-04/Programa - GSI - FADENA 2026.pdf": {
+      "sha256": "aa45f68be501b855d0bfaae63c178b5020d0ea28b8a899393644d3d448d8f35a",
+      "processed_at": "2026-04-09T13:25:11.245501+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-04-a-10-04/2026-04-09-programa.md"
+    },
+    "gestion-servicios/06-04-a-10-04/Cronograma - 1° cuatrimestre 2026 - GSI.xlsx - 1er cuatrimestre.pdf": {
+      "sha256": "6362b108663817df439013be47619dee97992848c844bc9cef7e5f461e966e63",
+      "processed_at": "2026-04-09T13:25:28.177791+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-04-a-10-04/2026-04-09-cronograma.md"
+    },
+    "ingles-i/06-04-a-10-04/Presentación de docentes.pdf": {
+      "sha256": "8c4aa944fc5e0f15eb79c814b7ec6070b7a6badd75828e33521b981b4b95bc35",
+      "processed_at": "2026-04-09T13:25:36.624192+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-04-a-10-04/2026-04-09-presentacion.md"
+    },
+    "ingles-i/06-04-a-10-04/Clase 0 - Presentation, syllabus and Task.pdf": {
+      "sha256": "9fde3239f1785a8715f2be2e4896a18dfb04f5af4c13bf4a139cbcf5176a968a",
+      "processed_at": "2026-04-09T13:25:44.600383+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-04-a-10-04/2026-04-09-clase.md"
+    },
+    "ingles-i/06-04-a-10-04/presentacion-docente-ingles-1.md": {
+      "sha256": "b8b59ad3711c4025a3b14a8dc762641a0a6251b32f34db54306f8694b4502731",
+      "processed_at": "2026-04-09T13:25:44.603074+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-04-a-10-04/2026-04-09-presentacion.md"
+    },
+    "ingles-i/06-04-a-10-04/Programa - Inglés I - 2026.pdf": {
+      "sha256": "bf8813a4981183616076b48bf65c33e4113503c780440218027746d54b2c47ea",
+      "processed_at": "2026-04-09T13:25:55.141951+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-04-a-10-04/2026-04-09-programa.md"
+    },
+    "ingles-i/06-04-a-10-04/Actividad - Task 0 Inglés 1.pdf": {
+      "sha256": "b809f2499b8e460fb1d4eba8218cfc1d38f42d34fdf0d5925b0ab9b9e81df7ae",
+      "processed_at": "2026-04-09T13:26:04.486743+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-04-a-10-04/2026-04-09-actividad.md"
+    },
+    "ingles-i/06-04-a-10-04/Artículo - phishing.pdf": {
+      "sha256": "a1a56f3e83a61b034bd439e0113155a94330a2dd8ebaec2600c8326e17276b34",
+      "processed_at": "2026-04-09T13:26:14.395650+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-04-a-10-04/2026-04-09-articulo.md"
+    },
+    "sistemas-operativos-i/06-04-a-10-04/presentacion-sistemas-operativos-i.md": {
+      "sha256": "47594a3064363f87dcfc825dbdb766ba63c0c6a88ba02a3af60f9beaf07c239e",
+      "processed_at": "2026-04-09T13:26:14.398508+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/06-04-a-10-04/2026-04-09-presentacion.md"
+    },
+    "sistemas-operativos-i/06-04-a-10-04/Programa Sistemas Operativos I - FADENA 1C-2026.pdf": {
+      "sha256": "eeae6b0bc3792d327b49ce2a726d3b2c2b5279e3119bd4a3c025d04fe3004096",
+      "processed_at": "2026-04-09T13:26:23.196506+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/06-04-a-10-04/2026-04-09-programa.md"
+    },
+    "sistemas-operativos-i/06-04-a-10-04/261CS1-Cronograma 1er cuatrimestre - Sistemas Operativos I.pdf": {
+      "sha256": "87a181b6d4760ff51cb6aa34bbb61cd3f02adc558500612583b1eaf73d63b930",
+      "processed_at": "2026-04-09T13:26:39.673667+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/06-04-a-10-04/2026-04-09-261cs1.md"
+    }
+  }
+}
