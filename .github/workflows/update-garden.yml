@@ -57,7 +57,7 @@ jobs:
     steps:
       # Checkout con credenciales para poder hacer commit al final
       - name: Checkout del repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           # Fetch completo del historial para que git log funcione en Quartz
           fetch-depth: 0
@@ -66,7 +66,7 @@ jobs:
 
       # Configurar Python con caché de dependencias para acelerar runs sucesivos
       - name: Configurar Python 3.12
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: 'pip'
@@ -135,13 +135,13 @@ jobs:
     steps:
       # Checkout fresh después del commit de update-content
       - name: Checkout del repositorio (con contenido actualizado)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       # Node.js LTS con caché de npm para acelerar la instalación
       - name: Configurar Node.js 22 LTS
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '22'
           cache: 'npm'
