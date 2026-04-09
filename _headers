@@ -1,0 +1,32 @@
+# =============================================================================
+# Cloudflare Pages — HTTP Security Headers
+# Estos headers se aplican a todas las respuestas del sitio kdef.com.ar
+# Formato: https://developers.cloudflare.com/pages/configuration/headers/
+# =============================================================================
+
+/*
+  # Prevenir que el sitio sea embebido en iframes (clickjacking)
+  X-Frame-Options: DENY
+
+  # Prevenir que el browser sniffee el content-type (MIME confusion attacks)
+  X-Content-Type-Options: nosniff
+
+  # Controlar qué información se envía en el header Referer
+  # strict-origin-when-cross-origin: envía solo el origen en requests cross-origin
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Deshabilitar features del browser que no necesitamos
+  # geolocation, camera, microphone — no aplican a un sitio de notas
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), payment=(), usb=()
+
+  # Content Security Policy — restricto pero compatible con Quartz
+  # 'unsafe-inline' es necesario para los estilos inline de Quartz
+  # 'unsafe-eval' es necesario para el grafo de conocimiento (d3.js)
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'
+
+  # Forzar HTTPS — 1 año, incluir subdominios
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+  # Controlar el comportamiento del cache del browser
+  # El sitio estático puede cachearse agresivamente
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
