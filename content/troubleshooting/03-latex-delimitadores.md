@@ -1,5 +1,5 @@
 ---
-title: "03 — fórmulas LaTeX sin renderizar en Quartz"
+title: "03 — fórmulas LaTeX"
 date: 2026-04-12
 tags: [meta, troubleshooting, summarizer, llm, latex, quartz]
 ---
