@@ -59,7 +59,7 @@ MAX_OUTPUT_TOKENS = 3800
 # GitHub Models (gpt-4o-mini) tiene 8k tokens de input en el tier gratuito.
 # Sistema + template del prompt consumen ~600 tokens → quedan ~7400 para contenido.
 # 7400 tokens * 3.5 chars/token ≈ 25.000 chars seguros.
-# Para documentos más largos habría que implementar chunking (dividir + merge).
+# Para documentos más largos se usa modo multi-chunk con map-reduce (ver CHUNK_SIZE_CHARS).
 # Gemini 1.5 Flash tiene contexto de 1M tokens — el límite es mucho más holgado.
 MAX_INPUT_CHARS_GITHUB = 25_000
 MAX_INPUT_CHARS_GEMINI = 80_000
@@ -67,6 +67,18 @@ MAX_INPUT_CHARS_GEMINI = 80_000
 # Límite de páginas para PDFs: documentos más largos se saltan
 # para no exceder el contexto del LLM y evitar resúmenes de baja calidad
 MAX_PDF_PAGES = 30
+
+# Tamaño de cada fragmento en modo multi-chunk (GitHub Models).
+# 18.000 chars ≈ 5.100 tokens — deja margen para los prompts dentro del límite de 8k tokens.
+CHUNK_SIZE_CHARS = 18_000
+
+# Número máximo de fragmentos a procesar por documento.
+# 8 × 18.000 = 144.000 chars — cubre documentos muy densos sin disparar el rate limit.
+MAX_CHUNKS = 8
+
+# Pausa entre llamadas durante el procesamiento multi-chunk en GitHub Models.
+# Free tier: ~15 req/min → 20s de margen evita 429s de forma preventiva.
+INTER_CHUNK_DELAY_SECONDS = 20
 
 
 class DocumentTooLargeError(Exception):
@@ -126,7 +138,11 @@ Reglas del resumen:
      "time_text": "hora si existe, sino cadena vacía",
      "details": "contexto breve", "source_excerpt": "fragmento breve del material"}
 13. Si no hay fechas, devolver `{"important_dates": []}` en ese bloque
-14. No escribir nada después del bloque `kdef-events`"""
+14. No escribir nada después del bloque `kdef-events`
+15. Para expresiones matemáticas y fórmulas usar EXCLUSIVAMENTE delimitadores LaTeX de Markdown:
+    - Inline: $expresión$ (ejemplo: $E = mc^2$, $\\alpha$, $x_i$)
+    - Display/bloque: $$expresión$$ en su propia línea (ejemplo: $$\\sum_{i=1}^{n} x_i$$)
+    - PROHIBIDO usar \\(...\\) o \\[...\\] bajo cualquier circunstancia — Quartz no los renderiza"""
 
 # Prompt del usuario — instrucción concreta sobre qué hacer con el texto
 USER_PROMPT_TEMPLATE = """Generá un resumen académico estructurado en markdown del siguiente documento.
@@ -142,6 +158,48 @@ El resumen debe incluir:
 - Los conceptos y términos clave definidos brevemente
 - Los puntos principales desarrollados en el documento
 - Referencias o lecturas adicionales mencionadas (si las hay)
+
+Formato final obligatorio:
+1. Primero, el resumen visible en markdown
+2. Después, un único bloque:
+```kdef-events
+{{"important_dates": [...]}}
+```
+
+Reglas para las fechas:
+- Usar `date_iso` solo cuando el texto permita identificar día, mes y año con certeza
+- Si la fecha es parcial o ambigua, dejar `date_iso` en null y completar `date_text`
+- No inventar años ni horarios
+- No duplicar eventos equivalentes dentro del mismo documento"""
+
+# Prompt para la fase de extracción por fragmento (map).
+# Intencionalmente liviano: solo extrae puntos clave para que la llamada de síntesis
+# reciba información densa sin desperdiciar tokens de output en formato innecesario.
+CHUNK_EXTRACT_PROMPT_TEMPLATE = """Estás procesando el fragmento {chunk_num} de {total_chunks} del documento "{filename}".
+
+Extraé de este fragmento:
+- Conceptos clave y términos técnicos (con definición si el texto la provee)
+- Argumentos o puntos principales desarrollados
+- Fechas, plazos o eventos académicos mencionados (con el texto exacto de la fecha)
+- Referencias bibliográficas relevantes (si las hay)
+
+Formato de respuesta: lista de puntos concisos, sin markdown complejo. Máximo 500 palabras.
+No incluir introducción ni conclusión — solo la extracción.
+
+Fragmento:
+{content}"""
+
+# Prompt para la fase de síntesis final (reduce).
+# Recibe las extracciones de todos los fragmentos y produce el resumen completo
+# siguiendo el formato completo definido en el system prompt (incluyendo kdef-events).
+MERGE_PROMPT_TEMPLATE = """Recibiste las extracciones de {total_chunks} fragmento(s) del documento "{filename}".
+Año académico en curso: {academic_year}
+
+Con base en estas extracciones, generá el resumen académico completo siguiendo todas las instrucciones del sistema.
+El resumen debe ser coherente e integrado — no una concatenación de fragmentos.
+
+Extracciones:
+{combined_extractions}
 
 Formato final obligatorio:
 1. Primero, el resumen visible en markdown
@@ -298,6 +356,50 @@ def extract_text(path: Path) -> str:
     return extractors[ext](path)
 
 
+_LATEX_DISPLAY_RE = re.compile(r'\\\[(.+?)\\\]', re.DOTALL)
+_LATEX_INLINE_RE = re.compile(r'\\\((.+?)\\\)')
+
+
+def _normalize_latex_delimiters(text: str) -> str:
+    """Convertir delimitadores LaTeX alternativos al formato estándar de Markdown.
+
+    Algunos modelos generan \\[...\\] (display) o \\(...\\) (inline) en lugar de
+    $$...$$ y $...$ respectivamente. Quartz solo renderiza la notación con signo peso,
+    por lo que esta función actúa como red de seguridad post-generación.
+
+    Orden de aplicación: display primero para evitar que los patrones inline capturen
+    partes de una expresión display multi-línea.
+    """
+    text = _LATEX_DISPLAY_RE.sub(r'$$\1$$', text)
+    text = _LATEX_INLINE_RE.sub(r'$\1$', text)
+    return text
+
+
+def _split_text_into_chunks(text: str, chunk_size: int) -> list[str]:
+    """Dividir texto en fragmentos de tamaño máximo `chunk_size` chars.
+
+    Intenta cortar en límites de párrafo (\\n\\n) para no romper oraciones a la mitad.
+    Si un párrafo individual supera `chunk_size`, se corta en ese punto como fallback.
+    """
+    chunks: list[str] = []
+    current_start = 0
+    text_len = len(text)
+
+    while current_start < text_len:
+        end = min(current_start + chunk_size, text_len)
+
+        if end < text_len:
+            # Buscar el último \n\n antes del límite para cortar en párrafo
+            paragraph_break = text.rfind("\n\n", current_start, end)
+            if paragraph_break > current_start:
+                end = paragraph_break + 2  # incluir el \n\n en el fragmento anterior
+
+        chunks.append(text[current_start:end])
+        current_start = end
+
+    return [c for c in chunks if c.strip()]
+
+
 def _summarize_with_github_models(text: str, filename: str, api_key: str, model_name: str, academic_year: str = "") -> str:
     """
     Generar resumen usando GitHub Models (API compatible con OpenAI).
@@ -312,6 +414,8 @@ def _summarize_with_github_models(text: str, filename: str, api_key: str, model_
     Returns:
         Resumen en markdown generado por el LLM.
     """
+    import time
+
     from openai import OpenAI
 
     client = OpenAI(
@@ -319,24 +423,90 @@ def _summarize_with_github_models(text: str, filename: str, api_key: str, model_
         base_url="https://models.inference.ai.azure.com",
     )
 
-    response = client.chat.completions.create(
+    # Ruta directa: el texto cabe en una sola llamada
+    if len(text) <= MAX_INPUT_CHARS_GITHUB:
+        response = client.chat.completions.create(
+            model=model_name,
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {
+                    "role": "user",
+                    "content": USER_PROMPT_TEMPLATE.format(
+                        filename=filename,
+                        academic_year=academic_year or "desconocido",
+                        content=text,
+                    ),
+                },
+            ],
+            max_tokens=MAX_OUTPUT_TOKENS,
+            temperature=0.3,
+        )
+        return response.choices[0].message.content or ""
+
+    # Ruta multi-chunk: el texto supera el límite → map-reduce
+    chunks = _split_text_into_chunks(text, CHUNK_SIZE_CHARS)
+    if len(chunks) > MAX_CHUNKS:
+        log.warning(
+            "Documento muy largo (%d chars) — usando los primeros %d fragmentos de %d",
+            len(text), MAX_CHUNKS, len(chunks),
+        )
+        chunks = chunks[:MAX_CHUNKS]
+
+    log.info("Modo multi-chunk: %d fragmentos para '%s'", len(chunks), filename)
+
+    # Fase map: extraer puntos clave de cada fragmento
+    partial_extractions: list[str] = []
+    for i, chunk in enumerate(chunks):
+        if i > 0:
+            log.debug("Esperando %ds entre fragmentos (rate limit)...", INTER_CHUNK_DELAY_SECONDS)
+            time.sleep(INTER_CHUNK_DELAY_SECONDS)
+
+        log.info("Extrayendo fragmento %d/%d...", i + 1, len(chunks))
+        chunk_response = client.chat.completions.create(
+            model=model_name,
+            messages=[
+                {
+                    "role": "user",
+                    "content": CHUNK_EXTRACT_PROMPT_TEMPLATE.format(
+                        chunk_num=i + 1,
+                        total_chunks=len(chunks),
+                        filename=filename,
+                        content=chunk,
+                    ),
+                },
+            ],
+            max_tokens=800,
+            temperature=0.1,
+        )
+        partial_extractions.append(chunk_response.choices[0].message.content or "")
+
+    # Fase reduce: sintetizar todas las extracciones en el resumen final
+    log.debug("Esperando %ds antes de la llamada de síntesis...", INTER_CHUNK_DELAY_SECONDS)
+    time.sleep(INTER_CHUNK_DELAY_SECONDS)
+
+    log.info("Sintetizando resumen final de %d fragmentos...", len(chunks))
+    combined = "\n\n".join(
+        f"--- Fragmento {i + 1}/{len(chunks)} ---\n{extraction}"
+        for i, extraction in enumerate(partial_extractions)
+    )
+    merge_response = client.chat.completions.create(
         model=model_name,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {
                 "role": "user",
-                "content": USER_PROMPT_TEMPLATE.format(
+                "content": MERGE_PROMPT_TEMPLATE.format(
+                    total_chunks=len(chunks),
                     filename=filename,
                     academic_year=academic_year or "desconocido",
-                    content=text[:MAX_INPUT_CHARS_GITHUB],
+                    combined_extractions=combined,
                 ),
             },
         ],
         max_tokens=MAX_OUTPUT_TOKENS,
-        temperature=0.3,  # Baja temperatura para resúmenes más factuales
+        temperature=0.3,
     )
-
-    return response.choices[0].message.content or ""
+    return merge_response.choices[0].message.content or ""
 
 
 def _summarize_with_openrouter(text: str, filename: str, api_key: str, model_name: str, academic_year: str = "") -> str:
@@ -526,6 +696,10 @@ Este archivo sería procesado por el LLM en una ejecución real del pipeline.
             f"Proveedor LLM no reconocido: '{provider}'. "
             f"Usar prefijo 'github/' o 'gemini/'."
         )
+
+    # Normalizar delimitadores LaTeX: algunos modelos generan \[...\] o \(...\)
+    # en lugar de $$...$$ y $...$. Quartz solo renderiza la notación con signo peso.
+    raw_summary = _normalize_latex_delimiters(raw_summary)
 
     # Detectar truncamiento: el bloque kdef-events fue abierto pero nunca cerrado.
     # Esto ocurre cuando el LLM alcanza MAX_OUTPUT_TOKENS a mitad del JSON.
