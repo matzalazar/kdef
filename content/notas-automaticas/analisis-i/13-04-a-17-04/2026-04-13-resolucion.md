@@ -13,7 +13,6 @@ important_dates: []
 > El contenido proviene de materiales del aula virtual de la UNDEF.
 > Para correcciones, abrí un issue en el repositorio.
 
-```markdown
 # Resolución Práctica 1 - Análisis Matemático I
 
 ## Descripción

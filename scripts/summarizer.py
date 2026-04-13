@@ -359,6 +359,9 @@ def extract_text(path: Path) -> str:
 _LATEX_DISPLAY_RE = re.compile(r'\\\[(.+?)\\\]', re.DOTALL)
 _LATEX_INLINE_RE = re.compile(r'\\\((.+?)\\\)')
 
+_MD_FENCE_OPEN_RE = re.compile(r'^```\s*markdown[ \t]*\n', re.IGNORECASE)
+_MD_FENCE_CLOSE_RE = re.compile(r'\n```[ \t]*$')
+
 
 def _normalize_latex_delimiters(text: str) -> str:
     """Convertir delimitadores LaTeX alternativos al formato estándar de Markdown.
@@ -373,6 +376,24 @@ def _normalize_latex_delimiters(text: str) -> str:
     text = _LATEX_DISPLAY_RE.sub(r'$$\1$$', text)
     text = _LATEX_INLINE_RE.sub(r'$\1$', text)
     return text
+
+
+def _strip_markdown_fence(text: str) -> str:
+    """Eliminar el wrapper ```markdown que algunos modelos añaden innecesariamente.
+
+    El output del LLM va directo a un archivo .md — si el contenido está envuelto
+    en un code fence, Quartz lo renderiza como bloque de código literal en lugar
+    de markdown. El cierre puede estar presente o ausente (el modelo a veces usa
+    las mismas tres comillas para cerrar el bloque markdown y abrir kdef-events).
+    Esta función actúa como red de seguridad post-generación, análoga a
+    _normalize_latex_delimiters.
+    """
+    stripped = text.strip()
+    if not _MD_FENCE_OPEN_RE.match(stripped):
+        return text
+    inner = _MD_FENCE_OPEN_RE.sub('', stripped, count=1)
+    inner = _MD_FENCE_CLOSE_RE.sub('', inner)
+    return inner.strip()
 
 
 def _split_text_into_chunks(text: str, chunk_size: int) -> list[str]:
@@ -700,6 +721,11 @@ Este archivo sería procesado por el LLM en una ejecución real del pipeline.
     # Normalizar delimitadores LaTeX: algunos modelos generan \[...\] o \(...\)
     # en lugar de $$...$$ y $...$. Quartz solo renderiza la notación con signo peso.
     raw_summary = _normalize_latex_delimiters(raw_summary)
+
+    # Eliminar wrapper ```markdown si el modelo envolvió su output en un code fence.
+    # Aplicar antes de la detección de truncamiento para que el resto del pipeline
+    # opere sobre el texto limpio.
+    raw_summary = _strip_markdown_fence(raw_summary)
 
     # Detectar truncamiento: el bloque kdef-events fue abierto pero nunca cerrado.
     # Esto ocurre cuando el LLM alcanza MAX_OUTPUT_TOKENS a mitad del JSON.
