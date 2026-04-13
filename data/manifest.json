@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-04-09T14:52:03.115987+00:00",
+  "last_run": "2026-04-13T05:40:43.960890+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -91,6 +91,141 @@
       "sha256": "87a181b6d4760ff51cb6aa34bbb61cd3f02adc558500612583b1eaf73d63b930",
       "processed_at": "2026-04-09T13:26:39.673667+00:00",
       "output": "content/notas-automaticas/sistemas-operativos-i/06-04-a-10-04/2026-04-09-261cs1.md"
+    },
+    "analisis-i/13-04-a-17-04/clase-1-parte-1-3.md": {
+      "sha256": "49d3ae361c1e695331e2383390afc9b8a2bea9d9755699758c648aa3746489b6",
+      "processed_at": "2026-04-13T05:35:34.518167+00:00",
+      "output": "content/notas-automaticas/analisis-i/13-04-a-17-04/2026-04-13-clase.md"
+    },
+    "analisis-i/13-04-a-17-04/clase-1-parte-2-3.md": {
+      "sha256": "a0047a25dc11921f91399e9caeebf0ce94453f5ef436a3938e1f762d38379bec",
+      "processed_at": "2026-04-13T05:35:34.519747+00:00",
+      "output": "content/notas-automaticas/analisis-i/13-04-a-17-04/2026-04-13-clase.md"
+    },
+    "analisis-i/13-04-a-17-04/clase-1-parte-3-3.md": {
+      "sha256": "e38b2efd2935c77c24aea4a1c9ddc7572b3bd8ccc181ae15553ca0e51fb0d3b8",
+      "processed_at": "2026-04-13T05:35:34.521317+00:00",
+      "output": "content/notas-automaticas/analisis-i/13-04-a-17-04/2026-04-13-clase.md"
+    },
+    "analisis-i/13-04-a-17-04/Notas Video 1.pdf": {
+      "sha256": "5256caf8cd03dfcc93887ff868711b9b8715c6d6613162f296e551811d212067",
+      "processed_at": "2026-04-13T05:35:35.488336+00:00",
+      "output": "content/notas-automaticas/analisis-i/13-04-a-17-04/2026-04-13-notas.md"
+    },
+    "analisis-i/13-04-a-17-04/AMI-S2-VIDEO2-NOTAS_250415.pdf": {
+      "sha256": "005e9ca15a9f116a8a56159b50441b92c5fe7c5952bf8a4b163aed556cc34132",
+      "processed_at": "2026-04-13T05:35:35.494012+00:00",
+      "output": "content/notas-automaticas/analisis-i/13-04-a-17-04/2026-04-13-ami.md"
+    },
+    "analisis-i/13-04-a-17-04/AMI-S2-VIDEO3-NOTAS_250406_140412.pdf": {
+      "sha256": "f42cd90e244c4f260228e51a73338ae4d58b8b892c59b804e37493c2e2da0aaa",
+      "processed_at": "2026-04-13T05:35:35.499012+00:00",
+      "output": "content/notas-automaticas/analisis-i/13-04-a-17-04/2026-04-13-ami.md"
+    },
+    "analisis-i/13-04-a-17-04/Apunte teórico - Conjuntos e intervalos.pdf": {
+      "sha256": "68ccd65783f12441c8bbf3d5937e7e3748866ada2cb8288f4fb7b55d0a926a35",
+      "processed_at": "2026-04-13T05:35:47.837544+00:00",
+      "output": "content/notas-automaticas/analisis-i/13-04-a-17-04/2026-04-13-apunte.md"
+    },
+    "analisis-i/13-04-a-17-04/Ejercicios de práctica 1.pdf": {
+      "sha256": "705a9af194afd32a5cb30dd3e8d2d9f9dd142b1a669ed9c54765be7dcb143cda",
+      "processed_at": "2026-04-13T05:36:00.348000+00:00",
+      "output": "content/notas-automaticas/analisis-i/13-04-a-17-04/2026-04-13-ejercicios.md"
+    },
+    "analisis-i/13-04-a-17-04/Resolución Práctica 1.pdf": {
+      "sha256": "710a2c3121e059872bce3b944d70b3ef03b0d694f94f3232cb13d01a3c583248",
+      "processed_at": "2026-04-13T05:36:08.635017+00:00",
+      "output": "content/notas-automaticas/analisis-i/13-04-a-17-04/2026-04-13-resolucion.md"
+    },
+    "algebra-i/13-04-a-17-04/clase-1-parte-1-4-de-algebra-i.md": {
+      "sha256": "c561a0669db577eee6a72cd74c65d6d28562ce284940286224e846d795f957a6",
+      "processed_at": "2026-04-13T05:36:08.638040+00:00",
+      "output": "content/notas-automaticas/algebra-i/13-04-a-17-04/2026-04-13-clase.md"
+    },
+    "algebra-i/13-04-a-17-04/clase-1-parte-2-4-de-algebra-i.md": {
+      "sha256": "820d8a38c40dd2187a6c6fad2b9ac55ec2f679c25037fce3059c6cbc267b0cab",
+      "processed_at": "2026-04-13T05:36:08.639617+00:00",
+      "output": "content/notas-automaticas/algebra-i/13-04-a-17-04/2026-04-13-clase.md"
+    },
+    "algebra-i/13-04-a-17-04/clase-1-parte-3-4-de-algebra-i.md": {
+      "sha256": "95f4ac04140b61a28ca32678e0b436bb3fdb01ab1d6d59367fab5c012fd1cd30",
+      "processed_at": "2026-04-13T05:36:08.641225+00:00",
+      "output": "content/notas-automaticas/algebra-i/13-04-a-17-04/2026-04-13-clase.md"
+    },
+    "algebra-i/13-04-a-17-04/clase-1-parte-4-4-de-algebra-i.md": {
+      "sha256": "7310d83bb25a93581683964bd64fa0f2e546e7ad5469799c203c1b774b2c9482",
+      "processed_at": "2026-04-13T05:36:08.642772+00:00",
+      "output": "content/notas-automaticas/algebra-i/13-04-a-17-04/2026-04-13-clase.md"
+    },
+    "algebra-i/13-04-a-17-04/AI-S2-VIDEO1-NOTAS PIZARRAS.pdf": {
+      "sha256": "1982e5c1b1b7dd7f0ab21492c5bb82b73802365ae711918cdfccfcb280dd8918",
+      "processed_at": "2026-04-13T05:37:18.553865+00:00",
+      "output": "content/notas-automaticas/algebra-i/13-04-a-17-04/2026-04-13-ai.md"
+    },
+    "algebra-i/13-04-a-17-04/AI-S2-VIDEO2-NOTAS PIZARRAS.pdf": {
+      "sha256": "e5d2d499c121466dfd45e2bc077ce2d980c7bcfb7b0b594e3fca98b17a340d99",
+      "processed_at": "2026-04-13T05:37:25.670462+00:00",
+      "output": "content/notas-automaticas/algebra-i/13-04-a-17-04/2026-04-13-ai.md"
+    },
+    "algebra-i/13-04-a-17-04/AI-S2-VIDEO3-NOTAS PIZARRAS.pdf": {
+      "sha256": "1dc08fcd1c2d6ed044c174eb16192b261da3e1122bd08585872f4330dfd2b5ff",
+      "processed_at": "2026-04-13T05:37:31.740789+00:00",
+      "output": "content/notas-automaticas/algebra-i/13-04-a-17-04/2026-04-13-ai.md"
+    },
+    "algebra-i/13-04-a-17-04/AI-S2-VIDEO4-NOTAS PIZARRAS.pdf": {
+      "sha256": "1976aaac92b8fd8df177ee84bafc418e0825d553e71ec0c928e5acdbe5e34e01",
+      "processed_at": "2026-04-13T05:37:37.527248+00:00",
+      "output": "content/notas-automaticas/algebra-i/13-04-a-17-04/2026-04-13-ai.md"
+    },
+    "algebra-i/13-04-a-17-04/Apunte - Vectores.pdf": {
+      "sha256": "8e5b38b56f8fd642b5c7f6694a8b56d9fa1f1577cca335c93f608097a6446354",
+      "processed_at": "2026-04-13T05:37:47.087859+00:00",
+      "output": "content/notas-automaticas/algebra-i/13-04-a-17-04/2026-04-13-apunte.md"
+    },
+    "algebra-i/13-04-a-17-04/Ejercicios de práctica - S2.pdf": {
+      "sha256": "17e7e3ecc61758bdf4e9fdb7a40749ebf2a1598056870b9b6494a0d05f04f295",
+      "processed_at": "2026-04-13T05:37:54.382642+00:00",
+      "output": "content/notas-automaticas/algebra-i/13-04-a-17-04/2026-04-13-ejercicios.md"
+    },
+    "algebra-i/13-04-a-17-04/Resolución de práctica - S2.pdf": {
+      "sha256": "82cd864f54f7ae9bec4eef159c255993fc92cf9f99783250264767208e23caf2",
+      "processed_at": "2026-04-13T05:38:05.064974+00:00",
+      "output": "content/notas-automaticas/algebra-i/13-04-a-17-04/2026-04-13-resolucion.md"
+    },
+    "gestion-servicios/13-04-a-17-04/Clase 1 - Fundamentos de la Gestión de Servicios.pdf": {
+      "sha256": "1953ca4f4c9e0421000a6960156c0ddf4b0977a9e183cd2ed3e71f225470d140",
+      "processed_at": "2026-04-13T05:38:14.771667+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/13-04-a-17-04/2026-04-13-clase.md"
+    },
+    "gestion-servicios/13-04-a-17-04/parte-a-video-clase-1-fundamentos-de-la-gestion-de-servicios-de-la-informacion.md": {
+      "sha256": "c56789e66adc15af234cc2ef028ca16f277b9307790f231db3013740a9e28819",
+      "processed_at": "2026-04-13T05:38:14.806436+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/13-04-a-17-04/2026-04-13-parte.md"
+    },
+    "gestion-servicios/13-04-a-17-04/parte-b-video-clase-1-fundamentos-de-la-gestion-de-servicios-de-la-informacion.md": {
+      "sha256": "0799ca3d3f824139177fe79172ac3bd3c30a571c21932e4cba2c8ee553baa93d",
+      "processed_at": "2026-04-13T05:38:14.808173+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/13-04-a-17-04/2026-04-13-parte.md"
+    },
+    "sistemas-operativos-i/seccion/FADENA - SO Unidad 1 - Semana 2 - 2026.docx.pdf": {
+      "sha256": "a65c14dcc9af8d82903813f4998f2b348d622f68ebcbd158e6a4649e7e960955",
+      "processed_at": "2026-04-13T05:40:25.241826+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/seccion/2026-04-13-fadena.md"
+    },
+    "sistemas-operativos-i/13-04-a-17-04/clase-1-sistemas-operativos-i.md": {
+      "sha256": "6320be60cd0d9fb2d064fb75312524817cee4d7fb7750e28eac8beba14530e01",
+      "processed_at": "2026-04-13T05:40:25.250976+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/13-04-a-17-04/2026-04-13-clase.md"
+    },
+    "sistemas-operativos-i/13-04-a-17-04/Arquitectura 32bits y 64 bits.pdf": {
+      "sha256": "ca788691405b68b4f46d1469a7904d977f657adb137af0b0d9a64ca93aa0eb41",
+      "processed_at": "2026-04-13T05:40:33.929935+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/13-04-a-17-04/2026-04-13-arquitectura.md"
+    },
+    "sistemas-operativos-i/13-04-a-17-04/Puertos de una PC_ Digital Trends.pdf": {
+      "sha256": "8a4407fbe87652adccb41bfe0b3b6edbb8f95e0b2d356c150c9952a031edadc8",
+      "processed_at": "2026-04-13T05:40:43.959473+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/13-04-a-17-04/2026-04-13-puertos.md"
     }
   }
 }
