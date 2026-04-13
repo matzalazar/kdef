@@ -1,5 +1,5 @@
 ---
-title: Novedades
+title: novedades
 date: 2026-04-13
 tags: []
 ---

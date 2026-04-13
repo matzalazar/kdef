@@ -18,20 +18,3 @@ Esperamos que te resulte útil.
 > *última actualización automática: 2026-04-13 05:40 UTC*
 <!-- kdef:last-run:end -->
 
----
-
-## Estructura
-
-```
-notas automáticas      Resúmenes generados desde Moodle
-notas colaborativas    Apuntes de estudiantes (contribuí acá)
-por qué kdef           Cómo está hecho y cómo contribuir
-```
-
-## Para contribuir
-
-Hacé un fork desde el [repositorio del proyecto](https://github.com/matzalazar/kdef).
-
-Creá una nota en `content/notas-colaborativas/<materia>/` con el nombre en una sola palabra y abrí un PR.
-
-Revisá [cómo contribuir](porque-kdef/18-como-contribuir) para detalles.
