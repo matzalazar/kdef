@@ -2,12 +2,11 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import style from "./styles/footer.scss"
 
 interface Options {
-  links: Record<string, string>
+  links?: Record<string, string>
 }
 
-export default ((opts?: Options) => {
+export default ((_opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
-    const links = Object.entries(opts?.links ?? {})
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>cultivado con ❤️ por <a href="https://github.com/matzalazar">matzalazar</a></p>

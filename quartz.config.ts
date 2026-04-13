@@ -71,6 +71,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "relative" }),
       Plugin.Description(),
+      Plugin.NovedadesParser(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
