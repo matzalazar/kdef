@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-04-13T05:40:43.960890+00:00",
+  "last_run": "2026-04-16T05:28:45.838005+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -226,6 +226,31 @@
       "sha256": "8a4407fbe87652adccb41bfe0b3b6edbb8f95e0b2d356c150c9952a031edadc8",
       "processed_at": "2026-04-13T05:40:43.959473+00:00",
       "output": "content/notas-automaticas/sistemas-operativos-i/13-04-a-17-04/2026-04-13-puertos.md"
+    },
+    "algebra-i/13-04-a-17-04/2026 - AI - Semana 2 - Práctica.pdf": {
+      "sha256": "bbfbb8433936b10f9d3e1bfb9a835c776ffcd3b5be777a99721fadd599a77b74",
+      "processed_at": "2026-04-16T05:25:09.356165+00:00",
+      "output": "content/notas-automaticas/algebra-i/13-04-a-17-04/2026-04-16-2026.md"
+    },
+    "ingles-i/13-04-a-17-04/Clase 1 - Definiciones y Paratexto.pdf": {
+      "sha256": "a2050a67252dd493047b2e53c456f298305ef09cc5739408f2d4fd1160af4991",
+      "processed_at": "2026-04-16T05:25:18.090369+00:00",
+      "output": "content/notas-automaticas/ingles-i/13-04-a-17-04/2026-04-16-clase.md"
+    },
+    "ingles-i/13-04-a-17-04/Artículo Clase 1 - Cyberspace and the Changing Nature of Warfare_RTO.doc.pdf": {
+      "sha256": "6c8909c27e2719ac63ef23eb4177cefa550c6a4b263e2afb4a192e5766565c41",
+      "processed_at": "2026-04-16T05:25:27.266976+00:00",
+      "output": "content/notas-automaticas/ingles-i/13-04-a-17-04/2026-04-16-articulo.md"
+    },
+    "ingles-i/13-04-a-17-04/Actividad Clase 1.pdf": {
+      "sha256": "f675b209b7a5172a20ea8e3646e4711de57c2d15324a7979d8aa87528a6b9ab2",
+      "processed_at": "2026-04-16T05:26:35.813518+00:00",
+      "output": "content/notas-automaticas/ingles-i/13-04-a-17-04/2026-04-16-actividad.md"
+    },
+    "sistemas-operativos-i/13-04-a-17-04/FADENA - SO Unidad 1 - Semana 2 - 2026.docx.pdf": {
+      "sha256": "a65c14dcc9af8d82903813f4998f2b348d622f68ebcbd158e6a4649e7e960955",
+      "processed_at": "2026-04-16T05:28:45.829752+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/13-04-a-17-04/2026-04-16-fadena.md"
     }
   }
 }
