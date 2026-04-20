@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-04-20T05:38:02.214622+00:00",
+  "last_run": "2026-04-20T17:28:24.209367+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -291,6 +291,141 @@
       "sha256": "60373cfd963568edbdfee600fb965c44ba6e3f42b9b796974d6d52fc899af0d0",
       "processed_at": "2026-04-20T05:38:02.211831+00:00",
       "output": "content/notas-automaticas/sistemas-operativos-i/20-04-a-24-04/2026-04-20-fadena.md"
+    },
+    "analisis-i/20-04-a-24-04/clase-3-parte-1-5.md": {
+      "sha256": "08c86f755cc69c6cb1169712d404404c6710ed7fa9c8f9bca81dfd83dc7f2d3b",
+      "processed_at": "2026-04-20T17:26:34.686213+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-clase.md"
+    },
+    "analisis-i/20-04-a-24-04/AMl-S3-VIDEO1-NOTAS.pdf": {
+      "sha256": "ceb7cd2dd4662afe25ad6202261d29a7a7e9897c053d8297c80c56bf0eec42e1",
+      "processed_at": "2026-04-20T17:26:43.585893+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-aml.md"
+    },
+    "analisis-i/20-04-a-24-04/clase-3-parte-2-5.md": {
+      "sha256": "3b3dd7ace61eba41175f2a7417d1cf7ede67d85779ba5a6360e0fd8ed455a487",
+      "processed_at": "2026-04-20T17:26:43.588397+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-clase.md"
+    },
+    "analisis-i/20-04-a-24-04/AMl-S3-VIDEO2-NOTAS.pdf": {
+      "sha256": "2b64e6b0045d65d97a29fc156d5982be07fe4dfaa6d1f1b0f2ed64898eff33a7",
+      "processed_at": "2026-04-20T17:26:50.138017+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-aml.md"
+    },
+    "analisis-i/20-04-a-24-04/clase-3-parte-3-5.md": {
+      "sha256": "2852f05b1083d69e00f5e3ba6bea5c7e6d81b40bfc7f5827ff893f83a5cd0826",
+      "processed_at": "2026-04-20T17:26:50.140548+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-clase.md"
+    },
+    "analisis-i/20-04-a-24-04/AMl-S3-VIDEO3-NOTAS.pdf": {
+      "sha256": "5bbe8a7187021e775efc28a2c812c72991cf11e8f4a57beabbf4bb1247333d8d",
+      "processed_at": "2026-04-20T17:26:57.758174+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-aml.md"
+    },
+    "analisis-i/20-04-a-24-04/clase-3-parte-4-5.md": {
+      "sha256": "4663958da2ff611c689e6ee41db934e7f8d22522bcc86e3dc13bfc8c8ce96d46",
+      "processed_at": "2026-04-20T17:26:57.760849+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-clase.md"
+    },
+    "analisis-i/20-04-a-24-04/AMl-S3-VIDEO4-NOTAS.pdf": {
+      "sha256": "a287544feba1ebc084ebe8d6511b3b72b681a0e8d7be10cb6948e6caf864ea4e",
+      "processed_at": "2026-04-20T17:27:04.553658+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-aml.md"
+    },
+    "analisis-i/20-04-a-24-04/clase-3-parte-5-5.md": {
+      "sha256": "96ad3b1ecf68b96bf10f646ee3eac670a33003e0ce4ae217f89c3a5d2e7f161f",
+      "processed_at": "2026-04-20T17:27:04.556296+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-clase.md"
+    },
+    "analisis-i/20-04-a-24-04/AMl-S3-VIDEO5-NOTAS.pdf": {
+      "sha256": "899b6a0ce38f97467666888c5f0576b0e5d1170b4c9a8b72fd481b346ef45150",
+      "processed_at": "2026-04-20T17:27:11.048251+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-aml.md"
+    },
+    "analisis-i/20-04-a-24-04/2026 - AMI - Semana 3 - Teórico.pdf": {
+      "sha256": "387c87be7c3324203f1066ff1d8fbeb1836d6b1663b646dd0543a65ed585b1fb",
+      "processed_at": "2026-04-20T17:27:22.244233+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-2026.md"
+    },
+    "analisis-i/20-04-a-24-04/2026 - AMI - Semana 3 - Práctica.pdf": {
+      "sha256": "0654a9d0e263c193d31d043cefc8f9af4677285d052dee62b840761dae723828",
+      "processed_at": "2026-04-20T17:27:32.105608+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-2026.md"
+    },
+    "analisis-i/20-04-a-24-04/2026 - AMI - Semana 3 - Resolución Práctica.pdf": {
+      "sha256": "68664f542da9cc9ce426bcaca3a754311fb85593670e662be2a56518e3fdd184",
+      "processed_at": "2026-04-20T17:27:42.779664+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-2026.md"
+    },
+    "algebra-i/20-04-a-24-04/s3-video-1.md": {
+      "sha256": "d85f06d75289ea07227dcb2ace773d0964e17e103b879d77a6c90497a45bca93",
+      "processed_at": "2026-04-20T17:27:42.787590+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-s3.md"
+    },
+    "algebra-i/20-04-a-24-04/Notas pizarras_1_S3.pdf": {
+      "sha256": "667d0d052afe5466cf31c9e84649448658c763902caf40b129eaaca5e06dd04a",
+      "processed_at": "2026-04-20T17:27:47.883396+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-notas.md"
+    },
+    "algebra-i/20-04-a-24-04/s3-video-2.md": {
+      "sha256": "ad21776394140396c752faa6237bdb2f2d5417b35e590c4109ad9e898700a443",
+      "processed_at": "2026-04-20T17:27:47.886102+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-s3.md"
+    },
+    "algebra-i/20-04-a-24-04/Notas pizarras_2_S3.pdf": {
+      "sha256": "2afc18664ebbe0c1e778973f18f802e4967bc28bdbc9b840bedc6c1204162022",
+      "processed_at": "2026-04-20T17:27:54.004223+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-notas.md"
+    },
+    "algebra-i/20-04-a-24-04/s3-video-3.md": {
+      "sha256": "960c9cfbef1d9d56e440c8da0b7451a5137942f593ff96249c9efaeec7147ed8",
+      "processed_at": "2026-04-20T17:27:54.007068+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-s3.md"
+    },
+    "algebra-i/20-04-a-24-04/s3-video-4.md": {
+      "sha256": "45f5bfab8f653db95f37dfe41154bff9109f11f8861f2dd987719e6112cdb6c2",
+      "processed_at": "2026-04-20T17:27:54.008626+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-s3.md"
+    },
+    "algebra-i/20-04-a-24-04/AI-S3-VIDEOS3y4-NOTAS puntos c y d corregidos_250424_122711.pdf": {
+      "sha256": "ffe8378ee6064113595f16a52f8ea8e3eb67668e4d4a9ee82cc528f54b93b1d3",
+      "processed_at": "2026-04-20T17:27:54.011548+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-ai.md"
+    },
+    "algebra-i/20-04-a-24-04/s3-video-5.md": {
+      "sha256": "cbb67d379b590b2a1f2a9fee54c2a4f91e5a591d6e185048eebd3f6c53347446",
+      "processed_at": "2026-04-20T17:27:54.014230+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-s3.md"
+    },
+    "algebra-i/20-04-a-24-04/Notas pizarras_5_S3.pdf": {
+      "sha256": "e311c199ac3ecb076b42b72f0292e79f7637e6f345913594fc2014d96882f21d",
+      "processed_at": "2026-04-20T17:28:00.472799+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-notas.md"
+    },
+    "algebra-i/20-04-a-24-04/s3-video-6.md": {
+      "sha256": "6e54083537080ab93fc5edf8667d33056ccb670c623f5ed593a5c5da9a3ac245",
+      "processed_at": "2026-04-20T17:28:00.475566+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-s3.md"
+    },
+    "algebra-i/20-04-a-24-04/AI-S3-VIDEO6-NOTAS_250425_170509.pdf": {
+      "sha256": "7029d849c2c6cb4e26357b322ff16cef9b7e1ce97bfa7750909ea19d3ab5c6b2",
+      "processed_at": "2026-04-20T17:28:00.481175+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-ai.md"
+    },
+    "algebra-i/20-04-a-24-04/Teórico - S3.pdf": {
+      "sha256": "703b3d34af4f78da36016c31a4b3b243b59eb85905787b96566a5f241a113842",
+      "processed_at": "2026-04-20T17:28:09.432820+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-teorico.md"
+    },
+    "algebra-i/20-04-a-24-04/Ejercicios de práctica - S3.pdf": {
+      "sha256": "36687be9f2c1e2dd077189fcba1a45944e10de1d2e7c584d4c69815f745e6f34",
+      "processed_at": "2026-04-20T17:28:15.908581+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-ejercicios.md"
+    },
+    "algebra-i/20-04-a-24-04/Resolución de ejercicios - S3.pdf": {
+      "sha256": "3a09084aecafb127f6a94a57ce0ef5385cb95e4dda8c87058e74b0bd6ab6b934",
+      "processed_at": "2026-04-20T17:28:23.946847+00:00",
+      "output": "content/notas-automaticas/algebra-i/20-04-a-24-04/2026-04-20-resolucion.md"
     }
   }
 }
