@@ -1,17 +1,29 @@
 ---
 title: fechas importantes
-date: '2026-04-16'
+date: '2026-04-20'
 tags:
 - auto-generado
 - calendario
 - sistemas-operativos-i
-generated_at: '2026-04-16T05:28:45.838012+00:00'
+generated_at: '2026-04-20T05:38:02.214626+00:00'
 calendar_generated: true
-calendar_event_count: 9
+calendar_event_count: 13
 ---
 
 ## Con fecha confirmada
 
+### enero 1963
+
+- **1963-01-01** · `otro` · **Desarrollo del sistema ASCII** — [sistemas-operativos-i / 20-04-a-24-04](20-04-a-24-04/2026-04-20-fadena) Desarrollo del estándar de codificación ASCII por la ASA.
+### enero 1967
+
+- **1967-01-01** · `otro` · **Ampliación del estándar ASCII** — [sistemas-operativos-i / 20-04-a-24-04](20-04-a-24-04/2026-04-20-fadena) Se añaden letras minúsculas y caracteres adicionales al estándar ASCII.
+### enero 1969
+
+- **1969-01-01** · `otro` · **La ASA se convierte en ANSI** — [sistemas-operativos-i / 20-04-a-24-04](20-04-a-24-04/2026-04-20-fadena) Transformación de la ASA en ANSI.
+### enero 1991
+
+- **1991-01-01** · `otro` · **Creación del Unicode Consortium** — [sistemas-operativos-i / 20-04-a-24-04](20-04-a-24-04/2026-04-20-fadena) Fundación del consorcio encargado del desarrollo del estándar Unicode.
 ### mayo 2026
 
 - **2026-05-21** · `examen` · **Examen 1er Parcial** — [sistemas-operativos-i / 06-04-a-10-04](06-04-a-10-04/2026-04-09-261cs1) Primera evaluación parcial del curso.
