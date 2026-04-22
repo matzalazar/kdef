@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-04-20T17:28:24.209367+00:00",
+  "last_run": "2026-04-22T21:27:43.550121+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -343,9 +343,9 @@
       "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-aml.md"
     },
     "analisis-i/20-04-a-24-04/2026 - AMI - Semana 3 - Teórico.pdf": {
-      "sha256": "387c87be7c3324203f1066ff1d8fbeb1836d6b1663b646dd0543a65ed585b1fb",
-      "processed_at": "2026-04-20T17:27:22.244233+00:00",
-      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-20-2026.md"
+      "sha256": "4f1881808ea2f2e8a3b631b1317a12373bc0e164f8aca0c5fe94544220f37b1e",
+      "processed_at": "2026-04-22T21:27:43.257107+00:00",
+      "output": "content/notas-automaticas/analisis-i/20-04-a-24-04/2026-04-22-2026.md"
     },
     "analisis-i/20-04-a-24-04/2026 - AMI - Semana 3 - Práctica.pdf": {
       "sha256": "0654a9d0e263c193d31d043cefc8f9af4677285d052dee62b840761dae723828",
