@@ -8,22 +8,21 @@ export default (() => {
   const Novedades: QuartzComponent = ({ allFiles, fileData, displayClass }: QuartzComponentProps) => {
     const novedadesFile = allFiles.find((f) => f.slug === "novedades")
     const semanas = (novedadesFile?.novedades ?? []) as NovedadSemana[]
+    const semanaActual = semanas[0]
 
-    if (semanas.length === 0) return null
+    if (!semanaActual) return null
 
     return (
       <div class={classNames(displayClass, "novedades")}>
         <h3>Novedades</h3>
-        {semanas.map((s) => (
-          <div class="novedades-semana">
-            <h4>{s.semana}</h4>
-            <ul>
-              {s.entradas.map((e) => (
-                <li>{e}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+        <div class="novedades-semana">
+          <h4>{semanaActual.semana}</h4>
+          <ul>
+            {semanaActual.entradas.map((e) => (
+              <li>{e}</li>
+            ))}
+          </ul>
+        </div>
         {novedadesFile?.slug && (
           <p class="novedades-link">
             <a href={resolveRelative(fileData.slug!, novedadesFile.slug)} class="internal">
