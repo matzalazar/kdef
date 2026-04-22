@@ -1,5 +1,5 @@
 ---
-title: plantilla
+title: sistemas-ecuaciones
 tags:
   - colaborativo
   - algebra-i

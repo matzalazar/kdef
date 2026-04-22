@@ -1,5 +1,5 @@
 ---
-title: plantilla
+title: funciones
 tags:
   - colaborativo
   - analisis-i

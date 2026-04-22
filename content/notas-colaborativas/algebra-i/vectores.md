@@ -1,5 +1,5 @@
 ---
-title: plantilla
+title: vectores
 tags:
   - colaborativo
   - algebra-i

@@ -1,5 +1,5 @@
 ---
-title: plantilla
+title: conjuntos
 tags:
   - colaborativo
   - analisis-i
