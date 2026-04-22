@@ -1,0 +1,42 @@
+name: Deploy a Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: cf-pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    name: Build Quartz + Deploy a Cloudflare Pages
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Node.js 22 LTS
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Instalar dependencias de Quartz
+        run: npm ci
+
+      - name: Build del sitio (Quartz)
+        run: npx quartz build
+        env:
+          NODE_ENV: production
+
+      - name: Deploy a Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: pages deploy public/ --project-name=kdef --branch=main
