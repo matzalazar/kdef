@@ -18,7 +18,7 @@ requests>=2.33.1
 
 # Parsing de HTML para scraping de Moodle
 beautifulsoup4>=4.14.3
-lxml>=4.9.0
+lxml>=6.1.0
 
 # YAML para el catálogo declarativo del campus
 PyYAML>=6.0.3
