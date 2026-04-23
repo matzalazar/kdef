@@ -18,6 +18,7 @@ tsconfig.tsbuildinfo
 
 # Environment
 .env
+CHANGELOG.md
 
 # OS
 .DS_Store

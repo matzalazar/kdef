@@ -1,8 +1,14 @@
 name: Deploy a Cloudflare Pages
 
 on:
-  push:
+  workflow_run:
+    workflows: ['CI']
+    types: [completed]
     branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 concurrency:
   group: cf-pages-deploy
@@ -13,15 +19,16 @@ jobs:
     name: Build Quartz + Deploy a Cloudflare Pages
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main') }}
 
     steps:
       - name: Checkout del repositorio
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Configurar Node.js 22 LTS
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
