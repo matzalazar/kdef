@@ -8,7 +8,7 @@ tenacity>=8.2.0
 google-genai>=1.0.0
 
 # OpenAI SDK — usado también para GitHub Models (API compatible)
-openai>=1.35.0
+openai>=2.32.0
 
 # Variables de entorno desde .env en desarrollo local
 python-dotenv>=1.0.0
