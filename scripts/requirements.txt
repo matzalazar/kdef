@@ -5,7 +5,7 @@
 tenacity>=8.2.0
 
 # Google Gemini — LLM fallback
-google-genai>=1.0.0
+google-genai>=1.73.1
 
 # OpenAI SDK — usado también para GitHub Models (API compatible)
 openai>=1.35.0
