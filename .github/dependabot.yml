@@ -7,7 +7,7 @@ updates:
       day: "monday"
       time: "09:00"
       timezone: "America/Argentina/Buenos_Aires"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 3
     labels:
       - "dependencies"
     groups:
@@ -23,9 +23,14 @@ updates:
       day: "monday"
       time: "09:00"
       timezone: "America/Argentina/Buenos_Aires"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 3
     labels:
       - "dependencies"
+    groups:
+      python-dependencies:
+        applies-to: "version-updates"
+        patterns:
+          - "*"
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -34,7 +39,7 @@ updates:
       day: "monday"
       time: "09:00"
       timezone: "America/Argentina/Buenos_Aires"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 3
     labels:
       - "dependencies"
       - "ci"
