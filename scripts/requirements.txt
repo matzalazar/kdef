@@ -14,7 +14,7 @@ openai>=1.35.0
 python-dotenv>=1.0.0
 
 # HTTP client para scraping de Moodle
-requests>=2.31.0
+requests>=2.33.1
 
 # Parsing de HTML para scraping de Moodle
 beautifulsoup4>=4.12.0
