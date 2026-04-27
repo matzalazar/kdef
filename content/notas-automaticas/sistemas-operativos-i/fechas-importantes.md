@@ -1,13 +1,13 @@
 ---
 title: fechas importantes
-date: '2026-04-23'
+date: '2026-04-27'
 tags:
 - auto-generado
 - calendario
 - sistemas-operativos-i
-generated_at: '2026-04-23T05:24:43.338897+00:00'
+generated_at: '2026-04-27T09:54:24.862847+00:00'
 calendar_generated: true
-calendar_event_count: 13
+calendar_event_count: 15
 ---
 
 ## Con fecha confirmada
@@ -24,6 +24,9 @@ calendar_event_count: 13
 ### enero 1991
 
 - **1991-01-01** · `otro` · **Creación del Unicode Consortium** — [sistemas-operativos-i / 20-04-a-24-04](20-04-a-24-04/2026-04-20-fadena) Fundación del consorcio encargado del desarrollo del estándar Unicode.
+### enero 2007
+
+- **2007-01-01** · `otro` · **Promoción de la especificación UEFI** — [sistemas-operativos-i / seccion](seccion/2026-04-27-fadena) Año en que se acordó promover la especificación UEFI por Intel, AMD, Microsoft y otros fabricantes.
 ### mayo 2026
 
 - **2026-05-21** · `examen` · **Examen 1er Parcial** — [sistemas-operativos-i / 06-04-a-10-04](06-04-a-10-04/2026-04-09-261cs1) Primera evaluación parcial del curso.
@@ -36,6 +39,7 @@ calendar_event_count: 13
 
 ## Sin fecha exacta
 
+- **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / seccion](seccion/2026-04-27-fadena) Inicio del año académico
 - **Semana 2, Actividad 2** · `otro` · **Actividad S2-A2** — [sistemas-operativos-i / 13-04-a-17-04](13-04-a-17-04/2026-04-16-fadena) Realice la actividad identificada como S2-A2 en la sección de actividades del campus.
 - **Semana 2, Actividad 2** · `otro` · **Actividad S2-A2** — [sistemas-operativos-i / seccion](seccion/2026-04-13-fadena) Identificada como S2-A2 en la sección de actividades del campus.
 - **Semana 2, Actividad 3** · `otro` · **Actividad S2-A3** — [sistemas-operativos-i / 13-04-a-17-04](13-04-a-17-04/2026-04-16-fadena) Realice la actividad identificada como S2-A3 en la sección de actividades del campus.
