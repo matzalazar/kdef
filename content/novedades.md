@@ -4,6 +4,14 @@ date: 2026-04-13
 tags: []
 ---
 
+## Semana del 27 de abril
+
+- álgebra i: hay una autoevaluación **obligatoria**.
+- análisis i: hay una autoevaluación **obligatoria**.
+- gestión de servicios: hay una autoevaluación y una guía **no entregable**.
+- sistemas operativos i: hay una autoevaluación.
+- inglés i: hay una actividad entregable.
+
 ## Semana del 20 de abril
 
 - álgebra i: hay una autoevaluación **obligatoria**.
