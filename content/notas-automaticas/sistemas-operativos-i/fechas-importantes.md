@@ -1,13 +1,13 @@
 ---
 title: fechas importantes
-date: '2026-04-27'
+date: '2026-04-30'
 tags:
 - auto-generado
 - calendario
 - sistemas-operativos-i
-generated_at: '2026-04-27T09:54:24.862847+00:00'
+generated_at: '2026-04-30T05:51:03.210777+00:00'
 calendar_generated: true
-calendar_event_count: 15
+calendar_event_count: 16
 ---
 
 ## Con fecha confirmada
@@ -39,6 +39,7 @@ calendar_event_count: 15
 
 ## Sin fecha exacta
 
+- **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / 27-04-a-01-05](27-04-a-01-05/2026-04-30-fadena) Inicio del año académico
 - **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / seccion](seccion/2026-04-27-fadena) Inicio del año académico
 - **Semana 2, Actividad 2** · `otro` · **Actividad S2-A2** — [sistemas-operativos-i / 13-04-a-17-04](13-04-a-17-04/2026-04-16-fadena) Realice la actividad identificada como S2-A2 en la sección de actividades del campus.
 - **Semana 2, Actividad 2** · `otro` · **Actividad S2-A2** — [sistemas-operativos-i / seccion](seccion/2026-04-13-fadena) Identificada como S2-A2 en la sección de actividades del campus.

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-04-27T09:54:24.862839+00:00",
+  "last_run": "2026-04-30T05:51:03.210771+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -498,9 +498,9 @@
       "output": "content/notas-automaticas/algebra-i/27-04-a-01-05/2026-04-27-2026.md"
     },
     "algebra-i/27-04-a-01-05/2026 - AI - Semana 4 - Práctica.pdf": {
-      "sha256": "470590bca9105441d14f6bb511588934947e5ea4649c2735df27b921d83fa290",
-      "processed_at": "2026-04-27T09:52:41.148740+00:00",
-      "output": "content/notas-automaticas/algebra-i/27-04-a-01-05/2026-04-27-2026.md"
+      "sha256": "09db5727e02de7ebf4647eae3c049d17f7ee2afb3f6bd08d30804af9ce25d1d8",
+      "processed_at": "2026-04-30T05:50:04.530339+00:00",
+      "output": "content/notas-automaticas/algebra-i/27-04-a-01-05/2026-04-30-2026.md"
     },
     "algebra-i/27-04-a-01-05/2026 - AI - Semana 4 - Anexo Práctica.pdf": {
       "sha256": "c4b985f55d3965b1fdb6e7a3a1f2c42a2eb60ebe6f172efb961c42a0824a0d9a",
@@ -518,9 +518,9 @@
       "output": "content/notas-automaticas/algebra-i/27-04-a-01-05/2026-04-27-2026.md"
     },
     "gestion-servicios/27-04-a-01-05/clase-3-catalogo-sla-y-arquitectura-parte-a.md": {
-      "sha256": "1ad9b5a9ceed0558698c2accbae94b4ce901647c8cd83251d043122c69d9037e",
-      "processed_at": "2026-04-27T09:53:03.396863+00:00",
-      "output": "content/notas-automaticas/gestion-servicios/27-04-a-01-05/2026-04-27-clase.md"
+      "sha256": "1988f0b2df72b8c5045ba2ffe916ae988cfd625895a21b992a1a7a81e8bc4673",
+      "processed_at": "2026-04-30T05:50:04.781955+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/27-04-a-01-05/2026-04-30-clase.md"
     },
     "gestion-servicios/27-04-a-01-05/clase-3-catalogo-sla-y-arquitectura-parte-b.md": {
       "sha256": "e56e415e5fac9c86722e24caec99fb549189950f581443cc08d0cbbf8f472c58",
@@ -551,6 +551,16 @@
       "sha256": "27bd4767492d25110dad7c1e8ea0725a58cedc26cc9dfff11840635e96358bd4",
       "processed_at": "2026-04-27T09:54:24.861997+00:00",
       "output": "content/notas-automaticas/sistemas-operativos-i/27-04-a-01-05/2026-04-27-clase.md"
+    },
+    "gestion-servicios/27-04-a-01-05/watch.md": {
+      "sha256": "6bf29ffd2a0fca58a1ca4ccd58781a4ccc963110c37aafcb93e7a4be314de833",
+      "processed_at": "2026-04-30T05:50:04.780074+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/27-04-a-01-05/2026-04-30-watch.md"
+    },
+    "sistemas-operativos-i/27-04-a-01-05/FADENA - SO Unidad 1 - Semana 4 - 2026.pdf": {
+      "sha256": "290fabe10931e7802cf0368e22d9b309212faddb68bde3b9511a9b14ba2c132e",
+      "processed_at": "2026-04-30T05:51:03.208191+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/27-04-a-01-05/2026-04-30-fadena.md"
     }
   }
 }
