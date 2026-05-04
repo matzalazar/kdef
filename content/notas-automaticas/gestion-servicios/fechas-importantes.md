@@ -1,11 +1,11 @@
 ---
 title: fechas importantes
-date: '2026-04-30'
+date: '2026-05-04'
 tags:
 - auto-generado
 - calendario
 - gestion-servicios
-generated_at: '2026-04-30T05:51:03.210777+00:00'
+generated_at: '2026-05-04T05:58:19.670222+00:00'
 calendar_generated: true
 calendar_event_count: 5
 ---
