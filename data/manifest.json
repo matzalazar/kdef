@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-04T05:58:19.670218+00:00",
+  "last_run": "2026-05-04T14:29:21.561378+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -606,6 +606,651 @@
       "sha256": "6d0180669ec5cd2653d24165711d99465131511ef187801c1c89945fa2e8af02",
       "processed_at": "2026-05-04T05:58:19.667122+00:00",
       "output": "content/notas-automaticas/sistemas-operativos-i/04-05-a-08-05/2026-05-04-historia.md"
+    },
+    "analisis-i/04-06-a-04-10/intro-analisis.md": {
+      "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
+      "processed_at": "2026-05-04T14:13:07.680201+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-06-a-04-10/2026-05-04-intro.md"
+    },
+    "analisis-i/04-06-a-04-10/Programa de ANALISIS I - FADENA 2026.docx.pdf": {
+      "sha256": "72db3fff0635a7ab7d41faeafa9bb8d40cb3ea54c37a01537a66d5849b678b86",
+      "processed_at": "2026-05-04T14:13:15.921653+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-06-a-04-10/2026-05-04-programa.md"
+    },
+    "analisis-i/04-06-a-04-10/CRONOGRAMA AMI -1C 2026.pdf": {
+      "sha256": "2786b33dabcaf05c690c3729a5b7d3efdb683c28142b9a11e5bd1792704f1ec5",
+      "processed_at": "2026-05-04T14:13:15.925879+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-06-a-04-10/2026-05-04-cronograma.md"
+    },
+    "analisis-i/04-13-a-04-17/clase-1-parte-1-3.md": {
+      "sha256": "49d3ae361c1e695331e2383390afc9b8a2bea9d9755699758c648aa3746489b6",
+      "processed_at": "2026-05-04T14:13:15.927669+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-13-a-04-17/2026-05-04-clase.md"
+    },
+    "analisis-i/04-13-a-04-17/clase-1-parte-2-3.md": {
+      "sha256": "a0047a25dc11921f91399e9caeebf0ce94453f5ef436a3938e1f762d38379bec",
+      "processed_at": "2026-05-04T14:13:15.929277+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-13-a-04-17/2026-05-04-clase.md"
+    },
+    "analisis-i/04-13-a-04-17/clase-1-parte-3-3.md": {
+      "sha256": "e38b2efd2935c77c24aea4a1c9ddc7572b3bd8ccc181ae15553ca0e51fb0d3b8",
+      "processed_at": "2026-05-04T14:13:15.930886+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-13-a-04-17/2026-05-04-clase.md"
+    },
+    "analisis-i/04-13-a-04-17/Notas Video 1.pdf": {
+      "sha256": "5256caf8cd03dfcc93887ff868711b9b8715c6d6613162f296e551811d212067",
+      "processed_at": "2026-05-04T14:13:15.934924+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-13-a-04-17/2026-05-04-notas.md"
+    },
+    "analisis-i/04-13-a-04-17/AMI-S2-VIDEO2-NOTAS_250415.pdf": {
+      "sha256": "005e9ca15a9f116a8a56159b50441b92c5fe7c5952bf8a4b163aed556cc34132",
+      "processed_at": "2026-05-04T14:13:15.939680+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-13-a-04-17/2026-05-04-ami.md"
+    },
+    "analisis-i/04-13-a-04-17/AMI-S2-VIDEO3-NOTAS_250406_140412.pdf": {
+      "sha256": "f42cd90e244c4f260228e51a73338ae4d58b8b892c59b804e37493c2e2da0aaa",
+      "processed_at": "2026-05-04T14:13:15.944740+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-13-a-04-17/2026-05-04-ami.md"
+    },
+    "analisis-i/04-13-a-04-17/Apunte teórico - Conjuntos e intervalos.pdf": {
+      "sha256": "68ccd65783f12441c8bbf3d5937e7e3748866ada2cb8288f4fb7b55d0a926a35",
+      "processed_at": "2026-05-04T14:13:23.410419+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-13-a-04-17/2026-05-04-apunte.md"
+    },
+    "analisis-i/04-13-a-04-17/Ejercicios de práctica 1.pdf": {
+      "sha256": "705a9af194afd32a5cb30dd3e8d2d9f9dd142b1a669ed9c54765be7dcb143cda",
+      "processed_at": "2026-05-04T14:13:32.778356+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-13-a-04-17/2026-05-04-ejercicios.md"
+    },
+    "analisis-i/04-13-a-04-17/Resolución Práctica 1.pdf": {
+      "sha256": "710a2c3121e059872bce3b944d70b3ef03b0d694f94f3232cb13d01a3c583248",
+      "processed_at": "2026-05-04T14:13:38.578058+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-13-a-04-17/2026-05-04-resolucion.md"
+    },
+    "analisis-i/04-20-a-04-24/clase-3-parte-1-5.md": {
+      "sha256": "08c86f755cc69c6cb1169712d404404c6710ed7fa9c8f9bca81dfd83dc7f2d3b",
+      "processed_at": "2026-05-04T14:13:38.580473+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-clase.md"
+    },
+    "analisis-i/04-20-a-04-24/AMl-S3-VIDEO1-NOTAS.pdf": {
+      "sha256": "ceb7cd2dd4662afe25ad6202261d29a7a7e9897c053d8297c80c56bf0eec42e1",
+      "processed_at": "2026-05-04T14:13:42.071361+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-aml.md"
+    },
+    "analisis-i/04-20-a-04-24/clase-3-parte-2-5.md": {
+      "sha256": "3b3dd7ace61eba41175f2a7417d1cf7ede67d85779ba5a6360e0fd8ed455a487",
+      "processed_at": "2026-05-04T14:13:42.073803+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-clase.md"
+    },
+    "analisis-i/04-20-a-04-24/AMl-S3-VIDEO2-NOTAS.pdf": {
+      "sha256": "2b64e6b0045d65d97a29fc156d5982be07fe4dfaa6d1f1b0f2ed64898eff33a7",
+      "processed_at": "2026-05-04T14:13:45.852278+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-aml.md"
+    },
+    "analisis-i/04-20-a-04-24/clase-3-parte-3-5.md": {
+      "sha256": "2852f05b1083d69e00f5e3ba6bea5c7e6d81b40bfc7f5827ff893f83a5cd0826",
+      "processed_at": "2026-05-04T14:13:45.854774+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-clase.md"
+    },
+    "analisis-i/04-20-a-04-24/AMl-S3-VIDEO3-NOTAS.pdf": {
+      "sha256": "5bbe8a7187021e775efc28a2c812c72991cf11e8f4a57beabbf4bb1247333d8d",
+      "processed_at": "2026-05-04T14:13:49.973855+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-aml.md"
+    },
+    "analisis-i/04-20-a-04-24/clase-3-parte-4-5.md": {
+      "sha256": "4663958da2ff611c689e6ee41db934e7f8d22522bcc86e3dc13bfc8c8ce96d46",
+      "processed_at": "2026-05-04T14:13:49.976651+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-clase.md"
+    },
+    "analisis-i/04-20-a-04-24/AMl-S3-VIDEO4-NOTAS.pdf": {
+      "sha256": "a287544feba1ebc084ebe8d6511b3b72b681a0e8d7be10cb6948e6caf864ea4e",
+      "processed_at": "2026-05-04T14:13:53.719248+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-aml.md"
+    },
+    "analisis-i/04-20-a-04-24/clase-3-parte-5-5.md": {
+      "sha256": "96ad3b1ecf68b96bf10f646ee3eac670a33003e0ce4ae217f89c3a5d2e7f161f",
+      "processed_at": "2026-05-04T14:13:53.721994+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-clase.md"
+    },
+    "analisis-i/04-20-a-04-24/AMl-S3-VIDEO5-NOTAS.pdf": {
+      "sha256": "899b6a0ce38f97467666888c5f0576b0e5d1170b4c9a8b72fd481b346ef45150",
+      "processed_at": "2026-05-04T14:13:57.025926+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-aml.md"
+    },
+    "analisis-i/04-20-a-04-24/2026 - AMI - Semana 3 - Teórico.pdf": {
+      "sha256": "4f1881808ea2f2e8a3b631b1317a12373bc0e164f8aca0c5fe94544220f37b1e",
+      "processed_at": "2026-05-04T14:14:05.145640+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-2026.md"
+    },
+    "analisis-i/04-20-a-04-24/2026 - AMI - Semana 3 - Práctica.pdf": {
+      "sha256": "0654a9d0e263c193d31d043cefc8f9af4677285d052dee62b840761dae723828",
+      "processed_at": "2026-05-04T14:14:11.688011+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-2026.md"
+    },
+    "analisis-i/04-20-a-04-24/2026 - AMI - Semana 3 - Resolución Práctica.pdf": {
+      "sha256": "68664f542da9cc9ce426bcaca3a754311fb85593670e662be2a56518e3fdd184",
+      "processed_at": "2026-05-04T14:14:19.434824+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-20-a-04-24/2026-05-04-2026.md"
+    },
+    "analisis-i/04-27-a-05-01/s4-video-1.md": {
+      "sha256": "f6864ab781fa6737bedddd11ae8d70e01734ff661e5357a877939ba0e31b4338",
+      "processed_at": "2026-05-04T14:14:19.437277+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-27-a-05-01/2026-05-04-s4.md"
+    },
+    "analisis-i/04-27-a-05-01/s4-video-2.md": {
+      "sha256": "4b5b2ca83e1ec54ffd8ca50c620518ac0623a21c71d78ac8771d340693dba870",
+      "processed_at": "2026-05-04T14:14:19.438923+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-27-a-05-01/2026-05-04-s4.md"
+    },
+    "analisis-i/04-27-a-05-01/AMI-S4-VIDEOS 1 Y 2- NOTAS_250422_202826.pdf": {
+      "sha256": "1cd4e9ef8a7218aaedb79fdd007bd0196f69a527a707f0df1211d5d7539b6c4e",
+      "processed_at": "2026-05-04T14:14:19.446718+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-27-a-05-01/2026-05-04-ami.md"
+    },
+    "analisis-i/04-27-a-05-01/2026 - AMI - Semana 4 - Teórico.pdf": {
+      "sha256": "9317fc2742820b5353f8fa417b5372d18e19318988e640ad97fde3eefc66c68b",
+      "processed_at": "2026-05-04T14:14:25.861170+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-27-a-05-01/2026-05-04-2026.md"
+    },
+    "analisis-i/04-27-a-05-01/AMI - Semana 4 - Práctica.pdf": {
+      "sha256": "d0c8b683db930e42447bec0fb5070b5e3ee4a51e9724f1fadb962288adaf0ef5",
+      "processed_at": "2026-05-04T14:14:31.802282+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-27-a-05-01/2026-05-04-ami.md"
+    },
+    "analisis-i/04-27-a-05-01/AMI - Semana 4 - Resolución Práctica.pdf": {
+      "sha256": "8d25deb2031ad64fa6eb8a1d4141dfa8d8bf772625d30e4256cdc52f5e2ed201",
+      "processed_at": "2026-05-04T14:14:38.342855+00:00",
+      "output": "content/notas-automaticas/analisis-i/04-27-a-05-01/2026-05-04-ami.md"
+    },
+    "analisis-i/05-04-a-05-08/clase-5-parte-1-2.md": {
+      "sha256": "21ea3e068226b284454588e13a69827f3aa77532ef44e2c4fcbb38053882d0be",
+      "processed_at": "2026-05-04T14:14:38.345761+00:00",
+      "output": "content/notas-automaticas/analisis-i/05-04-a-05-08/2026-05-04-clase.md"
+    },
+    "analisis-i/05-04-a-05-08/S5-Notas Video 1.pdf": {
+      "sha256": "d86a9b8d817515f46ab6234ff7a0b88f9f1950612d44f6170add1f931dc5a9ba",
+      "processed_at": "2026-05-04T14:14:42.069415+00:00",
+      "output": "content/notas-automaticas/analisis-i/05-04-a-05-08/2026-05-04-s5.md"
+    },
+    "analisis-i/05-04-a-05-08/clase-5-parte-2-2.md": {
+      "sha256": "23e0c7450325f88875e64d8dc86a3b49fa270adb9334c1d5327923d7f933f0ce",
+      "processed_at": "2026-05-04T14:14:42.072279+00:00",
+      "output": "content/notas-automaticas/analisis-i/05-04-a-05-08/2026-05-04-clase.md"
+    },
+    "analisis-i/05-04-a-05-08/S5-Notas Video 2.pdf": {
+      "sha256": "b493a5613ee57622f43118719c984a56a16c4ae8be09ec2eaf1481ff2f472887",
+      "processed_at": "2026-05-04T14:14:46.255828+00:00",
+      "output": "content/notas-automaticas/analisis-i/05-04-a-05-08/2026-05-04-s5.md"
+    },
+    "analisis-i/05-04-a-05-08/2026 - AMI - Semana 5 - Teórico.pdf": {
+      "sha256": "8d3d3b6ccb1b03c5dd342002c65c042e0516378659312c4722df673945afe3cc",
+      "processed_at": "2026-05-04T14:14:52.021949+00:00",
+      "output": "content/notas-automaticas/analisis-i/05-04-a-05-08/2026-05-04-2026.md"
+    },
+    "analisis-i/05-04-a-05-08/2026 - AMI - Semana 5 - Práctica.pdf": {
+      "sha256": "fd53ae7be4a29a430be3f803e1b3815cc49d4586389aeff77ef6aa90b360fe62",
+      "processed_at": "2026-05-04T14:14:58.599427+00:00",
+      "output": "content/notas-automaticas/analisis-i/05-04-a-05-08/2026-05-04-2026.md"
+    },
+    "analisis-i/05-04-a-05-08/2026 - AMI - Semana 5 - Resolución Práctica.pdf": {
+      "sha256": "ee4196959b336126d25e5005addd927e51728cab60482c0223d4ea84ebebd7a7",
+      "processed_at": "2026-05-04T14:15:04.573311+00:00",
+      "output": "content/notas-automaticas/analisis-i/05-04-a-05-08/2026-05-04-2026.md"
+    },
+    "algebra-i/04-06-a-04-10/intro-algebra-i.md": {
+      "sha256": "42a7fa20eced2fbf2033fcef8a048da0a6588f58313b7e0a76581296686599e9",
+      "processed_at": "2026-05-04T14:15:04.575793+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-06-a-04-10/2026-05-04-intro.md"
+    },
+    "algebra-i/04-06-a-04-10/Programa de ALGEBRA I - FADENA 2026.docx.pdf": {
+      "sha256": "b6dc1c6081c4e253a954f206144652e5e5289af2ac140cba2b18f2b7975ef2bd",
+      "processed_at": "2026-05-04T14:15:12.950711+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-06-a-04-10/2026-05-04-programa.md"
+    },
+    "algebra-i/04-06-a-04-10/CRONOGRAMA ALG_2026.pdf": {
+      "sha256": "30a21bbc43ccab82ebd7067f07ef5f3b930a1fc4ed3c2fafb25c281ba0b87b9e",
+      "processed_at": "2026-05-04T14:15:12.954571+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-06-a-04-10/2026-05-04-cronograma.md"
+    },
+    "algebra-i/04-13-a-04-17/clase-1-parte-1-4-de-algebra-i.md": {
+      "sha256": "c561a0669db577eee6a72cd74c65d6d28562ce284940286224e846d795f957a6",
+      "processed_at": "2026-05-04T14:15:12.956425+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-13-a-04-17/2026-05-04-clase.md"
+    },
+    "algebra-i/04-13-a-04-17/clase-1-parte-2-4-de-algebra-i.md": {
+      "sha256": "820d8a38c40dd2187a6c6fad2b9ac55ec2f679c25037fce3059c6cbc267b0cab",
+      "processed_at": "2026-05-04T14:15:12.958044+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-13-a-04-17/2026-05-04-clase.md"
+    },
+    "algebra-i/04-13-a-04-17/clase-1-parte-3-4-de-algebra-i.md": {
+      "sha256": "95f4ac04140b61a28ca32678e0b436bb3fdb01ab1d6d59367fab5c012fd1cd30",
+      "processed_at": "2026-05-04T14:15:12.959757+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-13-a-04-17/2026-05-04-clase.md"
+    },
+    "algebra-i/04-13-a-04-17/clase-1-parte-4-4-de-algebra-i.md": {
+      "sha256": "7310d83bb25a93581683964bd64fa0f2e546e7ad5469799c203c1b774b2c9482",
+      "processed_at": "2026-05-04T14:15:12.961406+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-13-a-04-17/2026-05-04-clase.md"
+    },
+    "algebra-i/04-13-a-04-17/AI-S2-VIDEO1-NOTAS PIZARRAS.pdf": {
+      "sha256": "1982e5c1b1b7dd7f0ab21492c5bb82b73802365ae711918cdfccfcb280dd8918",
+      "processed_at": "2026-05-04T14:16:18.150028+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-13-a-04-17/2026-05-04-ai.md"
+    },
+    "algebra-i/04-13-a-04-17/AI-S2-VIDEO2-NOTAS PIZARRAS.pdf": {
+      "sha256": "e5d2d499c121466dfd45e2bc077ce2d980c7bcfb7b0b594e3fca98b17a340d99",
+      "processed_at": "2026-05-04T14:16:22.373910+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-13-a-04-17/2026-05-04-ai.md"
+    },
+    "algebra-i/04-13-a-04-17/AI-S2-VIDEO3-NOTAS PIZARRAS.pdf": {
+      "sha256": "1dc08fcd1c2d6ed044c174eb16192b261da3e1122bd08585872f4330dfd2b5ff",
+      "processed_at": "2026-05-04T14:16:27.306181+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-13-a-04-17/2026-05-04-ai.md"
+    },
+    "algebra-i/04-13-a-04-17/AI-S2-VIDEO4-NOTAS PIZARRAS.pdf": {
+      "sha256": "1976aaac92b8fd8df177ee84bafc418e0825d553e71ec0c928e5acdbe5e34e01",
+      "processed_at": "2026-05-04T14:16:31.795894+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-13-a-04-17/2026-05-04-ai.md"
+    },
+    "algebra-i/04-13-a-04-17/Apunte - Vectores.pdf": {
+      "sha256": "8e5b38b56f8fd642b5c7f6694a8b56d9fa1f1577cca335c93f608097a6446354",
+      "processed_at": "2026-05-04T14:16:38.783990+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-13-a-04-17/2026-05-04-apunte.md"
+    },
+    "algebra-i/04-13-a-04-17/2026 - AI - Semana 2 - Práctica.pdf": {
+      "sha256": "bbfbb8433936b10f9d3e1bfb9a835c776ffcd3b5be777a99721fadd599a77b74",
+      "processed_at": "2026-05-04T14:16:44.375452+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-13-a-04-17/2026-05-04-2026.md"
+    },
+    "algebra-i/04-13-a-04-17/Resolución de práctica - S2.pdf": {
+      "sha256": "82cd864f54f7ae9bec4eef159c255993fc92cf9f99783250264767208e23caf2",
+      "processed_at": "2026-05-04T14:16:49.994764+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-13-a-04-17/2026-05-04-resolucion.md"
+    },
+    "algebra-i/04-20-a-04-24/s3-video-1.md": {
+      "sha256": "d85f06d75289ea07227dcb2ace773d0964e17e103b879d77a6c90497a45bca93",
+      "processed_at": "2026-05-04T14:16:49.997077+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-s3.md"
+    },
+    "algebra-i/04-20-a-04-24/Notas pizarras_1_S3.pdf": {
+      "sha256": "667d0d052afe5466cf31c9e84649448658c763902caf40b129eaaca5e06dd04a",
+      "processed_at": "2026-05-04T14:16:54.704821+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-notas.md"
+    },
+    "algebra-i/04-20-a-04-24/s3-video-2.md": {
+      "sha256": "ad21776394140396c752faa6237bdb2f2d5417b35e590c4109ad9e898700a443",
+      "processed_at": "2026-05-04T14:16:54.707598+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-s3.md"
+    },
+    "algebra-i/04-20-a-04-24/Notas pizarras_2_S3.pdf": {
+      "sha256": "2afc18664ebbe0c1e778973f18f802e4967bc28bdbc9b840bedc6c1204162022",
+      "processed_at": "2026-05-04T14:16:58.662737+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-notas.md"
+    },
+    "algebra-i/04-20-a-04-24/s3-video-3.md": {
+      "sha256": "960c9cfbef1d9d56e440c8da0b7451a5137942f593ff96249c9efaeec7147ed8",
+      "processed_at": "2026-05-04T14:16:58.665689+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-s3.md"
+    },
+    "algebra-i/04-20-a-04-24/s3-video-4.md": {
+      "sha256": "45f5bfab8f653db95f37dfe41154bff9109f11f8861f2dd987719e6112cdb6c2",
+      "processed_at": "2026-05-04T14:16:58.667291+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-s3.md"
+    },
+    "algebra-i/04-20-a-04-24/AI-S3-VIDEOS3y4-NOTAS puntos c y d corregidos_250424_122711.pdf": {
+      "sha256": "ffe8378ee6064113595f16a52f8ea8e3eb67668e4d4a9ee82cc528f54b93b1d3",
+      "processed_at": "2026-05-04T14:16:58.670263+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-ai.md"
+    },
+    "algebra-i/04-20-a-04-24/s3-video-5.md": {
+      "sha256": "cbb67d379b590b2a1f2a9fee54c2a4f91e5a591d6e185048eebd3f6c53347446",
+      "processed_at": "2026-05-04T14:16:58.672981+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-s3.md"
+    },
+    "algebra-i/04-20-a-04-24/Notas pizarras_5_S3.pdf": {
+      "sha256": "e311c199ac3ecb076b42b72f0292e79f7637e6f345913594fc2014d96882f21d",
+      "processed_at": "2026-05-04T14:17:02.284563+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-notas.md"
+    },
+    "algebra-i/04-20-a-04-24/s3-video-6.md": {
+      "sha256": "6e54083537080ab93fc5edf8667d33056ccb670c623f5ed593a5c5da9a3ac245",
+      "processed_at": "2026-05-04T14:17:02.287427+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-s3.md"
+    },
+    "algebra-i/04-20-a-04-24/AI-S3-VIDEO6-NOTAS_250425_170509.pdf": {
+      "sha256": "7029d849c2c6cb4e26357b322ff16cef9b7e1ce97bfa7750909ea19d3ab5c6b2",
+      "processed_at": "2026-05-04T14:17:02.293147+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-ai.md"
+    },
+    "algebra-i/04-20-a-04-24/Teórico - S3.pdf": {
+      "sha256": "703b3d34af4f78da36016c31a4b3b243b59eb85905787b96566a5f241a113842",
+      "processed_at": "2026-05-04T14:17:08.333452+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-teorico.md"
+    },
+    "algebra-i/04-20-a-04-24/Ejercicios de práctica - S3.pdf": {
+      "sha256": "36687be9f2c1e2dd077189fcba1a45944e10de1d2e7c584d4c69815f745e6f34",
+      "processed_at": "2026-05-04T14:17:14.027588+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-ejercicios.md"
+    },
+    "algebra-i/04-20-a-04-24/Resolución de ejercicios - S3.pdf": {
+      "sha256": "3a09084aecafb127f6a94a57ce0ef5385cb95e4dda8c87058e74b0bd6ab6b934",
+      "processed_at": "2026-05-04T14:17:19.783687+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-05-04-resolucion.md"
+    },
+    "algebra-i/04-27-a-05-01/s4-video-1.md": {
+      "sha256": "e605facb425965ba9494f1d49f6ecc92179f29daceb94bdde8219e6454864af2",
+      "processed_at": "2026-05-04T14:17:19.785967+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-27-a-05-01/2026-05-04-s4.md"
+    },
+    "algebra-i/04-27-a-05-01/Pizarra 1 - S4.pdf": {
+      "sha256": "62bb5c8de542e221a4bc231b1b071dc4be0be355cdea5c22e9ec4f8f131a4d78",
+      "processed_at": "2026-05-04T14:17:19.790608+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-27-a-05-01/2026-05-04-pizarra.md"
+    },
+    "algebra-i/04-27-a-05-01/s4-video-2.md": {
+      "sha256": "b802086363cc1328b7c127b803f104428fd442e4700d0d1bc57094ba5d687135",
+      "processed_at": "2026-05-04T14:17:19.796712+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-27-a-05-01/2026-05-04-s4.md"
+    },
+    "algebra-i/04-27-a-05-01/Pizarra 2 - S4.pdf": {
+      "sha256": "8e4cad9c8a9d30ea46253a6a6cb2c8a8c7181e49f0677931ca845db4ce5b5c3e",
+      "processed_at": "2026-05-04T14:17:19.800644+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-27-a-05-01/2026-05-04-pizarra.md"
+    },
+    "algebra-i/04-27-a-05-01/s4-video-3.md": {
+      "sha256": "94fd7cde4804116ad3fe085885baeba02b5372c1293ec5a88ff7ef90f701f183",
+      "processed_at": "2026-05-04T14:17:19.804400+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-27-a-05-01/2026-05-04-s4.md"
+    },
+    "algebra-i/04-27-a-05-01/Pizarra 3 - S4.pdf": {
+      "sha256": "ef1c22e615f51793af1d729a5bbf655cdebe0d559f4fc73640c000feccf8a0bf",
+      "processed_at": "2026-05-04T14:17:19.808442+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-27-a-05-01/2026-05-04-pizarra.md"
+    },
+    "algebra-i/04-27-a-05-01/2026 - AI - Semana 4 - Teórico.pdf": {
+      "sha256": "efe9399ae794c422401490be3a19ce9714e3048157f433447183f44d76aebf30",
+      "processed_at": "2026-05-04T14:17:28.718101+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-27-a-05-01/2026-05-04-2026.md"
+    },
+    "algebra-i/04-27-a-05-01/2026 - AI - Semana 4 - Anexo Teórico.pdf": {
+      "sha256": "04c9e43ccb7617b23884e25b69bd78af523980ef58db500fa526ef5f3c332d1d",
+      "processed_at": "2026-05-04T14:17:35.375374+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-27-a-05-01/2026-05-04-2026.md"
+    },
+    "algebra-i/04-27-a-05-01/2026 - AI - Semana 4 - Práctica.pdf": {
+      "sha256": "09db5727e02de7ebf4647eae3c049d17f7ee2afb3f6bd08d30804af9ce25d1d8",
+      "processed_at": "2026-05-04T14:17:43.754043+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-27-a-05-01/2026-05-04-2026.md"
+    },
+    "algebra-i/04-27-a-05-01/2026 - AI - Semana 4 - Anexo Práctica.pdf": {
+      "sha256": "c4b985f55d3965b1fdb6e7a3a1f2c42a2eb60ebe6f172efb961c42a0824a0d9a",
+      "processed_at": "2026-05-04T14:17:54.336665+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-27-a-05-01/2026-05-04-2026.md"
+    },
+    "algebra-i/04-27-a-05-01/2026 - AI - Semana 4 - Resolución Práctica.pdf": {
+      "sha256": "b0335c31496d750781d663f7669c4cfbde2a979437b4f61dc32c3c950e078441",
+      "processed_at": "2026-05-04T14:18:02.183612+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-27-a-05-01/2026-05-04-2026.md"
+    },
+    "algebra-i/04-27-a-05-01/2026 - AI - Semana 4 - Anexo Resolución Práctica.pdf": {
+      "sha256": "e955bf63fc9db48493fdcaccb65c9f94bc60eafd9a2c16a76ba1c12c45002ffb",
+      "processed_at": "2026-05-04T14:18:09.252738+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-27-a-05-01/2026-05-04-2026.md"
+    },
+    "algebra-i/05-04-a-05-08/semana-5-algebra-i.md": {
+      "sha256": "66609ffaa5cf2d8ffacd37a8bbb747152cb074f6d4bcd2f3804c3a73c7641910",
+      "processed_at": "2026-05-04T14:18:09.255608+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-04-a-05-08/2026-05-04-semana.md"
+    },
+    "algebra-i/05-04-a-05-08/Notas_pizarras_S5.pdf": {
+      "sha256": "4c7a1ff040aa18dbf0b90a3850d9a83ebdfb3bc9d611a4013a334df061587efb",
+      "processed_at": "2026-05-04T14:18:09.260884+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-04-a-05-08/2026-05-04-notas.md"
+    },
+    "algebra-i/05-04-a-05-08/2026 - AI - Semana 5 - Teórico.pdf": {
+      "sha256": "f8c6bd214f5d2f6f2bc6732e8a8c63f1b399802d4a84c943bc02ccacdd4b3889",
+      "processed_at": "2026-05-04T14:18:16.132345+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-04-a-05-08/2026-05-04-2026.md"
+    },
+    "algebra-i/05-04-a-05-08/2026 - AI - Semana 5 - Práctica.pdf": {
+      "sha256": "b1f31ba8524e012e45e2668b4d178d6c12a85e8e7d0fa5b6bbab7ac456045506",
+      "processed_at": "2026-05-04T14:18:23.223455+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-04-a-05-08/2026-05-04-2026.md"
+    },
+    "algebra-i/05-04-a-05-08/2026 - AI - Semana 5 - Soluciones Práctica.pdf": {
+      "sha256": "87aea44b322698b913ffbef84ef916c2de88e3fee0e9ccb2a70895ba34a84687",
+      "processed_at": "2026-05-04T14:18:30.195568+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-04-a-05-08/2026-05-04-2026.md"
+    },
+    "gestion-servicios/04-06-a-04-10/Clase 0 - Presentación de la materia (GSI).pptx": {
+      "sha256": "a95704b26e23a2649b1738038c9679c7a87d79b6069bf2a8af06e157b44322fe",
+      "processed_at": "2026-05-04T14:18:36.968235+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/04-06-a-04-10/2026-05-04-clase.md"
+    },
+    "gestion-servicios/04-06-a-04-10/Programa - GSI - FADENA 2026.pdf": {
+      "sha256": "aa45f68be501b855d0bfaae63c178b5020d0ea28b8a899393644d3d448d8f35a",
+      "processed_at": "2026-05-04T14:18:44.177944+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/04-06-a-04-10/2026-05-04-programa.md"
+    },
+    "gestion-servicios/04-06-a-04-10/Cronograma - 1° cuatrimestre 2026 - GSI.xlsx - 1er cuatrimestre.pdf": {
+      "sha256": "6362b108663817df439013be47619dee97992848c844bc9cef7e5f461e966e63",
+      "processed_at": "2026-05-04T14:18:56.146836+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/04-06-a-04-10/2026-05-04-cronograma.md"
+    },
+    "gestion-servicios/04-13-a-04-17/Clase 1 - Fundamentos de la Gestión de Servicios.pdf": {
+      "sha256": "1953ca4f4c9e0421000a6960156c0ddf4b0977a9e183cd2ed3e71f225470d140",
+      "processed_at": "2026-05-04T14:20:02.986448+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/04-13-a-04-17/2026-05-04-clase.md"
+    },
+    "gestion-servicios/04-13-a-04-17/parte-a-video-clase-1-fundamentos-de-la-gestion-de-servicios-de-la-informacion.md": {
+      "sha256": "c56789e66adc15af234cc2ef028ca16f277b9307790f231db3013740a9e28819",
+      "processed_at": "2026-05-04T14:20:03.018514+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/04-13-a-04-17/2026-05-04-parte.md"
+    },
+    "gestion-servicios/04-13-a-04-17/parte-b-video-clase-1-fundamentos-de-la-gestion-de-servicios-de-la-informacion.md": {
+      "sha256": "0799ca3d3f824139177fe79172ac3bd3c30a571c21932e4cba2c8ee553baa93d",
+      "processed_at": "2026-05-04T14:20:03.020317+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/04-13-a-04-17/2026-05-04-parte.md"
+    },
+    "gestion-servicios/04-20-a-04-24/Clase 2 - Gobierno de Seguridad, Estrategia y Portafolio.pdf": {
+      "sha256": "a402438c0b625589fd9cef67c242755b21f394fe025a9802e82abb694bc65888",
+      "processed_at": "2026-05-04T14:20:09.442172+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/04-20-a-04-24/2026-05-04-clase.md"
+    },
+    "gestion-servicios/04-20-a-04-24/parte-a-video-clase-2-gobierno-de-seguridad-estrategia-y-portafolio.md": {
+      "sha256": "5ab020c158650054ff7306f663be022745fbed642346a79bf14048446bd5c6b8",
+      "processed_at": "2026-05-04T14:20:09.447336+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/04-20-a-04-24/2026-05-04-parte.md"
+    },
+    "gestion-servicios/04-20-a-04-24/parte-b-video-clase-2-gobierno-de-seguridad-estrategia-y-portafolio.md": {
+      "sha256": "47648565bb943bcb3477b6419147a95ba2e40655b88d4eedb037397cbb2cafbb",
+      "processed_at": "2026-05-04T14:20:09.449117+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/04-20-a-04-24/2026-05-04-parte.md"
+    },
+    "gestion-servicios/04-27-a-05-01/watch.md": {
+      "sha256": "6bf29ffd2a0fca58a1ca4ccd58781a4ccc963110c37aafcb93e7a4be314de833",
+      "processed_at": "2026-05-04T14:20:09.672433+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/04-27-a-05-01/2026-05-04-watch.md"
+    },
+    "gestion-servicios/04-27-a-05-01/clase-3-catalogo-sla-y-arquitectura-parte-a.md": {
+      "sha256": "1988f0b2df72b8c5045ba2ffe916ae988cfd625895a21b992a1a7a81e8bc4673",
+      "processed_at": "2026-05-04T14:20:09.674316+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/04-27-a-05-01/2026-05-04-clase.md"
+    },
+    "gestion-servicios/04-27-a-05-01/Clase 3  - GSI - Catálogo,  SLA  y Arquitectura.pdf": {
+      "sha256": "dabc881700a69eb67106bc49bcb20004cdd72ca8b28e719ded20a02b3e5c1b8d",
+      "processed_at": "2026-05-04T14:20:18.268986+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/04-27-a-05-01/2026-05-04-clase.md"
+    },
+    "gestion-servicios/05-04-a-05-08/GSI Presentación Clase 4 - Disponibilidad, Capacidad y Continuidad.pdf": {
+      "sha256": "2425b01ef326fe26c3fb16bab3e4e3d0b00c7c943ed699cb44e96b0d171374e5",
+      "processed_at": "2026-05-04T14:20:25.816326+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/05-04-a-05-08/2026-05-04-gsi.md"
+    },
+    "gestion-servicios/05-04-a-05-08/clase-4-parte-a.md": {
+      "sha256": "7ee99bc45bef7e55a4c355d9ce4076338ee569396fae24a1268d30158487db40",
+      "processed_at": "2026-05-04T14:20:25.819223+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/05-04-a-05-08/2026-05-04-clase.md"
+    },
+    "gestion-servicios/05-04-a-05-08/clase-4-parte-b.md": {
+      "sha256": "623785a440425a0761c6599aedadfa3e580324e7cd600ab063b292747c0fdec8",
+      "processed_at": "2026-05-04T14:20:25.820807+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/05-04-a-05-08/2026-05-04-clase.md"
+    },
+    "ingles-i/04-06-a-04-10/Presentación de docentes.pdf": {
+      "sha256": "8c4aa944fc5e0f15eb79c814b7ec6070b7a6badd75828e33521b981b4b95bc35",
+      "processed_at": "2026-05-04T14:20:31.007012+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-06-a-04-10/2026-05-04-presentacion.md"
+    },
+    "ingles-i/04-06-a-04-10/Clase 0 - Presentation, syllabus and Task.pdf": {
+      "sha256": "9fde3239f1785a8715f2be2e4896a18dfb04f5af4c13bf4a139cbcf5176a968a",
+      "processed_at": "2026-05-04T14:20:36.333937+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-06-a-04-10/2026-05-04-clase.md"
+    },
+    "ingles-i/04-06-a-04-10/presentacion-docente-ingles-1.md": {
+      "sha256": "b8b59ad3711c4025a3b14a8dc762641a0a6251b32f34db54306f8694b4502731",
+      "processed_at": "2026-05-04T14:20:36.336602+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-06-a-04-10/2026-05-04-presentacion.md"
+    },
+    "ingles-i/04-06-a-04-10/Programa - Inglés I - 2026.pdf": {
+      "sha256": "bf8813a4981183616076b48bf65c33e4113503c780440218027746d54b2c47ea",
+      "processed_at": "2026-05-04T14:20:42.707140+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-06-a-04-10/2026-05-04-programa.md"
+    },
+    "ingles-i/04-06-a-04-10/Actividad - Task 0 Inglés 1.pdf": {
+      "sha256": "b809f2499b8e460fb1d4eba8218cfc1d38f42d34fdf0d5925b0ab9b9e81df7ae",
+      "processed_at": "2026-05-04T14:20:48.046675+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-06-a-04-10/2026-05-04-actividad.md"
+    },
+    "ingles-i/04-06-a-04-10/Artículo - phishing.pdf": {
+      "sha256": "a1a56f3e83a61b034bd439e0113155a94330a2dd8ebaec2600c8326e17276b34",
+      "processed_at": "2026-05-04T14:20:54.275395+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-06-a-04-10/2026-05-04-articulo.md"
+    },
+    "ingles-i/04-13-a-04-17/Clase 1 - Definiciones y Paratexto.pdf": {
+      "sha256": "a2050a67252dd493047b2e53c456f298305ef09cc5739408f2d4fd1160af4991",
+      "processed_at": "2026-05-04T14:20:59.974590+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-13-a-04-17/2026-05-04-clase.md"
+    },
+    "ingles-i/04-13-a-04-17/Artículo Clase 1 - Cyberspace and the Changing Nature of Warfare_RTO.doc.pdf": {
+      "sha256": "6c8909c27e2719ac63ef23eb4177cefa550c6a4b263e2afb4a192e5766565c41",
+      "processed_at": "2026-05-04T14:21:09.962988+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-13-a-04-17/2026-05-04-articulo.md"
+    },
+    "ingles-i/04-13-a-04-17/Actividad Clase 1.pdf": {
+      "sha256": "f675b209b7a5172a20ea8e3646e4711de57c2d15324a7979d8aa87528a6b9ab2",
+      "processed_at": "2026-05-04T14:21:13.460342+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-13-a-04-17/2026-05-04-actividad.md"
+    },
+    "ingles-i/04-20-a-04-24/Clase 2 - Lectura acádemica en inglés estructura del texto y del párrafo.pdf": {
+      "sha256": "63dd47c54129fccabd1b688b80f9b5141acf0e8c39f7e6b6469347469cd27720",
+      "processed_at": "2026-05-04T14:21:18.980507+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-20-a-04-24/2026-05-04-clase.md"
+    },
+    "ingles-i/04-20-a-04-24/Clase 2 - artículo.pdf": {
+      "sha256": "43d6856f205c2fdf7328d3442bb36380421e3cfc487cfe0dcf49aea14237fd7e",
+      "processed_at": "2026-05-04T14:21:24.288341+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-20-a-04-24/2026-05-04-clase.md"
+    },
+    "ingles-i/04-20-a-04-24/Actividad Clase 2_ .pdf": {
+      "sha256": "964bf3372ddd4d04e14c48594fb65c33db15986df40e115d3c93fb9d1fa3808c",
+      "processed_at": "2026-05-04T14:21:29.305448+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-20-a-04-24/2026-05-04-actividad.md"
+    },
+    "ingles-i/04-20-a-04-24/Actividad Clase 2_ Resolución .docx": {
+      "sha256": "a86522766202c7c8bb543de740e23b207a787a682e721f51451fae2c3637655f",
+      "processed_at": "2026-05-04T14:21:35.169648+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-20-a-04-24/2026-05-04-actividad.md"
+    },
+    "ingles-i/04-27-a-05-01/Clase 3 Genero discursivo Argumentación Conectores.pdf": {
+      "sha256": "0d0ac6e25e47089977bb29eb8bc912c70d5e9742077c917d8df029a39a1ef6f8",
+      "processed_at": "2026-05-04T14:21:41.235918+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-27-a-05-01/2026-05-04-clase.md"
+    },
+    "ingles-i/04-27-a-05-01/Artículo Clase 3 - Ukraine conflict brings cybersecurity risks to US homes.pdf": {
+      "sha256": "02688e4ce31b3b2e77d49f5c766793f0f52ade2cbe42236de68ccaeb26a5f208",
+      "processed_at": "2026-05-04T14:21:45.927820+00:00",
+      "output": "content/notas-automaticas/ingles-i/04-27-a-05-01/2026-05-04-articulo.md"
+    },
+    "ingles-i/05-04-a-05-08/Cognados y falsos cognados.pdf": {
+      "sha256": "01850f2d79955ee7c46b8f573571ab604adb38a91c38987f82dc4888962feee7",
+      "processed_at": "2026-05-04T14:21:51.590288+00:00",
+      "output": "content/notas-automaticas/ingles-i/05-04-a-05-08/2026-05-04-cognados.md"
+    },
+    "ingles-i/05-04-a-05-08/Artículo Clase 4 - GenZ and cyber security World Economic Forum.docx.pdf": {
+      "sha256": "16b2572379c215d6a3819e570c4924aced7ebc4a2dcc0d2492c113f0aac779f2",
+      "processed_at": "2026-05-04T14:21:59.522510+00:00",
+      "output": "content/notas-automaticas/ingles-i/05-04-a-05-08/2026-05-04-articulo.md"
+    },
+    "sistemas-operativos-i/04-06-a-04-10/presentacion-sistemas-operativos-i.md": {
+      "sha256": "47594a3064363f87dcfc825dbdb766ba63c0c6a88ba02a3af60f9beaf07c239e",
+      "processed_at": "2026-05-04T14:21:59.529704+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/04-06-a-04-10/2026-05-04-presentacion.md"
+    },
+    "sistemas-operativos-i/04-06-a-04-10/Programa Sistemas Operativos I - FADENA 1C-2026.pdf": {
+      "sha256": "eeae6b0bc3792d327b49ce2a726d3b2c2b5279e3119bd4a3c025d04fe3004096",
+      "processed_at": "2026-05-04T14:22:07.346293+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/04-06-a-04-10/2026-05-04-programa.md"
+    },
+    "sistemas-operativos-i/04-06-a-04-10/261CS1-Cronograma 1er cuatrimestre - Sistemas Operativos I.pdf": {
+      "sha256": "87a181b6d4760ff51cb6aa34bbb61cd3f02adc558500612583b1eaf73d63b930",
+      "processed_at": "2026-05-04T14:22:17.001178+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/04-06-a-04-10/2026-05-04-261cs1.md"
+    },
+    "sistemas-operativos-i/04-13-a-04-17/FADENA - SO Unidad 1 - Semana 2 - 2026.docx.pdf": {
+      "sha256": "a65c14dcc9af8d82903813f4998f2b348d622f68ebcbd158e6a4649e7e960955",
+      "processed_at": "2026-05-04T14:25:16.534681+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/04-13-a-04-17/2026-05-04-fadena.md"
+    },
+    "sistemas-operativos-i/04-13-a-04-17/clase-1-sistemas-operativos-i.md": {
+      "sha256": "6320be60cd0d9fb2d064fb75312524817cee4d7fb7750e28eac8beba14530e01",
+      "processed_at": "2026-05-04T14:25:16.542637+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/04-13-a-04-17/2026-05-04-clase.md"
+    },
+    "sistemas-operativos-i/04-13-a-04-17/Arquitectura 32bits y 64 bits.pdf": {
+      "sha256": "ca788691405b68b4f46d1469a7904d977f657adb137af0b0d9a64ca93aa0eb41",
+      "processed_at": "2026-05-04T14:25:22.228965+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/04-13-a-04-17/2026-05-04-arquitectura.md"
+    },
+    "sistemas-operativos-i/04-13-a-04-17/Puertos de una PC_ Digital Trends.pdf": {
+      "sha256": "8a4407fbe87652adccb41bfe0b3b6edbb8f95e0b2d356c150c9952a031edadc8",
+      "processed_at": "2026-05-04T14:25:27.543888+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/04-13-a-04-17/2026-05-04-puertos.md"
+    },
+    "sistemas-operativos-i/04-20-a-04-24/FADENA - SO Unidad 1 - Semana 3 - 2026.pdf": {
+      "sha256": "60373cfd963568edbdfee600fb965c44ba6e3f42b9b796974d6d52fc899af0d0",
+      "processed_at": "2026-05-04T14:26:28.047461+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/04-20-a-04-24/2026-05-04-fadena.md"
+    },
+    "sistemas-operativos-i/04-27-a-05-01/FADENA - SO Unidad 1 - Semana 4 - 2026.pdf": {
+      "sha256": "290fabe10931e7802cf0368e22d9b309212faddb68bde3b9511a9b14ba2c132e",
+      "processed_at": "2026-05-04T14:27:29.727777+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/04-27-a-05-01/2026-05-04-fadena.md"
+    },
+    "sistemas-operativos-i/04-27-a-05-01/clase-4-la-memoria-de-una-computadora.md": {
+      "sha256": "27bd4767492d25110dad7c1e8ea0725a58cedc26cc9dfff11840635e96358bd4",
+      "processed_at": "2026-05-04T14:27:29.731503+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/04-27-a-05-01/2026-05-04-clase.md"
+    },
+    "sistemas-operativos-i/05-04-a-05-08/FADENA - SO Unidad 2 - Semana 5 - 2026.pdf": {
+      "sha256": "f185c464c79b9599fdd313b14638273e33017e1fd74218bb9f20927429092822",
+      "processed_at": "2026-05-04T14:28:59.103442+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/05-04-a-05-08/2026-05-04-fadena.md"
+    },
+    "sistemas-operativos-i/05-04-a-05-08/clase-5-sistemas-operativos-i.md": {
+      "sha256": "f2c9ff613b6a0dfefef8beee881bac73e6bc5f3f93dcce70476c87bcb6f240af",
+      "processed_at": "2026-05-04T14:28:59.108965+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/05-04-a-05-08/2026-05-04-clase.md"
+    },
+    "sistemas-operativos-i/05-04-a-05-08/Historia de los Sistemas Operativos - A.Tanembaum, Sistemas Operativos Modernos-3ra Edición.pdf": {
+      "sha256": "6d0180669ec5cd2653d24165711d99465131511ef187801c1c89945fa2e8af02",
+      "processed_at": "2026-05-04T14:29:16.684471+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/05-04-a-05-08/2026-05-04-historia.md"
+    },
+    "sistemas-operativos-i/05-04-a-05-08/presentacion_interfaces_de_usuario.pdf": {
+      "sha256": "496a8488e997fbd5de5bd98b83a1f167d2ea93216aeb4ad1c2371e57161d116a",
+      "processed_at": "2026-05-04T14:29:21.559763+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/05-04-a-05-08/2026-05-04-presentacion.md"
     }
   }
 }
