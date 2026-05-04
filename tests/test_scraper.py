@@ -41,10 +41,10 @@ class SlugifyTests(unittest.TestCase):
 
 class SectionDirnameTests(unittest.TestCase):
     def test_date_range_with_slash_separators(self):
-        self.assertEqual(_section_dirname("Semana 1 - 06/04 al 10/04"), "06-04-a-10-04")
+        self.assertEqual(_section_dirname("Semana 1 - 06/04 al 10/04"), "04-06-a-04-10")
 
     def test_date_range_pads_single_digit_days(self):
-        self.assertEqual(_section_dirname("Clase 6/4 al 10/4"), "06-04-a-10-04")
+        self.assertEqual(_section_dirname("Clase 6/4 al 10/4"), "04-06-a-04-10")
 
     def test_no_date_range_falls_back_to_slugify(self):
         result = _section_dirname("Introducción al curso")

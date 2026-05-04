@@ -53,14 +53,14 @@ class GetRelativeSourcePathTests(unittest.TestCase):
         self.assertEqual(result, Path("file.pdf"))
 
     def test_handles_deep_nesting_under_prefix(self):
-        path = Path("/tmp/kdef-moodle-xyz/algebra-i/06-04-a-10-04/CRONOGRAMA ALG.pdf")
+        path = Path("/tmp/kdef-moodle-xyz/algebra-i/04-06-a-04-10/CRONOGRAMA ALG.pdf")
         result = get_relative_source_path(path)
-        self.assertEqual(result, Path("algebra-i/06-04-a-10-04/CRONOGRAMA ALG.pdf"))
+        self.assertEqual(result, Path("algebra-i/04-06-a-04-10/CRONOGRAMA ALG.pdf"))
 
 
 class SectionTitleFromSlugTests(unittest.TestCase):
     def test_date_range_slug_formatted_with_slashes(self):
-        self.assertEqual(_section_title_from_slug("06-04-a-10-04"), "06/04 al 10/04")
+        self.assertEqual(_section_title_from_slug("04-06-a-04-10"), "06/04 al 10/04")
 
     def test_single_word_slug_returns_as_is(self):
         self.assertEqual(_section_title_from_slug("intro"), "intro")
@@ -83,11 +83,11 @@ class BuildOutputPathTests(unittest.TestCase):
         self.assertTrue(str(result).startswith(str(CONTENT_AUTO_DIR)))
 
     def test_output_preserves_subject_and_section_dirs(self):
-        source = Path("/tmp/kdef-moodle-abc/algebra-i/06-04-a-10-04/programa.pdf")
+        source = Path("/tmp/kdef-moodle-abc/algebra-i/04-06-a-04-10/programa.pdf")
         now = datetime(2026, 4, 8, tzinfo=timezone.utc)
         result = build_output_path(source, now)
         self.assertIn("algebra-i", result.parts)
-        self.assertIn("06-04-a-10-04", result.parts)
+        self.assertIn("04-06-a-04-10", result.parts)
 
     def test_output_file_has_md_extension(self):
         source = Path("/tmp/kdef-moodle-abc/ingles-i/semana-1/clase.pdf")

@@ -78,7 +78,7 @@ def _section_dirname(title: str) -> str:
     match = re.search(r"(\d{1,2})[/\-](\d{1,2})\s+al\s+(\d{1,2})[/\-](\d{1,2})", title)
     if match:
         d1, m1, d2, m2 = match.groups()
-        return f"{int(d1):02d}-{int(m1):02d}-a-{int(d2):02d}-{int(m2):02d}"
+        return f"{int(m1):02d}-{int(d1):02d}-a-{int(m2):02d}-{int(d2):02d}"
     return _slugify(title)
 
 

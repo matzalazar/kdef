@@ -262,10 +262,10 @@ def write_summary_file(
 
 def _section_title_from_slug(slug: str) -> str:
     """Convertir un slug de sección a título para el explorador.
-    '06-04-a-10-04' → '06/04 al 10/04'. Cualquier otra cosa → primera palabra."""
+    '04-06-a-04-10' → '06/04 al 10/04'. Cualquier otra cosa → primera palabra."""
     m = re.match(r"^(\d{2})-(\d{2})-a-(\d{2})-(\d{2})$", slug)
     if m:
-        d1, m1, d2, m2 = m.groups()
+        m1, d1, m2, d2 = m.groups()
         return f"{d1}/{m1} al {d2}/{m2}"
     return slug.split("-")[0]
 
