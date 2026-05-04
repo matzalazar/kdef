@@ -7,7 +7,7 @@ updates:
       day: "monday"
       time: "09:00"
       timezone: "America/Argentina/Buenos_Aires"
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 50
     labels:
       - "dependencies"
     groups:
@@ -23,7 +23,7 @@ updates:
       day: "monday"
       time: "09:00"
       timezone: "America/Argentina/Buenos_Aires"
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 50
     labels:
       - "dependencies"
     groups:
@@ -39,7 +39,7 @@ updates:
       day: "monday"
       time: "09:00"
       timezone: "America/Argentina/Buenos_Aires"
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 50
     labels:
       - "dependencies"
       - "ci"
