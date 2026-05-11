@@ -1,17 +1,20 @@
 ---
 title: fechas importantes
-date: '2026-05-07'
+date: '2026-05-11'
 tags:
 - auto-generado
 - calendario
 - sistemas-operativos-i
-generated_at: '2026-05-07T05:52:48.782825+00:00'
+generated_at: '2026-05-11T06:34:40.447270+00:00'
 calendar_generated: true
-calendar_event_count: 27
+calendar_event_count: 28
 ---
 
 ## Con fecha confirmada
 
+### enero 1956
+
+- **1956-01-01** · `otro` · **Introducción de sistemas de procesamiento por lotes** — [sistemas-operativos-i / seccion](seccion/2026-05-11-fadena) Año en que se introdujeron los sistemas de procesamiento por lotes.
 ### enero 1963
 
 - **1963-01-01** · `otro` · **Desarrollo del sistema ASCII** — [sistemas-operativos-i / 04-20-a-04-24](04-20-a-04-24/2026-04-20-fadena) Desarrollo del estándar de codificación ASCII por la ASA.

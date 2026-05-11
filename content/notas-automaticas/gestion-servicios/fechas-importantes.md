@@ -1,13 +1,13 @@
 ---
 title: fechas importantes
-date: '2026-05-07'
+date: '2026-05-11'
 tags:
 - auto-generado
 - calendario
 - gestion-servicios
-generated_at: '2026-05-07T05:52:48.782825+00:00'
+generated_at: '2026-05-11T06:34:40.447270+00:00'
 calendar_generated: true
-calendar_event_count: 5
+calendar_event_count: 6
 ---
 
 ## Con fecha confirmada
@@ -19,5 +19,6 @@ _Sin fechas exactas por ahora._
 - **13-jul a 17-jul** · `examen` · **Examen Recuperatorio** — [gestion-servicios / 04-06-a-04-10](04-06-a-04-10/2026-04-09-cronograma) Oportunidad para recuperar el segundo parcial.
 - **18-may a 22-may** · `examen` · **Examen Primer Parcial** — [gestion-servicios / 04-06-a-04-10](04-06-a-04-10/2026-04-09-cronograma) Evaluación del contenido visto en las primeras semanas.
 - **20-jul a 24-jul** · `otro` · **Cierre** — [gestion-servicios / 04-06-a-04-10](04-06-a-04-10/2026-04-09-cronograma) Cierre de la materia.
+- **2018-11** · `otro` · **Primera edición de la norma ISO 30401** — [gestion-servicios / 05-11-a-05-15](05-11-a-05-15/2026-05-11-iso) Publicación de la norma ISO 30401:2018.
 - **27-jul a 31-jul** · `examen` · **Mesa de examen Final** — [gestion-servicios / 04-06-a-04-10](04-06-a-04-10/2026-04-09-cronograma) Examen final de la materia.
 - **6-jul a 10-jul** · `examen` · **Examen Segundo Parcial** — [gestion-servicios / 04-06-a-04-10](04-06-a-04-10/2026-04-09-cronograma) Evaluación del contenido visto en las semanas posteriores.
