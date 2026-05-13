@@ -1,19 +1,20 @@
 ---
 title: fechas importantes
-date: '2026-05-11'
+date: '2026-05-13'
 tags:
 - auto-generado
 - calendario
 - sistemas-operativos-i
-generated_at: '2026-05-11T06:34:40.447270+00:00'
+generated_at: '2026-05-13T08:48:19.473692+00:00'
 calendar_generated: true
-calendar_event_count: 28
+calendar_event_count: 29
 ---
 
 ## Con fecha confirmada
 
 ### enero 1956
 
+- **1956-01-01** · `otro` · **Introducción de sistemas de lotes** — [sistemas-operativos-i / 05-11-a-05-15](05-11-a-05-15/2026-05-13-fadena) Año en que se introdujeron los sistemas de lotes para aumentar la capacidad de procesamiento.
 - **1956-01-01** · `otro` · **Introducción de sistemas de procesamiento por lotes** — [sistemas-operativos-i / seccion](seccion/2026-05-11-fadena) Año en que se introdujeron los sistemas de procesamiento por lotes.
 ### enero 1963
 
