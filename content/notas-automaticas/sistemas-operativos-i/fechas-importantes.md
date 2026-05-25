@@ -1,13 +1,13 @@
 ---
 title: fechas importantes
-date: '2026-05-21'
+date: '2026-05-25'
 tags:
 - auto-generado
 - calendario
 - sistemas-operativos-i
-generated_at: '2026-05-21T06:38:33.570491+00:00'
+generated_at: '2026-05-25T07:02:03.152663+00:00'
 calendar_generated: true
-calendar_event_count: 29
+calendar_event_count: 30
 ---
 
 ## Con fecha confirmada
@@ -52,6 +52,7 @@ calendar_event_count: 29
 - **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / 04-27-a-05-01](04-27-a-05-01/2026-04-30-fadena) Inicio del año académico
 - **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / 04-27-a-05-01](04-27-a-05-01/2026-05-04-fadena) Año académico en curso para la materia
 - **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / seccion](seccion/2026-04-27-fadena) Inicio del año académico
+- **Realice la actividad identificada como S8-A1 en la sección de actividades del campus.** · `otro` · **Actividad S8-A1** — [sistemas-operativos-i / seccion](seccion/2026-05-25-fadena) Actividad obligatoria relacionada con la virtualización y máquinas virtuales.
 - **Realice la actividad indicada como S5-A2 en el campus.** · `otro` · **Actividad S5-A2** — [sistemas-operativos-i / 05-04-a-05-08](05-04-a-05-08/2026-05-04-fadena) Actividad académica a realizar en el campus.
 - **Realice la actividad indicada como S5-A2 en el campus.** · `otro` · **Actividad S5-A2** — [sistemas-operativos-i / seccion](seccion/2026-05-04-fadena) Actividad académica en el campus.
 - **Semana 2, Actividad 2** · `otro` · **Actividad S2-A2** — [sistemas-operativos-i / 04-13-a-04-17](04-13-a-04-17/2026-04-16-fadena) Realice la actividad identificada como S2-A2 en la sección de actividades del campus.

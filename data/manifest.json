@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-05-21T06:38:33.570476+00:00",
+  "last_run": "2026-05-25T07:02:03.152659+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -1411,6 +1411,11 @@
       "sha256": "c2ef0c418af68358518b78aefe5c4f79203f82018a17c107dc07dd43aa4d98e8",
       "processed_at": "2026-05-13T08:48:19.472975+00:00",
       "output": "content/notas-automaticas/sistemas-operativos-i/05-11-a-05-15/2026-05-13-modos.md"
+    },
+    "sistemas-operativos-i/seccion/FADENA - SO Unidad 3 - Semana 8 - 2026.pdf": {
+      "sha256": "22eb430a0076c399f840108fac07c22b27e62c02e17e971f6d665d6294e860c3",
+      "processed_at": "2026-05-25T07:02:03.150137+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/seccion/2026-05-25-fadena.md"
     }
   }
 }
