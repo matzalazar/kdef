@@ -5,10 +5,10 @@
 tenacity>=9.1.4
 
 # Google Gemini — LLM fallback
-google-genai>=2.6.0
+google-genai>=2.7.0
 
 # OpenAI SDK — usado también para GitHub Models (API compatible)
-openai>=2.38.0
+openai>=2.40.0
 
 # Variables de entorno desde .env en desarrollo local
 python-dotenv>=1.2.2
@@ -24,7 +24,7 @@ lxml>=6.1.1
 PyYAML>=6.0.3
 
 # Extracción de texto de PDFs
-pypdf>=6.12.1
+pypdf>=6.12.2
 
 # Extracción de texto de documentos Office
 python-docx>=1.2.0
