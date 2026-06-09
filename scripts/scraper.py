@@ -172,13 +172,20 @@ def _tile_section_links(course_soup: BeautifulSoup) -> list[dict[str, str]]:
             continue
 
         href = link.get("href", "")
-        section = _extract_section_number(href)
+        # Prefer the data-section attribute on the <li> over URL parsing.
+        # Format Tiles 4.x changed the href to /course/section.php?id=<db_id>
+        # (database row ID, not section order number), but data-section always
+        # holds the correct ordinal number.
+        section = tile.get("data-section") or _extract_section_number(href)
         if not section or section in seen_sections:
             continue
 
-        seen_sections.add(section)
+        seen_sections.add(str(section))
         title = " ".join(link.get_text(" ", strip=True).split())
-        tiles.append({"section": section, "url": href, "title": title or f"sección {section}"})
+        tiles.append({"section": str(section), "url": href, "title": title or f"sección {section}"})
+
+    if not tiles:
+        log.warning("No se encontraron tiles navegables en la página del curso")
 
     return tiles
 
@@ -262,7 +269,13 @@ kdef_kind: "{'youtube' if is_youtube else 'link'}"
     return dest_path
 
 
-def _resources_from_section_page(session: requests.Session, section_url: str, base_url: str) -> list[dict[str, str]]:
+def _resources_from_section_page(
+    session: requests.Session,
+    section_url: str,
+    base_url: str,
+    *,
+    section_number: str | None = None,
+) -> list[dict[str, str]]:
     """Fetch a section page and collect downloadable resources from it."""
     response = session.get(section_url, timeout=HTTP_TIMEOUT_SECONDS)
     response.raise_for_status()
@@ -271,7 +284,10 @@ def _resources_from_section_page(session: requests.Session, section_url: str, ba
     resources: list[dict[str, str]] = []
     seen_urls: set[str] = set()
 
-    section_number = _extract_section_number(section_url)
+    # section_number passed by the caller (from data-section) is more reliable
+    # than parsing the URL, which in Format Tiles 4.x uses a DB id, not the ordinal.
+    if section_number is None:
+        section_number = _extract_section_number(section_url)
     section_container = None
     if section_number:
         section_container = soup.select_one(f'li#section-{section_number}') or soup.select_one(f'div#section-{section_number}')
@@ -432,7 +448,7 @@ def list_course_resources(
         section_number = tile["section"]
         log.info("Explorando tile/sección %s: %s", section_number, tile["title"])
 
-        section_resources = _resources_from_section_page(session, section_url, moodle_url)
+        section_resources = _resources_from_section_page(session, section_url, moodle_url, section_number=section_number)
         if not section_resources:
             continue
 
