@@ -1,13 +1,13 @@
 ---
 title: fechas importantes
-date: '2026-06-08'
+date: '2026-06-09'
 tags:
 - auto-generado
 - calendario
 - sistemas-operativos-i
-generated_at: '2026-06-08T07:22:56.529971+00:00'
+generated_at: '2026-06-09T09:11:01.692626+00:00'
 calendar_generated: true
-calendar_event_count: 31
+calendar_event_count: 33
 ---
 
 ## Con fecha confirmada
@@ -28,6 +28,9 @@ calendar_event_count: 31
 ### enero 1991
 
 - **1991-01-01** · `otro` · **Creación del Unicode Consortium** — [sistemas-operativos-i / 04-20-a-04-24](04-20-a-04-24/2026-04-20-fadena) Fundación del consorcio encargado del desarrollo del estándar Unicode.
+### mayo 2005
+
+- **2005-05-16** · `otro` · **Revisión del documento** — [sistemas-operativos-i / 06-08-a-06-12](06-08-a-06-12/2026-06-09-sistemas) Fecha de referencia del documento sobre gestión de memoria.
 ### enero 2007
 
 - **2007-01-01** · `otro` · **Promoción de la especificación UEFI** — [sistemas-operativos-i / 04-27-a-05-01](04-27-a-05-01/2026-05-04-fadena) Año en que se acordó promover la especificación UEFI por Intel, AMD, Microsoft y otros fabricantes.
@@ -51,6 +54,7 @@ calendar_event_count: 31
 
 - **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / 04-27-a-05-01](04-27-a-05-01/2026-04-30-fadena) Inicio del año académico
 - **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / 04-27-a-05-01](04-27-a-05-01/2026-05-04-fadena) Año académico en curso para la materia
+- **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / 06-08-a-06-12](06-08-a-06-12/2026-06-09-fadena) Año académico en curso
 - **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / seccion](seccion/2026-04-27-fadena) Inicio del año académico
 - **obligatoria** · `otro` · **Actividad S9-A1** — [sistemas-operativos-i / seccion](seccion/2026-06-08-fadena) Los estudiantes deben realizarla en la sección de actividades del campus.
 - **Realice la actividad identificada como S8-A1 en la sección de actividades del campus.** · `otro` · **Actividad S8-A1** — [sistemas-operativos-i / seccion](seccion/2026-05-25-fadena) Actividad obligatoria relacionada con la virtualización y máquinas virtuales.

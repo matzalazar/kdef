@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-06-08T07:22:56.529966+00:00",
+  "last_run": "2026-06-09T09:11:01.692620+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -1436,6 +1436,331 @@
       "sha256": "d97b1eb6b6a044625b7f1aa4b6ed3a970c6d98f10938aa1ae37916093d32a376",
       "processed_at": "2026-06-08T07:21:34.454671+00:00",
       "output": "content/notas-automaticas/sistemas-operativos-i/seccion/2026-06-08-fadena.md"
+    },
+    "analisis-i/05-25-a-05-29/clase-semana-8.md": {
+      "sha256": "c4d3baccc7112ad330dec32d23aeb964b95b1f23fe63dd654704123f8ecdd2c9",
+      "processed_at": "2026-06-09T08:57:21.791569+00:00",
+      "output": "content/notas-automaticas/analisis-i/05-25-a-05-29/2026-06-09-clase.md"
+    },
+    "analisis-i/05-25-a-05-29/AMl-S9-Notas Video.pdf": {
+      "sha256": "8556c5a2b4087e167ac0c4e4c74754b72400fbfb4b904e6b9344cf613dbfc475",
+      "processed_at": "2026-06-09T08:57:27.778604+00:00",
+      "output": "content/notas-automaticas/analisis-i/05-25-a-05-29/2026-06-09-aml.md"
+    },
+    "analisis-i/05-25-a-05-29/2026 - AMI - Semana 8 - Teórico.pdf": {
+      "sha256": "55b1984da47cc588b31691f852cfc12d3257fb6f75bdcbb5b9949291d2c0a479",
+      "processed_at": "2026-06-09T08:57:35.043853+00:00",
+      "output": "content/notas-automaticas/analisis-i/05-25-a-05-29/2026-06-09-2026.md"
+    },
+    "analisis-i/05-25-a-05-29/2026 - AMI - Semana 8 - Práctica.pdf": {
+      "sha256": "cc107b16b24bc7b104cf20117236be7fb5ea21ff321e48bd982b4f747d94adba",
+      "processed_at": "2026-06-09T08:57:41.913992+00:00",
+      "output": "content/notas-automaticas/analisis-i/05-25-a-05-29/2026-06-09-2026.md"
+    },
+    "analisis-i/05-25-a-05-29/2026 - AMI - Semana 8 - Solución Práctica.pdf": {
+      "sha256": "7aac6cd9faa80d7d9768f4a05f040957d47568e1a99cd88d080fca3536d23cf7",
+      "processed_at": "2026-06-09T08:57:53.721088+00:00",
+      "output": "content/notas-automaticas/analisis-i/05-25-a-05-29/2026-06-09-2026.md"
+    },
+    "analisis-i/06-01-a-06-05/clase-semana-9.md": {
+      "sha256": "c6bc4ee8e894f351d067455bd776617fa9138cf61f66dccd9f836d0477d4b5f3",
+      "processed_at": "2026-06-09T08:57:53.724247+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-01-a-06-05/2026-06-09-clase.md"
+    },
+    "analisis-i/06-01-a-06-05/AMI-S10 Video-NOTAS_.pdf": {
+      "sha256": "ba06bb0ec731d55a46fbe857dcf1e1d987d57e65b434cf12d0d248e176eadfe1",
+      "processed_at": "2026-06-09T08:57:58.102451+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-01-a-06-05/2026-06-09-ami.md"
+    },
+    "analisis-i/06-01-a-06-05/AMI-S9 Teórico.pdf": {
+      "sha256": "ff95bd66675b94ba5fa0fa5b19d358c14631c53822cb69e01819197954d5c4a0",
+      "processed_at": "2026-06-09T08:58:05.259554+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-01-a-06-05/2026-06-09-ami.md"
+    },
+    "analisis-i/06-01-a-06-05/2026 - AMI - Semana 9 - Práctica.pdf": {
+      "sha256": "766626c93a1ca762bb36206eec2d201502e95b0ce03a9af0d9ee82e850ad3be5",
+      "processed_at": "2026-06-09T08:58:12.531747+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-01-a-06-05/2026-06-09-2026.md"
+    },
+    "analisis-i/06-01-a-06-05/2026 - AMI - Semana 9 - Resolución Práctica.pdf": {
+      "sha256": "d18386c99fd9dc15d99dd4a3f2380305922a850b096ea26338e99baf6464f3f3",
+      "processed_at": "2026-06-09T08:58:21.655179+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-01-a-06-05/2026-06-09-2026.md"
+    },
+    "analisis-i/06-08-a-06-12/semana-10.md": {
+      "sha256": "221f1ef9e94884b3b3425642aafe2c08d8e9b0ec0bf7197794a188a863a130d9",
+      "processed_at": "2026-06-09T08:58:21.658272+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-08-a-06-12/2026-06-09-semana.md"
+    },
+    "analisis-i/06-08-a-06-12/AM1-S10-VIDEO-NOTAS.pdf": {
+      "sha256": "7cbe0f00b7dbb8b575568c5718cceb24695cedc40a589aa121ba2ac1c520e635",
+      "processed_at": "2026-06-09T08:58:21.666282+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-08-a-06-12/2026-06-09-am1.md"
+    },
+    "analisis-i/06-08-a-06-12/2026 - AMI - Semana 10 - Teórico.pdf": {
+      "sha256": "9596d6dab8da36fdf283531677fb621cb1039b8af7951e6540a185fcffa4c1f3",
+      "processed_at": "2026-06-09T08:58:26.688017+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-08-a-06-12/2026-06-09-2026.md"
+    },
+    "analisis-i/06-08-a-06-12/2026 - AMI - Semana 10 - Práctica.pdf": {
+      "sha256": "efdc552b0c6051005439ae9bfc109b1571fb71cd009aa4080c5eb7755804211e",
+      "processed_at": "2026-06-09T08:58:33.517168+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-08-a-06-12/2026-06-09-2026.md"
+    },
+    "analisis-i/06-08-a-06-12/2026 - AMI - Semana 10 - Resolución Práctica.pdf": {
+      "sha256": "230b09e8b55f2660b171d71e0d0b1218c41426f63d40279a4b1ae2861c43a496",
+      "processed_at": "2026-06-09T08:58:42.566943+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-08-a-06-12/2026-06-09-2026.md"
+    },
+    "algebra-i/04-20-a-04-24/2026 - AI - Semana 3 - Teórico.pdf": {
+      "sha256": "d709b776a276e4cc04bbf1e277e2a6159cf73a28aa5e60e04caeb5d4681b2fde",
+      "processed_at": "2026-06-09T08:58:48.884724+00:00",
+      "output": "content/notas-automaticas/algebra-i/04-20-a-04-24/2026-06-09-2026.md"
+    },
+    "algebra-i/05-18-a-05-25/clase-de-la-semana-7.md": {
+      "sha256": "84ad8567b4bfe3760144b239af26c7df79c4f8180882ffdbc624d5dbbde15a9c",
+      "processed_at": "2026-06-09T08:58:48.937525+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-18-a-05-25/2026-06-09-clase.md"
+    },
+    "algebra-i/05-18-a-05-25/Notas_pizarras_S7_parte1.pdf": {
+      "sha256": "83f0349e82fe4fa8519345dacd0d8b45c3a0a00bcc636fb93bb086ceec60c3d9",
+      "processed_at": "2026-06-09T08:58:48.945188+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-18-a-05-25/2026-06-09-notas.md"
+    },
+    "algebra-i/05-18-a-05-25/AI_S7_Teorico.pdf": {
+      "sha256": "ae040ee9398910c5e92a59d4a4a44a08987e3f1e9fc5e1762d65880d9ca5c6f7",
+      "processed_at": "2026-06-09T08:58:55.351542+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-18-a-05-25/2026-06-09-ai.md"
+    },
+    "algebra-i/05-18-a-05-25/AI_S7_Practica.pdf": {
+      "sha256": "03200e31bf83db06005222339ae1d90ec84ace2f3f0f7a1e5a49b61d60fd6fbf",
+      "processed_at": "2026-06-09T08:59:01.513485+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-18-a-05-25/2026-06-09-ai.md"
+    },
+    "algebra-i/05-18-a-05-25/AI_S7_Soluciones practica.pdf": {
+      "sha256": "54f3ae5f1158c842776193b83d269256a7346eaf14b897473403d131219995e9",
+      "processed_at": "2026-06-09T08:59:08.478123+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-18-a-05-25/2026-06-09-ai.md"
+    },
+    "algebra-i/05-25-a-05-29/clase-semana-8.md": {
+      "sha256": "a7c1adc361db73d3804f855b0800e05ccbb22bfbab8ecd601a749e296a92ab46",
+      "processed_at": "2026-06-09T08:59:08.480901+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-25-a-05-29/2026-06-09-clase.md"
+    },
+    "algebra-i/05-25-a-05-29/Notas pizarra_1_S8.pdf": {
+      "sha256": "f8220c58bd77b473587543fa050efd6232475543b107b10e03db7f26b7eaf4c1",
+      "processed_at": "2026-06-09T08:59:08.485571+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-25-a-05-29/2026-06-09-notas.md"
+    },
+    "algebra-i/05-25-a-05-29/Notas pizarra_2_S8.pdf": {
+      "sha256": "eb1ca1b596ea2ad16fa65ef8071a8e9f7b6edc11c1fcbfd60292f1e740c0e50c",
+      "processed_at": "2026-06-09T08:59:08.492644+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-25-a-05-29/2026-06-09-notas.md"
+    },
+    "algebra-i/05-25-a-05-29/2026 - AI - Semana 8 - Teórico.pdf": {
+      "sha256": "e93a230fc7996c1b5cc82052528a43a58e02ac9b34a36f2cc1902081c1123306",
+      "processed_at": "2026-06-09T08:59:15.483332+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-25-a-05-29/2026-06-09-2026.md"
+    },
+    "algebra-i/05-25-a-05-29/2026 - AI - Semana 8 - Práctica.pdf": {
+      "sha256": "9269b84e1e0603a7d5d8263a73bd11e20533991c37b975c83ca1f46e1fbcfd83",
+      "processed_at": "2026-06-09T08:59:21.547565+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-25-a-05-29/2026-06-09-2026.md"
+    },
+    "algebra-i/05-25-a-05-29/2026 - AI - Semana 8 - Resolución Práctica.pdf": {
+      "sha256": "3feed49433d0a73a34d28b89d0b9a7fcafcd8b9265abe88b60fecb7b95a45013",
+      "processed_at": "2026-06-09T08:59:27.678346+00:00",
+      "output": "content/notas-automaticas/algebra-i/05-25-a-05-29/2026-06-09-2026.md"
+    },
+    "algebra-i/06-01-a-06-05/semana-9.md": {
+      "sha256": "ba1274e2152f3719d3c33c2ae864cb4221421dc181cf31ec78aa2b7e478f0250",
+      "processed_at": "2026-06-09T08:59:27.681389+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-01-a-06-05/2026-06-09-semana.md"
+    },
+    "algebra-i/06-01-a-06-05/AI-S10-VIDEO-NOTAS-1pdf.pdf": {
+      "sha256": "f90c566c434c16131307703e782bcfbcdb7df88df4602241ecb21b17353c4040",
+      "processed_at": "2026-06-09T08:59:27.687177+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-01-a-06-05/2026-06-09-ai.md"
+    },
+    "algebra-i/06-01-a-06-05/AI-S10-VIDEO-NOTAS-2.pdf": {
+      "sha256": "1693d4b1c8fd9ddbcb8e00d9e287d2d59088e1081ac589ab33e1211e467f1d7a",
+      "processed_at": "2026-06-09T08:59:27.693726+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-01-a-06-05/2026-06-09-ai.md"
+    },
+    "algebra-i/06-01-a-06-05/2026 - AI - Semana 9 - Teórico.pdf": {
+      "sha256": "a7330202c44d11c49ea938c647197bdedd915f9be928fb7ab267c9cda4c1a793",
+      "processed_at": "2026-06-09T08:59:34.543497+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-01-a-06-05/2026-06-09-2026.md"
+    },
+    "algebra-i/06-01-a-06-05/2026 - AI - Semana 9 - Práctica.pdf": {
+      "sha256": "f27828d51f344dedd84ff3b2c1c793d4ae53f28fca8a31b554825c2b5061dcc9",
+      "processed_at": "2026-06-09T08:59:40.283145+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-01-a-06-05/2026-06-09-2026.md"
+    },
+    "algebra-i/06-01-a-06-05/2026 - AI - Semana 9 - Resolución Práctica.pdf": {
+      "sha256": "2143fa952858dfeda550e24347d86b742bd9d048427aa1de68d6df4ffeccc8b2",
+      "processed_at": "2026-06-09T08:59:47.504561+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-01-a-06-05/2026-06-09-2026.md"
+    },
+    "algebra-i/06-08-a-06-12/semana-10-parte-1-2.md": {
+      "sha256": "45c55d6366af1ef07feafcfbe36d798035460e211e20d34831eabed23d940b44",
+      "processed_at": "2026-06-09T08:59:47.507619+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-08-a-06-12/2026-06-09-semana.md"
+    },
+    "algebra-i/06-08-a-06-12/semana-10-parte-2-2.md": {
+      "sha256": "0daa6b010cdd14312d0e46b47c7bb1eb865e0f40975b521ef8ff9ca7ab99898d",
+      "processed_at": "2026-06-09T08:59:47.509221+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-08-a-06-12/2026-06-09-semana.md"
+    },
+    "algebra-i/06-08-a-06-12/AI-S11-VIDEO-NOTAS-1-6.pdf": {
+      "sha256": "0a5a37bb439b7cb04f5cfa90dcc230bf62cf11959d7a92eecd51c55604304b03",
+      "processed_at": "2026-06-09T08:59:47.513680+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-08-a-06-12/2026-06-09-ai.md"
+    },
+    "algebra-i/06-08-a-06-12/AI-S11-VIDEO-NOTAS-7-12.pdf": {
+      "sha256": "6b50240d4fa0d0dfbbef0b6ff0113b009e8f52a48ee6a50b4d224b1d1c7f0cdb",
+      "processed_at": "2026-06-09T08:59:47.520974+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-08-a-06-12/2026-06-09-ai.md"
+    },
+    "algebra-i/06-08-a-06-12/2026 - AI - Semana 10 - Teórico.pdf": {
+      "sha256": "f00afb52b670a630f6f3a4c0c815a57b215282ba00ff90e1fdfb528707aa465a",
+      "processed_at": "2026-06-09T09:00:53.756087+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-08-a-06-12/2026-06-09-2026.md"
+    },
+    "algebra-i/06-08-a-06-12/2026 - AI - Semana 10 - Práctica (1).pdf": {
+      "sha256": "df967a4cae234a5d2f36df1bb6053bb6962cea8617008390c0c860b5beabfcb7",
+      "processed_at": "2026-06-09T09:01:03.239131+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-08-a-06-12/2026-06-09-2026.md"
+    },
+    "algebra-i/06-08-a-06-12/2026 - AI - Semana 10 - Resolución Práctica.pdf": {
+      "sha256": "983b43f1ff2eb06f563400ec684e59a13d1594185b978dffc403f72779e7462d",
+      "processed_at": "2026-06-09T09:01:10.042659+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-08-a-06-12/2026-06-09-2026.md"
+    },
+    "gestion-servicios/05-25-a-05-29/GSI Presentación Clase 6 - Gestión de Cambios y Releases.pdf": {
+      "sha256": "b428580d4b8c5c24b7e75a62ffc798be9aa3d087c5b9d64c8230214aec9c853d",
+      "processed_at": "2026-06-09T09:01:22.797462+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/05-25-a-05-29/2026-06-09-gsi.md"
+    },
+    "gestion-servicios/05-25-a-05-29/video-clase-6-parte-a.md": {
+      "sha256": "bcfc56edb41e19385d22a46100f21d22d93afbbb620e55f19d8c1c295396edf5",
+      "processed_at": "2026-06-09T09:01:22.801011+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/05-25-a-05-29/2026-06-09-video.md"
+    },
+    "gestion-servicios/05-25-a-05-29/video-clase-6-parte-b.md": {
+      "sha256": "a4615c8a9aec8609ffa8f38a94432950961c2b5ebc8603809825e451cba9fd56",
+      "processed_at": "2026-06-09T09:01:22.802779+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/05-25-a-05-29/2026-06-09-video.md"
+    },
+    "gestion-servicios/05-25-a-05-29/GSI - Clase 6 - Lectura Complementaria.pdf": {
+      "sha256": "8326c956d81469348b151c32bb5c9cc98308a63d5ae276d258c857b1d98b75f1",
+      "processed_at": "2026-06-09T09:01:32.262635+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/05-25-a-05-29/2026-06-09-gsi.md"
+    },
+    "gestion-servicios/06-01-a-06-05/GSI - Clase 7 Operación del Servicio - Service Desk, Eventos e Incidentes.pdf": {
+      "sha256": "e5cafebec3b6043b177c31b6e3fe4ee6818115c3efeab085a6779631713b45d5",
+      "processed_at": "2026-06-09T09:01:40.035499+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-01-a-06-05/2026-06-09-gsi.md"
+    },
+    "gestion-servicios/06-01-a-06-05/clase-7-parte-a.md": {
+      "sha256": "42da8fb91f5edbd14dcfe25c7148d5dad54ef4df93115e88f1cb24dcadf33da3",
+      "processed_at": "2026-06-09T09:01:40.046606+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-01-a-06-05/2026-06-09-clase.md"
+    },
+    "gestion-servicios/06-01-a-06-05/clase-7-parte-b.md": {
+      "sha256": "31fe15ec9691743fae5fa95437593e7aecb70c25c9094acff4428b625ce61f4f",
+      "processed_at": "2026-06-09T09:01:40.048074+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-01-a-06-05/2026-06-09-clase.md"
+    },
+    "gestion-servicios/06-01-a-06-05/clase-7-complementaria.md": {
+      "sha256": "c62046e987bbdc64851570676edc237181845befe8a046845a3eb3615fba5c0b",
+      "processed_at": "2026-06-09T09:01:40.049482+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-01-a-06-05/2026-06-09-clase.md"
+    },
+    "gestion-servicios/06-08-a-06-12/GSI - Clase 8.pdf": {
+      "sha256": "e01be391eacf87dae032183f6af0dee3eb705412e6b1dfccc77336a341acf305",
+      "processed_at": "2026-06-09T09:01:48.358131+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-08-a-06-12/2026-06-09-gsi.md"
+    },
+    "gestion-servicios/06-08-a-06-12/video-clase-8.md": {
+      "sha256": "32630bde8fbc334fe57b9717332ad27148933ba0fc63780e793ea8f38c7e6c25",
+      "processed_at": "2026-06-09T09:01:48.361469+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-08-a-06-12/2026-06-09-video.md"
+    },
+    "gestion-servicios/06-08-a-06-12/TEXTO Apunte - Clase 8 - Gestion de Problemas y AIOps.pdf": {
+      "sha256": "6915310ce68490ff8f95d09651531c1994c0bf9c52c225a59cfa77005cfc0ba4",
+      "processed_at": "2026-06-09T09:04:32.490419+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-08-a-06-12/2026-06-09-texto.md"
+    },
+    "ingles-i/primer-parcial-26-05/Article (1).pdf": {
+      "sha256": "b0dd3404d4d734dde27ea4c1c7ec1fbb5e494635504824f6f011a5f4c6805b0a",
+      "processed_at": "2026-06-09T09:04:39.494663+00:00",
+      "output": "content/notas-automaticas/ingles-i/primer-parcial-26-05/2026-06-09-article.md"
+    },
+    "ingles-i/05-25-a-05-29/Clase Adjetivos.pdf": {
+      "sha256": "9c5d1d489fc6a96493f500f01905a5ce02a801060452cfb791eccd59ed32a3ff",
+      "processed_at": "2026-06-09T09:04:46.701636+00:00",
+      "output": "content/notas-automaticas/ingles-i/05-25-a-05-29/2026-06-09-clase.md"
+    },
+    "ingles-i/05-25-a-05-29/ARTICULO ADJETIVOS.docx.pdf": {
+      "sha256": "d556c3fae7b217763da2ef8d2edd560b911bb898519836b5f5de401841d0dc9d",
+      "processed_at": "2026-06-09T09:04:53.496295+00:00",
+      "output": "content/notas-automaticas/ingles-i/05-25-a-05-29/2026-06-09-articulo.md"
+    },
+    "ingles-i/06-01-a-06-05/Clase Vocabulario relacionado.pdf": {
+      "sha256": "0ff6240c11fabb179b1b301a4e01db255cdca68eaed54d14954fa54a9210706a",
+      "processed_at": "2026-06-09T09:04:59.060988+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-01-a-06-05/2026-06-09-clase.md"
+    },
+    "ingles-i/06-01-a-06-05/Artículo.pdf": {
+      "sha256": "e4b192849948424412060b8d8051e2e8faf697438b7398dc58263a6836ab9038",
+      "processed_at": "2026-06-09T09:05:04.696189+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-01-a-06-05/2026-06-09-articulo.md"
+    },
+    "ingles-i/06-08-a-06-12/Clase Palabras de Función.pdf": {
+      "sha256": "e0b4e935ace7395e028684339267f9c4e275e325de81def7e693290c35b82dfe",
+      "processed_at": "2026-06-09T09:05:10.653049+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-08-a-06-12/2026-06-09-clase.md"
+    },
+    "ingles-i/06-08-a-06-12/Artículo (Abstract).pdf": {
+      "sha256": "b2e2ba5101113f247807b7faf0138b729d82c6195d9f17ea628bd7bc092555f3",
+      "processed_at": "2026-06-09T09:05:15.448020+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-08-a-06-12/2026-06-09-articulo.md"
+    },
+    "sistemas-operativos-i/05-25-a-05-29/FADENA - SO Unidad 3 - Semana 8 - 2026.pdf": {
+      "sha256": "22eb430a0076c399f840108fac07c22b27e62c02e17e971f6d665d6294e860c3",
+      "processed_at": "2026-06-09T09:06:16.999615+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/05-25-a-05-29/2026-06-09-fadena.md"
+    },
+    "sistemas-operativos-i/05-25-a-05-29/FADENA S8-A1 - 2026.pdf": {
+      "sha256": "d945516c68817838b99d92011bb36ed5d55e18a9c72ccb0edfd1372ae1e07d06",
+      "processed_at": "2026-06-09T09:06:23.423975+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/05-25-a-05-29/2026-06-09-fadena.md"
+    },
+    "sistemas-operativos-i/06-01-a-06-05/FADENA - SO Unidad 3 - Semana 9 - 2026.pdf": {
+      "sha256": "e02f0af1ab0e0c7dfa10edd869be5bcf6166df68854c9f39b20923e2ab83528d",
+      "processed_at": "2026-06-09T09:07:50.000479+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/06-01-a-06-05/2026-06-09-fadena.md"
+    },
+    "sistemas-operativos-i/06-01-a-06-05/FADENA - SO - Presentación semana 9 - Comandos Linux.pdf": {
+      "sha256": "2d7d8c2c3f51f850d4c18786cb196121ee15d49e0c7af21cd6c9aba9e20011b2",
+      "processed_at": "2026-06-09T09:07:55.614890+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/06-01-a-06-05/2026-06-09-fadena.md"
+    },
+    "sistemas-operativos-i/06-01-a-06-05/FADENA SO I - S9-A1 - 2026.docx.pdf": {
+      "sha256": "57953c52241f2d9a7a2e0c1dc51e95fa13f255cbdf558c3439a48fc2a0f23757",
+      "processed_at": "2026-06-09T09:08:01.503661+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/06-01-a-06-05/2026-06-09-fadena.md"
+    },
+    "sistemas-operativos-i/06-08-a-06-12/FADENA - SO Unidad 4 - Semana 10 - 2026.pdf": {
+      "sha256": "d97b1eb6b6a044625b7f1aa4b6ed3a970c6d98f10938aa1ae37916093d32a376",
+      "processed_at": "2026-06-09T09:09:05.981524+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/06-08-a-06-12/2026-06-09-fadena.md"
+    },
+    "sistemas-operativos-i/06-08-a-06-12/Sistemas-operativos_WStallings-324-344.pdf": {
+      "sha256": "b52a3372694c208a3693fc74061315f8f07a3d5dd3dd51e1b6d00dd82bab2d5a",
+      "processed_at": "2026-06-09T09:11:01.690982+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/06-08-a-06-12/2026-06-09-sistemas.md"
     }
   }
 }
