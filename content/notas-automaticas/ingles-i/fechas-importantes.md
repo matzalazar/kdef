@@ -1,11 +1,11 @@
 ---
 title: fechas importantes
-date: '2026-06-11'
+date: '2026-06-15'
 tags:
 - auto-generado
 - calendario
 - ingles-i
-generated_at: '2026-06-11T17:30:22.584814+00:00'
+generated_at: '2026-06-15T08:52:39.684472+00:00'
 calendar_generated: true
 calendar_event_count: 4
 ---

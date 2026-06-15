@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-06-11T17:30:22.584800+00:00",
+  "last_run": "2026-06-15T08:52:39.684465+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -1761,6 +1761,91 @@
       "sha256": "b52a3372694c208a3693fc74061315f8f07a3d5dd3dd51e1b6d00dd82bab2d5a",
       "processed_at": "2026-06-09T09:11:01.690982+00:00",
       "output": "content/notas-automaticas/sistemas-operativos-i/06-08-a-06-12/2026-06-09-sistemas.md"
+    },
+    "analisis-i/06-15-a-06-19/semana-11.md": {
+      "sha256": "f7784fcb44b96fd26d16d6ab4c344955ea44b11bfe1a727ad84e5e9312ee300a",
+      "processed_at": "2026-06-15T08:48:28.484669+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-15-a-06-19/2026-06-15-semana.md"
+    },
+    "analisis-i/06-15-a-06-19/AMI-S11-Video Notas.pdf": {
+      "sha256": "133b5750854ffd16ff27093711a871a78ffd982a8b8102f4e6ec38f9081ebea8",
+      "processed_at": "2026-06-15T08:48:29.349417+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-15-a-06-19/2026-06-15-ami.md"
+    },
+    "analisis-i/06-15-a-06-19/2026 - AMI - Semana 11 - Teórico.pdf": {
+      "sha256": "4c2e51bfbeab1ff687abe820cf4303d7ce19f3bd0ccd6f2b19099d947e67af8e",
+      "processed_at": "2026-06-15T08:48:42.316316+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-15-a-06-19/2026-06-15-2026.md"
+    },
+    "analisis-i/06-15-a-06-19/2026 - AMI - Semana 11 - Práctica.pdf": {
+      "sha256": "6e1e56007fbd00b79bace8d606b5718010f659613e1f7186b1833cc26cb890a5",
+      "processed_at": "2026-06-15T08:48:59.347450+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-15-a-06-19/2026-06-15-2026.md"
+    },
+    "analisis-i/06-15-a-06-19/2026 - AMI - Semana 11 - Resolución Práctica.pdf": {
+      "sha256": "7c5fa8ef9b5d8d328e64d8f057bade8e832b3497ef24bfdd61fc19c836d48b98",
+      "processed_at": "2026-06-15T08:49:12.520522+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-15-a-06-19/2026-06-15-2026.md"
+    },
+    "algebra-i/06-15-a-06-19/semana-11.md": {
+      "sha256": "c4f326d03d99b7d51dbb6fc8a10d865cf430f35015f720a42fe3688012548776",
+      "processed_at": "2026-06-15T08:49:12.592148+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-15-a-06-19/2026-06-15-semana.md"
+    },
+    "algebra-i/06-15-a-06-19/Notas pizarras_1_S12.pdf": {
+      "sha256": "fb0463ac99118e5896bd387b94c170e5e0856627efc44c5f465061d0bc760f34",
+      "processed_at": "2026-06-15T08:49:12.596746+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-15-a-06-19/2026-06-15-notas.md"
+    },
+    "algebra-i/06-15-a-06-19/Notas pizarras_2_S12.pdf": {
+      "sha256": "6cca458709e5143891e27311513346a983d82bce092c6ae97a6f20b1dbd547ae",
+      "processed_at": "2026-06-15T08:49:12.603262+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-15-a-06-19/2026-06-15-notas.md"
+    },
+    "algebra-i/06-15-a-06-19/2026 - AI - Semana 11 - Teórico.pdf": {
+      "sha256": "6580c1928630f99a33a850fd2bc00bc37c47f301d515c3a455b3079de8d8f99a",
+      "processed_at": "2026-06-15T08:49:21.133405+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-15-a-06-19/2026-06-15-2026.md"
+    },
+    "algebra-i/06-15-a-06-19/2026 - AI - Semana 11 - Práctica.pdf": {
+      "sha256": "39e93e65264ad9e198c74b1a9db73649c46ed8d2a7f8edf36c86fda6d4d8b8e5",
+      "processed_at": "2026-06-15T08:49:30.982337+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-15-a-06-19/2026-06-15-2026.md"
+    },
+    "algebra-i/06-15-a-06-19/2026 - AI - Semana 11 - Resolución Práctica.pdf": {
+      "sha256": "fbc091f84be8077ddc112214c81962e9a01b5c86e42e4603ab038a5b4d42866a",
+      "processed_at": "2026-06-15T08:49:41.545305+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-15-a-06-19/2026-06-15-2026.md"
+    },
+    "gestion-servicios/06-15-a-06-19/Clase 9 Devops - Agile.pdf": {
+      "sha256": "0b4a54a0f7b27f7e21724b615267b3de2e25ea6a394d71088634ef1fc5fb0696",
+      "processed_at": "2026-06-15T08:50:52.339274+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-15-a-06-19/2026-06-15-clase.md"
+    },
+    "gestion-servicios/06-15-a-06-19/Lectura-Opcional - Guía de Estudio- DevOps, SRE, Observabilidad y DevSecOps.pdf": {
+      "sha256": "fa3273aff5b6de9d8d6b74c61bc86807455cb03e77946371b481ca3da5eec000",
+      "processed_at": "2026-06-15T08:51:05.735101+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-15-a-06-19/2026-06-15-lectura.md"
+    },
+    "ingles-i/06-15-a-06-19/Clase Palabras de Función.pdf": {
+      "sha256": "5df32718d2cd97c4d3b3301d1872a15693f4ae42b8fbb5c2f2e154ad6cf486c0",
+      "processed_at": "2026-06-15T08:51:15.874648+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-15-a-06-19/2026-06-15-clase.md"
+    },
+    "ingles-i/06-15-a-06-19/Artículo CLASE 11.pdf": {
+      "sha256": "77cf63b88b57341cff6be80a180895f5852aab5667d2c20d8a43d91fd3586110",
+      "processed_at": "2026-06-15T08:51:23.076985+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-15-a-06-19/2026-06-15-articulo.md"
+    },
+    "sistemas-operativos-i/seccion/FADENA S11-A1 - 2026.pdf": {
+      "sha256": "d31ba2e4a48042d6ad3b71127dd948fe5b1ea92481bc485bec859b97d120f9bd",
+      "processed_at": "2026-06-15T08:51:33.201764+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/seccion/2026-06-15-fadena.md"
+    },
+    "sistemas-operativos-i/seccion/FADENA - SO Unidad 4 - Semana 11 - 2026.pdf": {
+      "sha256": "bb0643db65bdd8c84164d49e52a62c298a2d5b62de82d6f4ea0bab58e2999f72",
+      "processed_at": "2026-06-15T08:52:39.637296+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/seccion/2026-06-15-fadena.md"
     }
   }
 }
