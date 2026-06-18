@@ -1,13 +1,13 @@
 ---
 title: fechas importantes
-date: '2026-06-15'
+date: '2026-06-18'
 tags:
 - auto-generado
 - calendario
 - sistemas-operativos-i
-generated_at: '2026-06-15T08:52:39.684472+00:00'
+generated_at: '2026-06-18T07:25:24.634524+00:00'
 calendar_generated: true
-calendar_event_count: 34
+calendar_event_count: 39
 ---
 
 ## Con fecha confirmada
@@ -39,16 +39,21 @@ calendar_event_count: 34
 
 - **2026-05-21** · `examen` · **Examen 1er Parcial** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-04-09-261cs1) Primera evaluación parcial del curso.
 - **2026-05-21** · `examen` · **Examen 1er Parcial** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-05-04-261cs1) Primera evaluación del cuatrimestre.
+- **2026-05-21** · `examen` · **Examen 1er Parcial** — [sistemas-operativos-i / seccion](seccion/2026-06-18-261cs1) Primera evaluación parcial de la materia.
 ### julio 2026
 
+- **2026-07-08** · `examen` · **Examen 2do Parcial** — [sistemas-operativos-i / seccion](seccion/2026-06-18-261cs1) Segunda evaluación parcial de la materia.
 - **2026-07-10** · `examen` · **Examen 2do Parcial** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-04-09-261cs1) Segunda evaluación parcial del curso.
 - **2026-07-10** · `examen` · **Examen 2do Parcial** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-05-04-261cs1) Segunda evaluación del cuatrimestre.
 - **2026-07-16** · `examen` · **Examen Recuperatorio** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-04-09-261cs1) Examen recuperatorio para estudiantes que no aprobaron los parciales.
 - **2026-07-16** · `examen` · **Examen Recuperatorio** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-05-04-261cs1) Oportunidad de recuperación para los parciales.
+- **2026-07-16** · `examen` · **Examen Recuperatorio** — [sistemas-operativos-i / seccion](seccion/2026-06-18-261cs1) Examen recuperatorio para los parciales.
 - **2026-07-20** · `otro` · **Cierre** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-05-04-261cs1) Cierre de la materia.
 - **2026-07-24** · `otro` · **Cierre** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-04-09-261cs1) Cierre del curso.
+- **2026-07-24** · `otro` · **Cierre de notas** — [sistemas-operativos-i / seccion](seccion/2026-06-18-261cs1) Cierre de notas de la materia.
 - **2026-07-27** · `examen` · **Mesa de examen Final** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-05-04-261cs1) Examen final de la materia.
 - **2026-07-31** · `examen` · **Mesa de examen Final** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-04-09-261cs1) Examen final del curso.
+- **2026-07-31** · `examen` · **Mesa de examen Final** — [sistemas-operativos-i / seccion](seccion/2026-06-18-261cs1) Examen final de la materia.
 
 ## Sin fecha exacta
 

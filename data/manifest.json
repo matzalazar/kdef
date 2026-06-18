@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-06-15T08:52:39.684465+00:00",
+  "last_run": "2026-06-18T07:25:24.634519+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -1846,6 +1846,46 @@
       "sha256": "bb0643db65bdd8c84164d49e52a62c298a2d5b62de82d6f4ea0bab58e2999f72",
       "processed_at": "2026-06-15T08:52:39.637296+00:00",
       "output": "content/notas-automaticas/sistemas-operativos-i/seccion/2026-06-15-fadena.md"
+    },
+    "gestion-servicios/06-15-a-06-19/clase-9-parte-a.md": {
+      "sha256": "18d761a8eb4a549c1039e170d0b712944f3599f55208a1bf9b7f056dc2bf30e4",
+      "processed_at": "2026-06-18T07:23:44.642417+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-15-a-06-19/2026-06-18-clase.md"
+    },
+    "gestion-servicios/06-15-a-06-19/clase-9-parte-b.md": {
+      "sha256": "acffbd5100b6753dfcf44e60fbd4515ac7153cf9d85476db9a06341385664f03",
+      "processed_at": "2026-06-18T07:23:44.644272+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-15-a-06-19/2026-06-18-clase.md"
+    },
+    "gestion-servicios/06-15-a-06-19/demo-github.md": {
+      "sha256": "b513aa192e7eab15ad36363fb29c4611dab17bceb4dbf723f75ad4ed8d687655",
+      "processed_at": "2026-06-18T07:23:44.663798+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-15-a-06-19/2026-06-18-demo.md"
+    },
+    "ingles-i/06-15-a-06-19/Clase Verbos Semana del 15 de junio.pdf": {
+      "sha256": "519c915bee9004539604876d0034e326d3f0d4bfd17a4fbced78ff2d7014b8eb",
+      "processed_at": "2026-06-18T07:23:53.884883+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-15-a-06-19/2026-06-18-clase.md"
+    },
+    "ingles-i/06-15-a-06-19/Artículo Semana del 15 de junio.pdf": {
+      "sha256": "2f318c1da254f87955a700aa185d3132119073e56e9b2089acf69e873783fc89",
+      "processed_at": "2026-06-18T07:24:00.170801+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-15-a-06-19/2026-06-18-articulo.md"
+    },
+    "sistemas-operativos-i/seccion/261CS1-Cronograma 1er cuatrimestre - Sistemas Operativos I.pdf": {
+      "sha256": "3ce0452ab2fc6768b734a741567f0fc6166cb690e2d7a33f1051d1a5aa9ff0f9",
+      "processed_at": "2026-06-18T07:24:10.407805+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/seccion/2026-06-18-261cs1.md"
+    },
+    "sistemas-operativos-i/06-15-a-06-19/FADENA - SO Unidad 4 - Semana 11 - 2026.pdf": {
+      "sha256": "bb0643db65bdd8c84164d49e52a62c298a2d5b62de82d6f4ea0bab58e2999f72",
+      "processed_at": "2026-06-18T07:25:18.210056+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/06-15-a-06-19/2026-06-18-fadena.md"
+    },
+    "sistemas-operativos-i/06-15-a-06-19/FADENA S11-A1 - 2026.pdf": {
+      "sha256": "d31ba2e4a48042d6ad3b71127dd948fe5b1ea92481bc485bec859b97d120f9bd",
+      "processed_at": "2026-06-18T07:25:24.633015+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/06-15-a-06-19/2026-06-18-fadena.md"
     }
   }
 }

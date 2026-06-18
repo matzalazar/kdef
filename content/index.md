@@ -15,6 +15,6 @@ Esperamos que te resulte útil.
 ## Estado
 
 <!-- kdef:last-run:start -->
-> *última actualización automática: 2026-06-15 08:52 UTC*
+> *última actualización automática: 2026-06-18 07:25 UTC*
 <!-- kdef:last-run:end -->
 
