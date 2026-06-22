@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-06-18T07:25:24.634519+00:00",
+  "last_run": "2026-06-22T08:53:57.300173+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -1193,9 +1193,9 @@
       "output": "content/notas-automaticas/sistemas-operativos-i/04-06-a-04-10/2026-05-04-programa.md"
     },
     "sistemas-operativos-i/04-06-a-04-10/261CS1-Cronograma 1er cuatrimestre - Sistemas Operativos I.pdf": {
-      "sha256": "87a181b6d4760ff51cb6aa34bbb61cd3f02adc558500612583b1eaf73d63b930",
-      "processed_at": "2026-05-04T14:22:17.001178+00:00",
-      "output": "content/notas-automaticas/sistemas-operativos-i/04-06-a-04-10/2026-05-04-261cs1.md"
+      "sha256": "3ce0452ab2fc6768b734a741567f0fc6166cb690e2d7a33f1051d1a5aa9ff0f9",
+      "processed_at": "2026-06-22T08:52:29.759108+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/04-06-a-04-10/2026-06-22-261cs1.md"
     },
     "sistemas-operativos-i/04-13-a-04-17/FADENA - SO Unidad 1 - Semana 2 - 2026.docx.pdf": {
       "sha256": "a65c14dcc9af8d82903813f4998f2b348d622f68ebcbd158e6a4649e7e960955",
@@ -1886,6 +1886,96 @@
       "sha256": "d31ba2e4a48042d6ad3b71127dd948fe5b1ea92481bc485bec859b97d120f9bd",
       "processed_at": "2026-06-18T07:25:24.633015+00:00",
       "output": "content/notas-automaticas/sistemas-operativos-i/06-15-a-06-19/2026-06-18-fadena.md"
+    },
+    "analisis-i/06-22-a-06-26/semana-12.md": {
+      "sha256": "11b09dcd218cab4b68814e571f3fe735efb3783de3e3274e664ad7e418429b90",
+      "processed_at": "2026-06-22T08:48:30.375610+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-22-a-06-26/2026-06-22-semana.md"
+    },
+    "analisis-i/06-22-a-06-26/AMI-S12-VIDEO-NOTAS.pdf": {
+      "sha256": "dc2d02b3bea1bf48143813cb4fbe3f059999d55c26b0134f0de0786db5b4e645",
+      "processed_at": "2026-06-22T08:48:31.251884+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-22-a-06-26/2026-06-22-ami.md"
+    },
+    "analisis-i/06-22-a-06-26/2026 - AMI - Semana 12 - Teórico.pdf": {
+      "sha256": "8a08e5e40f97231a319c79fcd6dc1b8dcb66259b131c4588a6d0df52b37dabaf",
+      "processed_at": "2026-06-22T08:48:38.244524+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-22-a-06-26/2026-06-22-2026.md"
+    },
+    "analisis-i/06-22-a-06-26/Repaso teórico - segundo parcial.pdf": {
+      "sha256": "bc61d3e683ea82450f3a05fe3d8ca6b790b5d69ac7723d0b250a2a0eab204054",
+      "processed_at": "2026-06-22T08:48:45.517501+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-22-a-06-26/2026-06-22-repaso.md"
+    },
+    "analisis-i/06-22-a-06-26/2026 - AMI - Semana 12 - Práctica.pdf": {
+      "sha256": "ea437219b8bde8060df68f32f930b8678e8e35b775c69e09fc6fadfdc640b5c3",
+      "processed_at": "2026-06-22T08:48:51.876518+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-22-a-06-26/2026-06-22-2026.md"
+    },
+    "analisis-i/06-22-a-06-26/2026 - AMI - Semana 12 - Resolución Práctica.pdf": {
+      "sha256": "815759f9c72f63c030062501a0bd25d17eb5ba0b82dc1bdb83706d1ce54e26ce",
+      "processed_at": "2026-06-22T08:49:00.006259+00:00",
+      "output": "content/notas-automaticas/analisis-i/06-22-a-06-26/2026-06-22-2026.md"
+    },
+    "algebra-i/06-22-a-06-26/semana-12.md": {
+      "sha256": "4bde6559c20a216068ccd71c6de720d312c68c65f639384483edfcf97ae4330b",
+      "processed_at": "2026-06-22T08:49:00.090831+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-22-a-06-26/2026-06-22-semana.md"
+    },
+    "algebra-i/06-22-a-06-26/AI-S13-VIDEO-NOTAS-1.pdf": {
+      "sha256": "190329ace0055cbd4f157e332fc7067fe92e62b0480e31aad24da055d07dfcf5",
+      "processed_at": "2026-06-22T08:49:00.094744+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-22-a-06-26/2026-06-22-ai.md"
+    },
+    "algebra-i/06-22-a-06-26/AI-S13-VIDEO-NOTAS-2-.pdf": {
+      "sha256": "146acb9a6bcc3e53a7b30c717d5cb4dd5b1997b43e09bb4aec0a137a37dd64d5",
+      "processed_at": "2026-06-22T08:49:00.101012+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-22-a-06-26/2026-06-22-ai.md"
+    },
+    "algebra-i/06-22-a-06-26/2026 - AI - Semana 12 - Teórico.pdf": {
+      "sha256": "a7eb7e1d162e1a7c2b84eaf2e7136c650d17677b8d6fe94d0cb865558bd3dd3b",
+      "processed_at": "2026-06-22T08:49:06.804544+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-22-a-06-26/2026-06-22-2026.md"
+    },
+    "algebra-i/06-22-a-06-26/2026 - AI - Semana 12 - Práctica.pdf": {
+      "sha256": "3b567256bcb55f1bcdbd23f6c3c930a2359d024e28f70551e52674d25627c065",
+      "processed_at": "2026-06-22T08:49:14.848200+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-22-a-06-26/2026-06-22-2026.md"
+    },
+    "algebra-i/06-22-a-06-26/2026 - AI - Semana 12 - Resolución Práctica.pdf": {
+      "sha256": "1d1a4b7ef360a7b2bc3fd66471b58579483d0ed2bbb8d3b71c596b7f338961f9",
+      "processed_at": "2026-06-22T08:49:21.458235+00:00",
+      "output": "content/notas-automaticas/algebra-i/06-22-a-06-26/2026-06-22-2026.md"
+    },
+    "gestion-servicios/06-22-a-06-26/GSI - Clase 10.pdf": {
+      "sha256": "e412b6ba352863876ca6b1a9ffb995b15699e7f90516d3b667eea379c388fb19",
+      "processed_at": "2026-06-22T08:49:30.516905+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-22-a-06-26/2026-06-22-gsi.md"
+    },
+    "gestion-servicios/06-22-a-06-26/video-clase-10.md": {
+      "sha256": "14d4ef360a2d8cdc6c1f614bb2a94490e1114b62af5677cb91757fa9fdc5e897",
+      "processed_at": "2026-06-22T08:49:30.519061+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-22-a-06-26/2026-06-22-video.md"
+    },
+    "gestion-servicios/06-22-a-06-26/GSI - Clase 10 - Documento de Estudio.pdf": {
+      "sha256": "fec23c1875248c7a43761d7fc31a14d36cd31e635cb590cf456e1137269e4c4f",
+      "processed_at": "2026-06-22T08:51:04.787620+00:00",
+      "output": "content/notas-automaticas/gestion-servicios/06-22-a-06-26/2026-06-22-gsi.md"
+    },
+    "ingles-i/06-22-a-06-26/Clase Adverbios.pdf": {
+      "sha256": "84297edf1a6ec4b7114e4a9dd858dff36e7a073b38fd8516e91676a302ef4f05",
+      "processed_at": "2026-06-22T08:52:11.533749+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-22-a-06-26/2026-06-22-clase.md"
+    },
+    "ingles-i/06-22-a-06-26/Artículo.pdf": {
+      "sha256": "9e583a09af7260f382f238a82cbb7e1aa25d2009cc5fc7a78a6213d0c6dbbfcc",
+      "processed_at": "2026-06-22T08:52:17.419929+00:00",
+      "output": "content/notas-automaticas/ingles-i/06-22-a-06-26/2026-06-22-articulo.md"
+    },
+    "sistemas-operativos-i/06-22-a-06-26/FADENA - SO Unidad 5 - Semana 12 - 2026.pdf": {
+      "sha256": "c573792352d8391c58900558ba11b53e1e887901e663b9be280b63b8588002f0",
+      "processed_at": "2026-06-22T08:53:57.295931+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-i/06-22-a-06-26/2026-06-22-fadena.md"
     }
   }
 }

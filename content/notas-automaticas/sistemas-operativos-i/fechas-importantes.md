@@ -1,11 +1,11 @@
 ---
 title: fechas importantes
-date: '2026-06-18'
+date: '2026-06-22'
 tags:
 - auto-generado
 - calendario
 - sistemas-operativos-i
-generated_at: '2026-06-18T07:25:24.634524+00:00'
+generated_at: '2026-06-22T08:53:57.300178+00:00'
 calendar_generated: true
 calendar_event_count: 39
 ---
@@ -38,30 +38,30 @@ calendar_event_count: 39
 ### mayo 2026
 
 - **2026-05-21** · `examen` · **Examen 1er Parcial** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-04-09-261cs1) Primera evaluación parcial del curso.
-- **2026-05-21** · `examen` · **Examen 1er Parcial** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-05-04-261cs1) Primera evaluación del cuatrimestre.
 - **2026-05-21** · `examen` · **Examen 1er Parcial** — [sistemas-operativos-i / seccion](seccion/2026-06-18-261cs1) Primera evaluación parcial de la materia.
 ### julio 2026
 
 - **2026-07-08** · `examen` · **Examen 2do Parcial** — [sistemas-operativos-i / seccion](seccion/2026-06-18-261cs1) Segunda evaluación parcial de la materia.
 - **2026-07-10** · `examen` · **Examen 2do Parcial** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-04-09-261cs1) Segunda evaluación parcial del curso.
-- **2026-07-10** · `examen` · **Examen 2do Parcial** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-05-04-261cs1) Segunda evaluación del cuatrimestre.
 - **2026-07-16** · `examen` · **Examen Recuperatorio** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-04-09-261cs1) Examen recuperatorio para estudiantes que no aprobaron los parciales.
-- **2026-07-16** · `examen` · **Examen Recuperatorio** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-05-04-261cs1) Oportunidad de recuperación para los parciales.
 - **2026-07-16** · `examen` · **Examen Recuperatorio** — [sistemas-operativos-i / seccion](seccion/2026-06-18-261cs1) Examen recuperatorio para los parciales.
-- **2026-07-20** · `otro` · **Cierre** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-05-04-261cs1) Cierre de la materia.
 - **2026-07-24** · `otro` · **Cierre** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-04-09-261cs1) Cierre del curso.
 - **2026-07-24** · `otro` · **Cierre de notas** — [sistemas-operativos-i / seccion](seccion/2026-06-18-261cs1) Cierre de notas de la materia.
-- **2026-07-27** · `examen` · **Mesa de examen Final** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-05-04-261cs1) Examen final de la materia.
 - **2026-07-31** · `examen` · **Mesa de examen Final** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-04-09-261cs1) Examen final del curso.
 - **2026-07-31** · `examen` · **Mesa de examen Final** — [sistemas-operativos-i / seccion](seccion/2026-06-18-261cs1) Examen final de la materia.
 
 ## Sin fecha exacta
 
+- **16-jul** · `examen` · **Examen Recuperatorio** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-06-22-261cs1) Oportunidad de recuperación de parciales
+- **20-jul a 24-jul** · `otro` · **Cierre de notas** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-06-22-261cs1) Cierre de notas del cuatrimestre
 - **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / 04-27-a-05-01](04-27-a-05-01/2026-04-30-fadena) Inicio del año académico
 - **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / 04-27-a-05-01](04-27-a-05-01/2026-05-04-fadena) Año académico en curso para la materia
 - **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / 06-08-a-06-12](06-08-a-06-12/2026-06-09-fadena) Año académico en curso
 - **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / seccion](seccion/2026-04-27-fadena) Inicio del año académico
 - **2026** · `otro` · **Año académico en curso** — [sistemas-operativos-i / seccion](seccion/2026-06-15-fadena) Año académico en curso para la unidad
+- **21-may** · `examen` · **Examen 1er Parcial** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-06-22-261cs1) Primera evaluación del cuatrimestre
+- **27-jul a 31-jul** · `examen` · **Mesa de examen Final** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-06-22-261cs1) Exámenes finales del cuatrimestre
+- **8-jul** · `examen` · **Examen 2do Parcial** — [sistemas-operativos-i / 04-06-a-04-10](04-06-a-04-10/2026-06-22-261cs1) Segunda evaluación del cuatrimestre
 - **obligatoria** · `otro` · **Actividad S9-A1** — [sistemas-operativos-i / seccion](seccion/2026-06-08-fadena) Los estudiantes deben realizarla en la sección de actividades del campus.
 - **Realice la actividad identificada como S8-A1 en la sección de actividades del campus.** · `otro` · **Actividad S8-A1** — [sistemas-operativos-i / seccion](seccion/2026-05-25-fadena) Actividad obligatoria relacionada con la virtualización y máquinas virtuales.
 - **Realice la actividad indicada como S5-A2 en el campus.** · `otro` · **Actividad S5-A2** — [sistemas-operativos-i / 05-04-a-05-08](05-04-a-05-08/2026-05-04-fadena) Actividad académica a realizar en el campus.
