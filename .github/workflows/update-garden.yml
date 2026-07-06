@@ -57,7 +57,7 @@ jobs:
     steps:
       # Checkout con credenciales para poder hacer commit al final
       - name: Checkout del repositorio
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           # Fetch completo del historial para que git log funcione en Quartz
           fetch-depth: 0
@@ -132,7 +132,7 @@ jobs:
       # Checkout fresh después del commit de update-content
       # ref: main garantiza que se obtiene HEAD actual, incluyendo el commit de notas
       - name: Checkout del repositorio (con contenido actualizado)
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           ref: main
