@@ -4,6 +4,16 @@ date: 2026-04-13
 tags: []
 ---
 
+## Pausa por cierre de cuatrimestre
+
+Cerró el primer cuatrimestre de 2026 y el campus ya no recibe materiales
+nuevos. Por eso **el proyecto entra en pausa**: las actualizaciones
+automáticas del jardín quedan detenidas hasta el inicio del segundo
+cuatrimestre, en **agosto de 2026**.
+
+El sitio sigue online y todo el contenido generado hasta ahora queda
+disponible para consulta. ¡Nos reencontramos en agosto!
+
 ## Semana del 04 de Mayo
 - álgebra i: hay una autoevaluación **obligatoria**.
 - análisis i: hay una autoevaluación **obligatoria**.
