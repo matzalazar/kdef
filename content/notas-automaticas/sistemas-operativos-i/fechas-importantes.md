@@ -1,11 +1,11 @@
 ---
 title: fechas importantes
-date: '2026-07-06'
+date: '2026-07-16'
 tags:
 - auto-generado
 - calendario
 - sistemas-operativos-i
-generated_at: '2026-07-06T07:01:13.417312+00:00'
+generated_at: '2026-07-16T05:30:57.986483+00:00'
 calendar_generated: true
 calendar_event_count: 39
 ---

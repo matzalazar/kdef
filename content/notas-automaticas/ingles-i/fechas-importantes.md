@@ -1,13 +1,13 @@
 ---
 title: fechas importantes
-date: '2026-07-06'
+date: '2026-07-16'
 tags:
 - auto-generado
 - calendario
 - ingles-i
-generated_at: '2026-07-06T07:01:13.417312+00:00'
+generated_at: '2026-07-16T05:30:57.986483+00:00'
 calendar_generated: true
-calendar_event_count: 8
+calendar_event_count: 9
 ---
 
 ## Con fecha confirmada
@@ -15,6 +15,9 @@ calendar_event_count: 8
 ### agosto 2021
 
 - **2021-08-01** · `otro` · **Inicio de la brecha de datos en MSG** — [ingles-i / 06-29-a-07-03](06-29-a-07-03/2026-06-29-articulo) Inicio del incidente de brecha de datos.
+### febrero 2024
+
+- **2024-02-10** · `otro` · **Inicio del ciberataque** — [ingles-i / segundo-parcial](segundo-parcial/2026-07-16-article) Comienzo del ataque a los hospitales en Rumania.
 ### mayo 2024
 
 - **2024-05-17** · `otro` · **Publicación del artículo** — [ingles-i / 04-06-a-04-10](04-06-a-04-10/2026-04-09-articulo) Fecha de publicación del artículo sobre phishing.
