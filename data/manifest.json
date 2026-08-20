@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-07-16T05:30:57.986472+00:00",
+  "last_run": "2026-08-20T08:28:27.599415+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -2086,6 +2086,51 @@
       "sha256": "db9e642e92796b431c7241e532ef2012c48a1fb7179fd8603729a35459002993",
       "processed_at": "2026-07-16T05:30:57.903905+00:00",
       "output": "content/notas-automaticas/sistemas-operativos-i/seccion/2026-07-16-recuperatorio.md"
+    },
+    "sociedad-estado/08-19-a-08-21/presentacion-de-la-materia.md": {
+      "sha256": "15a1918d1bc78b08a3f44ea1cdc624d3f7a41debfe65f29992ef336b53ab6158",
+      "processed_at": "2026-08-20T08:28:22.442925+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/08-19-a-08-21/2026-08-20-presentacion.md"
+    },
+    "infra-tele/08-19-a-08-21/presentacion-de-la-materia.md": {
+      "sha256": "470d16537c320f876b2f36db0ea286bdb590d415d4746d5a38a5e4e1c7adf449",
+      "processed_at": "2026-08-20T08:28:24.400574+00:00",
+      "output": "content/notas-automaticas/infra-tele/08-19-a-08-21/2026-08-20-presentacion.md"
+    },
+    "sistemas-operativos-ii/08-19-a-08-21/presentacion-de-la-materia.md": {
+      "sha256": "881d5ef16a1032aa34ff0c48a4a4520610addbcad400a02bf254e361e188410c",
+      "processed_at": "2026-08-20T08:28:24.665818+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/08-19-a-08-21/2026-08-20-presentacion.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/presentacion-docente-ing-sebastian-balestrini.md": {
+      "sha256": "1f6a1048749db56b5a812415d34fdf59831209cc3b246903573c7270d9bc2cf8",
+      "processed_at": "2026-08-20T08:28:25.283606+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-presentacion.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/presentacion-docente-ing-gustavo-di-stefano.md": {
+      "sha256": "33bca4b3944c15fb63d69a9217d8d192fbb386c1d7a731bde32608d6eb1b3e4e",
+      "processed_at": "2026-08-20T08:28:25.359986+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-presentacion.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/introduccion-a-la-materia-parte-1.md": {
+      "sha256": "1b050343422242f5c3e8102c923514bb02d7374be2bb10bfb9ee831c671f6e99",
+      "processed_at": "2026-08-20T08:28:26.214984+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-introduccion.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/introduccion-a-la-materia-parte-2.md": {
+      "sha256": "1000e52dca127019968e3acd3987dff1d95d1a780949e7fe1d02a8dcb184c43a",
+      "processed_at": "2026-08-20T08:28:26.386546+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-introduccion.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/introduccion-a-la-materia-parte-3.md": {
+      "sha256": "a76f24da5d7080a1732afa7d2e7065953cbd9a50d87623078858cff7f5ebe301",
+      "processed_at": "2026-08-20T08:28:26.496071+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-introduccion.md"
+    },
+    "tratamiento-datos/08-19-a-08-21/presentacion.md": {
+      "sha256": "3b20aceded9a4db27f23b19c5f294dc9a972fe17c9837108621162b81bbc7192",
+      "processed_at": "2026-08-20T08:28:27.064800+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/08-19-a-08-21/2026-08-20-presentacion.md"
     }
   }
 }
