@@ -34,7 +34,7 @@ La extracción de texto y la generación del resumen son dos pasos distintos. Es
 - reemplazar el extractor (agregar OCR, por ejemplo) sin tocar el LLM
 - cambiar de proveedor de LLM sin tocar la extracción
 
-El pipeline no depende de un proveedor específico. Define un orden de preferencia (GitHub Models → OpenRouter → Gemini) y usa el primero que esté disponible.
+El pipeline no depende de un proveedor específico. Define un orden de preferencia (OpenRouter → Gemini) y usa el primero que esté disponible. Esto ya se puso a prueba: GitHub Models, el proveedor primario original, fue retirado en julio de 2026 y bastó con reordenar la lista.
 
 ## Procesamiento incremental
 

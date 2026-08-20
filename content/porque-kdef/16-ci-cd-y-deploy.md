@@ -61,8 +61,7 @@ Pasos clave:
 | `MOODLE_URL` | URL base del Moodle |
 | `MOODLE_USER` | Usuario Moodle |
 | `MOODLE_PASS` | Contraseña Moodle |
-| `MODELS_API_KEY` | LLM primario |
-| `OPENROUTER_API_KEY` | LLM secundario |
+| `OPENROUTER_API_KEY` | LLM primario |
 | `GEMINI_API_KEY` | LLM terciario |
 | `CF_API_TOKEN` | Deploy Cloudflare Pages |
 | `CF_ACCOUNT_ID` | Cuenta Cloudflare |

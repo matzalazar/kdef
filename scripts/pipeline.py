@@ -16,9 +16,8 @@ Configuración (todas desde variables de entorno):
   MOODLE_URL          URL base del Moodle
   MOODLE_USER         Usuario de Moodle
   MOODLE_PASS         Contraseña de Moodle
-  MODELS_API_KEY   API key para GitHub Models (LLM primario)
-  OPENROUTER_API_KEY  API key para OpenRouter (LLM secundario)
-  GEMINI_API_KEY      API key para Google Gemini (LLM terciario / fallback)
+  OPENROUTER_API_KEY  API key para OpenRouter (LLM primario)
+  GEMINI_API_KEY      API key para Google Gemini (LLM fallback)
   DRY_RUN             'true' para modo simulación, no escribe archivos
   FORCE_REPROCESS     'true' para ignorar el manifest y reprocesar todo
 
@@ -99,7 +98,6 @@ def load_config() -> dict:
         "moodle_url": os.getenv("MOODLE_URL", ""),
         "moodle_user": os.getenv("MOODLE_USER", ""),
         "moodle_pass": os.getenv("MOODLE_PASS", ""),
-        "github_models_key": os.getenv("MODELS_API_KEY", ""),
         "openrouter_api_key": os.getenv("OPENROUTER_API_KEY", ""),
         "gemini_api_key": os.getenv("GEMINI_API_KEY", ""),
         "tracked_subjects": tracked_subjects,
@@ -405,22 +403,20 @@ def run_pipeline(config: dict) -> None:
         log.warning("No hay materias activas seleccionadas en config/campus.yml + TRACKED_SUBJECTS")
 
     # Determinar el modelo LLM a usar
-    # Orden de preferencia: GitHub Models → OpenRouter → Gemini
-    if config["github_models_key"]:
-        model = "github/gpt-4o-mini"
-        log.info("LLM: GitHub Models (primario)")
-    elif config["openrouter_api_key"]:
+    # Orden de preferencia: OpenRouter → Gemini
+    # GitHub Models fue retirado por completo el 2026-07-30 (su endpoint devuelve 404).
+    if config["openrouter_api_key"]:
         model = "openrouter/openai/gpt-oss-20b:free"
-        log.info("LLM: OpenRouter (secundario)")
+        log.info("LLM: OpenRouter (primario)")
     elif config["gemini_api_key"]:
-        model = "gemini/gemini-1.5-flash"
-        log.info("LLM: Gemini (terciario / fallback)")
+        model = "gemini/gemini-2.5-flash"
+        log.info("LLM: Gemini (fallback)")
     else:
         if dry_run:
             model = "dry-run/mock"
             log.info("Dry-run sin LLM keys — usando modelo mock")
         else:
-            log.error("No hay LLM configurado (MODELS_API_KEY, OPENROUTER_API_KEY o GEMINI_API_KEY)")
+            log.error("No hay LLM configurado (OPENROUTER_API_KEY o GEMINI_API_KEY)")
             sys.exit(1)
 
     # Cargar manifest para saber qué ya fue procesado

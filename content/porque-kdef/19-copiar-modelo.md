@@ -45,9 +45,8 @@ Variables de entorno necesarias: `MOODLE_URL`, `MOODLE_USER`, `MOODLE_PASS`.
 
 ## 3) Configurar el LLM
 
-El pipeline intenta en orden: GitHub Models → OpenRouter → Gemini. Configurá al menos uno en `.env`:
+El pipeline intenta en orden: OpenRouter → Gemini. Configurá al menos uno en `.env`:
 
-- `MODELS_API_KEY`
 - `OPENROUTER_API_KEY`
 - `GEMINI_API_KEY`
 

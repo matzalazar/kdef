@@ -8,7 +8,7 @@ para que el pipeline pueda agregarlas a un calendario.
 
 Decisiones de diseño:
   - La selección de proveedor LLM se hace por prefijo del nombre del modelo:
-    "github/" usa la API compatible con OpenAI de GitHub Models
+    "openrouter/" usa la API compatible con OpenAI de OpenRouter
     "gemini/" usa la API nativa de Google Gemini
     Esto permite cambiar el proveedor en config sin modificar este módulo.
   - tenacity para retry/backoff: las APIs de LLM tienen rate limits y
@@ -51,34 +51,19 @@ RETRY_WAIT_MIN_SECONDS = 2
 RETRY_WAIT_MAX_SECONDS = 30
 
 # Máximo de tokens en el resumen generado.
-# GitHub Models free tier (modelos low, ej: gpt-4o-mini): límite real = 4000 tokens/request.
-# Se usa 3800 como margen de seguridad.
 MAX_OUTPUT_TOKENS = 3800
 
 # Límite de caracteres de entrada por proveedor.
-# GitHub Models (gpt-4o-mini) tiene 8k tokens de input en el tier gratuito.
-# Sistema + template del prompt consumen ~600 tokens → quedan ~7400 para contenido.
-# 7400 tokens * 3.5 chars/token ≈ 25.000 chars seguros.
-# Para documentos más largos se usa modo multi-chunk con map-reduce (ver CHUNK_SIZE_CHARS).
-# Gemini 1.5 Flash tiene contexto de 1M tokens — el límite es mucho más holgado.
-MAX_INPUT_CHARS_GITHUB = 25_000
+# Los modelos de OpenRouter que usa el pipeline tienen contexto de 128k tokens;
+# 80.000 chars ≈ 23.000 tokens, holgado incluso para el PDF más denso que admite
+# MAX_PDF_PAGES. El texto que exceda este límite se trunca antes de la llamada.
+# Gemini Flash tiene contexto de 1M tokens — el límite es igual de holgado.
+MAX_INPUT_CHARS_OPENROUTER = 80_000
 MAX_INPUT_CHARS_GEMINI = 80_000
 
 # Límite de páginas para PDFs: documentos más largos se saltan
 # para no exceder el contexto del LLM y evitar resúmenes de baja calidad
 MAX_PDF_PAGES = 30
-
-# Tamaño de cada fragmento en modo multi-chunk (GitHub Models).
-# 18.000 chars ≈ 5.100 tokens — deja margen para los prompts dentro del límite de 8k tokens.
-CHUNK_SIZE_CHARS = 18_000
-
-# Número máximo de fragmentos a procesar por documento.
-# 8 × 18.000 = 144.000 chars — cubre documentos muy densos sin disparar el rate limit.
-MAX_CHUNKS = 8
-
-# Pausa entre llamadas durante el procesamiento multi-chunk en GitHub Models.
-# Free tier: ~15 req/min → 20s de margen evita 429s de forma preventiva.
-INTER_CHUNK_DELAY_SECONDS = 20
 
 
 class DocumentTooLargeError(Exception):
@@ -175,46 +160,6 @@ Reglas para las fechas:
 # Prompt para la fase de extracción por fragmento (map).
 # Intencionalmente liviano: solo extrae puntos clave para que la llamada de síntesis
 # reciba información densa sin desperdiciar tokens de output en formato innecesario.
-CHUNK_EXTRACT_PROMPT_TEMPLATE = """Estás procesando el fragmento {chunk_num} de {total_chunks} del documento "{filename}".
-
-Extraé de este fragmento:
-- Conceptos clave y términos técnicos (con definición si el texto la provee)
-- Argumentos o puntos principales desarrollados
-- Fechas, plazos o eventos académicos mencionados (con el texto exacto de la fecha)
-- Referencias bibliográficas relevantes (si las hay)
-
-Formato de respuesta: lista de puntos concisos, sin markdown complejo. Máximo 500 palabras.
-No incluir introducción ni conclusión — solo la extracción.
-
-Fragmento:
-{content}"""
-
-# Prompt para la fase de síntesis final (reduce).
-# Recibe las extracciones de todos los fragmentos y produce el resumen completo
-# siguiendo el formato completo definido en el system prompt (incluyendo kdef-events).
-MERGE_PROMPT_TEMPLATE = """Recibiste las extracciones de {total_chunks} fragmento(s) del documento "{filename}".
-Año académico en curso: {academic_year}
-
-Con base en estas extracciones, generá el resumen académico completo siguiendo todas las instrucciones del sistema.
-El resumen debe ser coherente e integrado — no una concatenación de fragmentos.
-
-Extracciones:
-{combined_extractions}
-
-Formato final obligatorio:
-1. Primero, el resumen visible en markdown
-2. Después, un único bloque:
-```kdef-events
-{{"important_dates": [...]}}
-```
-
-Reglas para las fechas:
-- Usar `date_iso` solo cuando el texto permita identificar día, mes y año con certeza
-- Si la fecha es parcial o ambigua, dejar `date_iso` en null y completar `date_text`
-- No inventar años ni horarios
-- No duplicar eventos equivalentes dentro del mismo documento"""
-
-
 def extract_text_from_pdf(path: Path) -> str:
     """
     Extraer texto de un archivo PDF.
@@ -396,140 +341,6 @@ def _strip_markdown_fence(text: str) -> str:
     return inner.strip()
 
 
-def _split_text_into_chunks(text: str, chunk_size: int) -> list[str]:
-    """Dividir texto en fragmentos de tamaño máximo `chunk_size` chars.
-
-    Intenta cortar en límites de párrafo (\\n\\n) para no romper oraciones a la mitad.
-    Si un párrafo individual supera `chunk_size`, se corta en ese punto como fallback.
-    """
-    chunks: list[str] = []
-    current_start = 0
-    text_len = len(text)
-
-    while current_start < text_len:
-        end = min(current_start + chunk_size, text_len)
-
-        if end < text_len:
-            # Buscar el último \n\n antes del límite para cortar en párrafo
-            paragraph_break = text.rfind("\n\n", current_start, end)
-            if paragraph_break > current_start:
-                end = paragraph_break + 2  # incluir el \n\n en el fragmento anterior
-
-        chunks.append(text[current_start:end])
-        current_start = end
-
-    return [c for c in chunks if c.strip()]
-
-
-def _summarize_with_github_models(text: str, filename: str, api_key: str, model_name: str, academic_year: str = "") -> str:
-    """
-    Generar resumen usando GitHub Models (API compatible con OpenAI).
-
-    Args:
-        text: Texto del documento a resumir.
-        filename: Nombre del archivo (para contexto en el prompt).
-        api_key: API key de GitHub Models.
-        model_name: Nombre del modelo sin prefijo (ej: "gpt-4o-mini").
-        academic_year: Año académico en curso (ej: "2026") para contextualizar fechas.
-
-    Returns:
-        Resumen en markdown generado por el LLM.
-    """
-    import time
-
-    from openai import OpenAI
-
-    client = OpenAI(
-        api_key=api_key,
-        base_url="https://models.inference.ai.azure.com",
-    )
-
-    # Ruta directa: el texto cabe en una sola llamada
-    if len(text) <= MAX_INPUT_CHARS_GITHUB:
-        response = client.chat.completions.create(
-            model=model_name,
-            messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {
-                    "role": "user",
-                    "content": USER_PROMPT_TEMPLATE.format(
-                        filename=filename,
-                        academic_year=academic_year or "desconocido",
-                        content=text,
-                    ),
-                },
-            ],
-            max_tokens=MAX_OUTPUT_TOKENS,
-            temperature=0.3,
-        )
-        return response.choices[0].message.content or ""
-
-    # Ruta multi-chunk: el texto supera el límite → map-reduce
-    chunks = _split_text_into_chunks(text, CHUNK_SIZE_CHARS)
-    if len(chunks) > MAX_CHUNKS:
-        log.warning(
-            "Documento muy largo (%d chars) — usando los primeros %d fragmentos de %d",
-            len(text), MAX_CHUNKS, len(chunks),
-        )
-        chunks = chunks[:MAX_CHUNKS]
-
-    log.info("Modo multi-chunk: %d fragmentos para '%s'", len(chunks), filename)
-
-    # Fase map: extraer puntos clave de cada fragmento
-    partial_extractions: list[str] = []
-    for i, chunk in enumerate(chunks):
-        if i > 0:
-            log.debug("Esperando %ds entre fragmentos (rate limit)...", INTER_CHUNK_DELAY_SECONDS)
-            time.sleep(INTER_CHUNK_DELAY_SECONDS)
-
-        log.info("Extrayendo fragmento %d/%d...", i + 1, len(chunks))
-        chunk_response = client.chat.completions.create(
-            model=model_name,
-            messages=[
-                {
-                    "role": "user",
-                    "content": CHUNK_EXTRACT_PROMPT_TEMPLATE.format(
-                        chunk_num=i + 1,
-                        total_chunks=len(chunks),
-                        filename=filename,
-                        content=chunk,
-                    ),
-                },
-            ],
-            max_tokens=800,
-            temperature=0.1,
-        )
-        partial_extractions.append(chunk_response.choices[0].message.content or "")
-
-    # Fase reduce: sintetizar todas las extracciones en el resumen final
-    log.debug("Esperando %ds antes de la llamada de síntesis...", INTER_CHUNK_DELAY_SECONDS)
-    time.sleep(INTER_CHUNK_DELAY_SECONDS)
-
-    log.info("Sintetizando resumen final de %d fragmentos...", len(chunks))
-    combined = "\n\n".join(
-        f"--- Fragmento {i + 1}/{len(chunks)} ---\n{extraction}"
-        for i, extraction in enumerate(partial_extractions)
-    )
-    merge_response = client.chat.completions.create(
-        model=model_name,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {
-                "role": "user",
-                "content": MERGE_PROMPT_TEMPLATE.format(
-                    total_chunks=len(chunks),
-                    filename=filename,
-                    academic_year=academic_year or "desconocido",
-                    combined_extractions=combined,
-                ),
-            },
-        ],
-        max_tokens=MAX_OUTPUT_TOKENS,
-        temperature=0.3,
-    )
-    return merge_response.choices[0].message.content or ""
-
-
 def _summarize_with_openrouter(text: str, filename: str, api_key: str, model_name: str, academic_year: str = "") -> str:
     """
     Generar resumen usando OpenRouter (API compatible con OpenAI).
@@ -566,7 +377,7 @@ def _summarize_with_openrouter(text: str, filename: str, api_key: str, model_nam
         + USER_PROMPT_TEMPLATE.format(
             filename=filename,
             academic_year=academic_year or "desconocido",
-            content=text[:MAX_INPUT_CHARS_GITHUB],
+            content=text[:MAX_INPUT_CHARS_OPENROUTER],
         )
     )
 
@@ -619,7 +430,7 @@ def _summarize_with_gemini(text: str, filename: str, api_key: str, model_name: s
 
 def _is_rate_limit_error(exc: BaseException) -> bool:
     """Detectar errores 429 de cualquier proveedor LLM."""
-    # openai.RateLimitError cubre GitHub Models y OpenRouter
+    # openai.RateLimitError cubre OpenRouter
     try:
         from openai import RateLimitError as OpenAIRateLimitError
         if isinstance(exc, OpenAIRateLimitError):
@@ -652,13 +463,13 @@ def summarize_document(path: Path, model: str, academic_year: str = "") -> Docum
     automáticamente los reintentos con backoff exponencial.
 
     La selección del proveedor LLM se hace por prefijo del nombre del modelo:
-    - "github/..." → GitHub Models (API compatible con OpenAI)
+    - "openrouter/..." → OpenRouter (API compatible con OpenAI)
     - "gemini/..." → Google Gemini
 
     Args:
         path: Path al archivo a resumir. Puede ser PDF, TXT, MD.
         model: Nombre del modelo con prefijo del proveedor.
-                Ejemplos: "github/gpt-4o-mini", "gemini/gemini-1.5-flash"
+                Ejemplos: "openrouter/openai/gpt-oss-20b:free", "gemini/gemini-2.5-flash"
         academic_year: Año académico en curso (ej: "2026"). Se incluye en el prompt
                        para que el LLM pueda inferir el año en fechas parciales como "21-may".
 
@@ -683,13 +494,7 @@ def summarize_document(path: Path, model: str, academic_year: str = "") -> Docum
     # Seleccionar proveedor y generar resumen
     provider, _, model_name = model.partition("/")
 
-    if provider == "github":
-        api_key = os.getenv("MODELS_API_KEY", "")
-        if not api_key:
-            raise ValueError("MODELS_API_KEY no está configurado")
-        raw_summary = _summarize_with_github_models(text, path.name, api_key, model_name, academic_year)
-
-    elif provider == "openrouter":
+    if provider == "openrouter":
         api_key = os.getenv("OPENROUTER_API_KEY", "")
         if not api_key:
             raise ValueError("OPENROUTER_API_KEY no está configurado")
@@ -715,7 +520,7 @@ Este archivo sería procesado por el LLM en una ejecución real del pipeline.
     else:
         raise ValueError(
             f"Proveedor LLM no reconocido: '{provider}'. "
-            f"Usar prefijo 'github/' o 'gemini/'."
+            f"Usar prefijo 'openrouter/' o 'gemini/'."
         )
 
     # Normalizar delimitadores LaTeX: algunos modelos generan \[...\] o \(...\)

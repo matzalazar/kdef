@@ -17,7 +17,6 @@ Tomar un archivo descargado (PDF/DOCX/PPTX/TXT/MD), extraer su texto y generar:
 
 - `path: Path` — archivo local a procesar.
 - `model: str` — nombre con prefijo de proveedor:
-  - `github/<model>` (GitHub Models; API compatible con OpenAI)
   - `openrouter/<model>` (OpenRouter; API compatible con OpenAI)
   - `gemini/<model>` (Google Gemini; SDK `google-genai`)
   - `dry-run/mock` (placeholder)
@@ -63,15 +62,11 @@ Ese bloque se parsea en `scripts/academic_calendar.py` (`parse_llm_calendar_payl
 
 Código: `scripts/summarizer.py` → `summarize_document()`.
 
-- `github/...`:
-  - usa `openai` SDK con `base_url="https://models.inference.ai.azure.com"`.
-  - usa `MODELS_API_KEY` del entorno.
-  - límite de input: 25.000 caracteres. `temperature=0.3`, `max_tokens=3800`.
 - `openrouter/...`:
   - usa `openai` SDK con `base_url="https://openrouter.ai/api/v1"`.
   - usa `OPENROUTER_API_KEY` del entorno.
   - el system prompt se fusiona en el mensaje de usuario (compatibilidad con modelos sin rol `system`).
-  - límite de input: 25.000 caracteres.
+  - límite de input: 80.000 caracteres. `temperature=0.3`, `max_tokens=3800`.
 - `gemini/...`:
   - usa SDK `google-genai` (`google.genai.Client`).
   - usa `GEMINI_API_KEY` del entorno.

@@ -118,7 +118,7 @@ Core variables used by the pipeline and deployment:
 - `MOODLE_URL`
 - `MOODLE_USER`
 - `MOODLE_PASS`
-- `MODELS_API_KEY`
+- `OPENROUTER_API_KEY`
 - `GEMINI_API_KEY`
 - `CF_API_TOKEN`
 - `CF_ACCOUNT_ID`
