@@ -74,6 +74,17 @@ class DocumentUnreadableError(Exception):
     """El documento no tiene texto extraíble (PDF escaneado o basado en imágenes)."""
 
 
+class TransientProviderError(Exception):
+    """El proveedor respondió 200 pero sin contenido utilizable.
+
+    OpenRouter devuelve 200 con `choices: null` y un campo `error` en el body
+    cuando el proveedor upstream falla (rate limit del pool gratuito, filtro de
+    contenido). El fallo viaja en el body, no en el status, así que el SDK no
+    lanza excepción y hay que detectarlo a mano. Es transitorio: el decorador
+    @retry de summarize_document lo reintenta con backoff.
+    """
+
+
 class DocumentTruncatedError(Exception):
     """El LLM truncó la respuesta antes de cerrar el bloque kdef-events.
 
@@ -341,6 +352,21 @@ def _strip_markdown_fence(text: str) -> str:
     return inner.strip()
 
 
+def _openrouter_error_detail(response: object) -> str:
+    """Extraer el mensaje de error que OpenRouter adjunta a una respuesta sin choices."""
+    try:
+        payload = response.model_dump()  # type: ignore[attr-defined]
+    except Exception:
+        return "sin detalle en la respuesta"
+
+    error = payload.get("error")
+    if isinstance(error, dict):
+        message = error.get("message") or ""
+        code = error.get("code")
+        return f"{message} (code={code})" if code is not None else str(message)
+    return str(error) if error else "sin detalle en la respuesta"
+
+
 def _summarize_with_openrouter(text: str, filename: str, api_key: str, model_name: str, academic_year: str = "") -> str:
     """
     Generar resumen usando OpenRouter (API compatible con OpenAI).
@@ -387,6 +413,11 @@ def _summarize_with_openrouter(text: str, filename: str, api_key: str, model_nam
         max_tokens=MAX_OUTPUT_TOKENS,
         temperature=0.3,
     )
+
+    if not getattr(response, "choices", None):
+        raise TransientProviderError(
+            f"OpenRouter no devolvió choices para {filename}: {_openrouter_error_detail(response)}"
+        )
 
     return response.choices[0].message.content or ""
 
@@ -443,9 +474,11 @@ def _is_rate_limit_error(exc: BaseException) -> bool:
 
 
 @retry(
-    # Reintentar ante rate limit (429), errores transitorios del servidor (5xx)
-    # y errores de red. No reintentar ante 400, 401, 403.
-    retry=retry_if_exception_type((ConnectionError, TimeoutError)) | retry_if_exception(_is_rate_limit_error),
+    # Reintentar ante rate limit (429), errores transitorios del servidor (5xx),
+    # errores de red y respuestas 200 sin contenido (ver TransientProviderError).
+    # No reintentar ante 400, 401, 403.
+    retry=retry_if_exception_type((ConnectionError, TimeoutError, TransientProviderError))
+    | retry_if_exception(_is_rate_limit_error),
     stop=stop_after_attempt(MAX_RETRY_ATTEMPTS),
     wait=wait_exponential(
         multiplier=2,

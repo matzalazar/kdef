@@ -8,6 +8,8 @@ from scripts.summarizer import (
     DocumentTooLargeError,
     DocumentTruncatedError,
     DocumentUnreadableError,
+    TransientProviderError,
+    _openrouter_error_detail,
     extract_text,
 )
 
@@ -69,3 +71,67 @@ class ExtractTextDispatcherTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class OpenRouterNullChoicesTests(unittest.TestCase):
+    """OpenRouter responde 200 con choices=None cuando el upstream falla."""
+
+    class _Response:
+        def __init__(self, payload):
+            self._payload = payload
+            self.choices = payload.get("choices")
+
+        def model_dump(self):
+            return self._payload
+
+    def _patched_call(self, response):
+        """Ejecutar _summarize_with_openrouter con un cliente OpenAI falso."""
+        import scripts.summarizer as summarizer
+
+        class _Completions:
+            def create(self, **kwargs):
+                return response
+
+        class _Chat:
+            completions = _Completions()
+
+        class _Client:
+            chat = _Chat()
+
+            def __init__(self, **kwargs):
+                pass
+
+        import openai
+
+        original = openai.OpenAI
+        openai.OpenAI = _Client
+        try:
+            return summarizer._summarize_with_openrouter("texto", "doc.pdf", "key", "modelo", "2026")
+        finally:
+            openai.OpenAI = original
+
+    def test_null_choices_raises_transient_error(self):
+        response = self._Response({
+            "choices": None,
+            "error": {"message": "Provider returned error", "code": 429},
+        })
+        with self.assertRaises(TransientProviderError) as ctx:
+            self._patched_call(response)
+        self.assertIn("doc.pdf", str(ctx.exception))
+        self.assertIn("Provider returned error", str(ctx.exception))
+
+    def test_empty_choices_raises_transient_error(self):
+        response = self._Response({"choices": []})
+        with self.assertRaises(TransientProviderError):
+            self._patched_call(response)
+
+    def test_error_detail_without_error_field(self):
+        response = self._Response({"choices": None})
+        self.assertEqual(_openrouter_error_detail(response), "sin detalle en la respuesta")
+
+    def test_error_detail_formats_message_and_code(self):
+        response = self._Response({"error": {"message": "rate limited", "code": 429}})
+        self.assertEqual(_openrouter_error_detail(response), "rate limited (code=429)")
+
+    def test_error_detail_survives_object_without_model_dump(self):
+        self.assertEqual(_openrouter_error_detail(object()), "sin detalle en la respuesta")
