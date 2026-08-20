@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-08-20T08:28:27.599415+00:00",
+  "last_run": "2026-08-20T09:06:11.868986+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -2131,6 +2131,91 @@
       "sha256": "3b20aceded9a4db27f23b19c5f294dc9a972fe17c9837108621162b81bbc7192",
       "processed_at": "2026-08-20T08:28:27.064800+00:00",
       "output": "content/notas-automaticas/tratamiento-datos/08-19-a-08-21/2026-08-20-presentacion.md"
+    },
+    "sociedad-estado/08-19-a-08-21/Programa SyE actualizado con template 2026.docx.pdf": {
+      "sha256": "663d9f5f72b0c72ea3a4caa2b29e1ec717b13b92fe0f26a7545d5bb1ebd77a40",
+      "processed_at": "2026-08-20T08:38:20.230439+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/08-19-a-08-21/2026-08-20-programa.md"
+    },
+    "sociedad-estado/08-19-a-08-21/Cronograma - 2° cuatrimestre 2026 - SyE.xlsx - 2° cuatrimestre.pdf": {
+      "sha256": "451287ad53fb9b7eeb07654b022ec0cad66315257a3cfcdf298ee213b44e1aae",
+      "processed_at": "2026-08-20T08:40:02.200028+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/08-19-a-08-21/2026-08-20-cronograma.md"
+    },
+    "infra-tele/08-19-a-08-21/Programa - Infraestructura de Telecomunicaciones 2026 NUEVO FORMATO.pdf": {
+      "sha256": "02eaad7f3d401cfb7448f0a4ba398601e572c50c22a164a9cbcb36513d42feac",
+      "processed_at": "2026-08-20T08:41:19.488470+00:00",
+      "output": "content/notas-automaticas/infra-tele/08-19-a-08-21/2026-08-20-programa.md"
+    },
+    "infra-tele/08-19-a-08-21/Cronograma - 2° cuatrimestre 2026.pdf": {
+      "sha256": "1409cc4c63138cafdb5475855aba97163a25b6ee00dacdf6a3c1edf25f30a1d8",
+      "processed_at": "2026-08-20T08:44:13.983981+00:00",
+      "output": "content/notas-automaticas/infra-tele/08-19-a-08-21/2026-08-20-cronograma.md"
+    },
+    "sistemas-operativos-ii/08-19-a-08-21/FADENA - SO II- Resumen Presentación de la materia.pdf": {
+      "sha256": "5f49377e9b26a05e10766e188b1c7b3b80bad274c05ce75854721ec3e24f3fbe",
+      "processed_at": "2026-08-20T08:44:45.031450+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/08-19-a-08-21/2026-08-20-fadena.md"
+    },
+    "sistemas-operativos-ii/08-19-a-08-21/Programa Sistemas Operativos II - FADENA 2C-2026.docx.pdf": {
+      "sha256": "181cf32f4c792d4b8a5573700b1ff0303f42736a74aacac1148608a2604c93f8",
+      "processed_at": "2026-08-20T08:45:45.264361+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/08-19-a-08-21/2026-08-20-programa.md"
+    },
+    "sistemas-operativos-ii/08-19-a-08-21/Cronograma SO II - 2° cuatrimestre 2026.pdf": {
+      "sha256": "7d6b5059237ddbf6d06ef5580a35c861938325ece949650225f2262d30d6081d",
+      "processed_at": "2026-08-20T08:48:31.070068+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/08-19-a-08-21/2026-08-20-cronograma.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/Semana01 - Presentación docente - Balestrini.pdf": {
+      "sha256": "f0876f0f47f07642f645b99669d52266a87214847c146dc1e4fdbcfbec267ae2",
+      "processed_at": "2026-08-20T08:49:22.239701+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-semana01.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/Semana01 - Presentación docente - Di Stefano.pdf": {
+      "sha256": "4abf876532a0622e156aee90450627da473b9d2e94a93518f41cce43e805636d",
+      "processed_at": "2026-08-20T08:49:42.083587+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-semana01.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/Programa - FADENA 2026.docx.pdf": {
+      "sha256": "04c9708e7da411f397bfddaa8ce9502afefcac90b2ca1da79d656e63e43002d1",
+      "processed_at": "2026-08-20T08:50:41.628627+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-programa.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/LDP  Cronograma - 2° cuatrimestre 2026.pdf": {
+      "sha256": "3298bf5ec797466617a3be14875c8ca30c6a781408c2c1dfa9387a7bdc8ae857",
+      "processed_at": "2026-08-20T08:56:02.390925+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-ldp.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/Semana01 - Clase 01 - Parte 1.pdf": {
+      "sha256": "bc92a2c7f5623c3298e6b368e8a554b5ad9f628894ff488eb2b3c221150de90b",
+      "processed_at": "2026-08-20T08:57:29.689933+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-semana01.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/Semana01 - Clase 01 - Parte 2.pptx.pdf": {
+      "sha256": "8d05872d1e36aeccf006bdd04fea3c9d99aa1b6abf82153acdd0d1365d7a17b9",
+      "processed_at": "2026-08-20T08:58:33.098542+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-semana01.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/Unidad 01.pdf": {
+      "sha256": "6c5612e54e3da3c1da2a16621de7840f5fc094675982f6c10d9f4328aac118ae",
+      "processed_at": "2026-08-20T08:59:33.656853+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-unidad.md"
+    },
+    "lenguajes-programacion/08-19-a-08-21/Semana01 - Guía práctica.docx.pdf": {
+      "sha256": "b5af42a80d9a55c14ab3555ae61699fa98efffa3b021ca2f2752351e38eb3447",
+      "processed_at": "2026-08-20T09:00:37.654058+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-semana01.md"
+    },
+    "tratamiento-datos/08-19-a-08-21/Programa Sistema de Tratamientos de Datos 2026.pdf": {
+      "sha256": "cba2f8ee9fe103e2242e1826326092ab2d919dc4acb18280bbad43f49b6a1b6d",
+      "processed_at": "2026-08-20T09:01:54.491010+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/08-19-a-08-21/2026-08-20-programa.md"
+    },
+    "tratamiento-datos/08-19-a-08-21/Cronograma - 2° cuatrimestre 2026 - Carreras de grado.pdf": {
+      "sha256": "b72457267b176b214fe90d19fe798fd45e5bbdf178545709ed02825b08e6f1ed",
+      "processed_at": "2026-08-20T09:06:11.865207+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/08-19-a-08-21/2026-08-20-cronograma.md"
     }
   }
 }
