@@ -34,6 +34,11 @@ on:
         required: false
         default: false
         type: boolean
+      tracked_subjects:
+        description: 'Materias a procesar: "all" o slugs separados por coma (ej. sociedad-estado,infra-tele)'
+        required: false
+        default: 'all'
+        type: string
 
 # Permisos mínimos necesarios para el workflow
 permissions:
@@ -93,11 +98,17 @@ jobs:
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
           # Forzar re-procesamiento: ignora el manifest y procesa todo de nuevo
           FORCE_REPROCESS: ${{ github.event.inputs.force_reprocess || 'false' }}
+          # Subconjunto de materias a procesar — 'all' toma todas las enabled de campus.yml.
+          # Útil para repartir la carga de LLM en corridas de arranque de cuatrimestre.
+          TRACKED_SUBJECTS: ${{ github.event.inputs.tracked_subjects || 'all' }}
         run: |
           python scripts/pipeline.py
 
       # Configurar identidad de git para el commit automático
+      # !cancelled(): también corre si el pipeline salió con error, para no perder
+      # los .md ya generados (el manifest se escribe recién al final del pipeline)
       - name: Configurar identidad git para commit automático
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "kdef-bot"
           git config user.email "kdef-bot@users.noreply.github.com"
@@ -106,6 +117,7 @@ jobs:
       # El --allow-empty=false asegura que no se haga un commit vacío
       # si no hubo documentos nuevos para procesar
       - name: Commit y push de contenido actualizado
+        if: ${{ !cancelled() }}
         run: |
           git add content/notas-automaticas/ data/manifest.json content/index.md || true
           if git diff --staged --quiet; then
@@ -124,6 +136,10 @@ jobs:
     name: Build Quartz + Deploy a Cloudflare Pages
     runs-on: ubuntu-latest
     needs: update-content
+
+    # Se publica igual si update-content falló a mitad de camino: lo que alcanzó
+    # a commitearse merece llegar al sitio. Solo se saltea si se canceló la corrida.
+    if: ${{ !cancelled() }}
 
     # Timeout para el build de Quartz — puede tardar en repos grandes
     timeout-minutes: 20

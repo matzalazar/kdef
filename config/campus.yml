@@ -15,20 +15,40 @@ subjects:
   - slug: analisis-i
     name: "Análisis Matemático I"
     moodle_course_id: 548
-    enabled: true
+    enabled: false
   - slug: algebra-i
     name: "Álgebra I"
     moodle_course_id: 545
-    enabled: true
+    enabled: false
   - slug: gestion-servicios
     name: "Gestión de Servicios de Información"
     moodle_course_id: 549
-    enabled: true
+    enabled: false
   - slug: ingles-i
     name: "Inglés I"
     moodle_course_id: 546
-    enabled: true
+    enabled: false
   - slug: sistemas-operativos-i
     name: "Sistemas Operativos I"
     moodle_course_id: 547
+    enabled: false
+  - slug: sociedad-estado
+    name: "Sociedad y Estado"
+    moodle_course_id: 1918
+    enabled: true
+  - slug: infra-tele
+    name: "Infraestructura de Telecomunicaciones"
+    moodle_course_id: 796
+    enabled: true
+  - slug: sistemas-operativos-ii
+    name: "Sistemas Operativos II"
+    moodle_course_id: 1885
+    enabled: true
+  - slug: lenguajes-programacion
+    name: "Lenguajes de Programación"
+    moodle_course_id: 2281
+    enabled: true
+  - slug: tratamiento-datos
+    name: "Sistemas de Tratamiento de Datos"
+    moodle_course_id: 829
     enabled: true
