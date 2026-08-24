@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-08-24T03:59:48.072669+00:00",
+  "last_run": "2026-08-24T09:57:50.176617+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -2260,6 +2260,86 @@
     "tratamiento-datos/08-24-a-08-28/3-modelos-de-datos-y-abstraccion.md": {
       "sha256": "06cd5659ba0ff8c9097680cf58968cab912f801904701d99b5b6208b7194286e",
       "processed_at": "2026-08-24T03:59:46.646179+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/08-24-a-08-28/2026-08-24-3.md"
+    },
+    "sociedad-estado/08-24-a-08-28/Sociedad y Estado - Clase 1.pdf": {
+      "sha256": "6ab2cdccb7650c06ebd85510edd62d6f3fb44e5d35e8c72b042ac0bd798d685e",
+      "processed_at": "2026-08-24T09:53:55.520942+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/08-24-a-08-28/2026-08-24-sociedad.md"
+    },
+    "sociedad-estado/08-24-a-08-28/Guía de lectura LAFFERRIERE (U1).docx.pdf": {
+      "sha256": "4229c22fb21e09800d6b41a2eb0a8c7422fcfdeacc0fd9ccada6402370e08b75",
+      "processed_at": "2026-08-24T09:54:02.109430+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/08-24-a-08-28/2026-08-24-guia.md"
+    },
+    "sociedad-estado/08-24-a-08-28/Guía de lectura Giddens (U1).docx.pdf": {
+      "sha256": "c8cc90e41ac986a7b99ad4d127a610ab4026a3b9804b78d86c7d243096034692",
+      "processed_at": "2026-08-24T09:54:29.744715+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/08-24-a-08-28/2026-08-24-guia.md"
+    },
+    "sociedad-estado/08-24-a-08-28/Guía de lectura Bobbio (U1).docx.pdf": {
+      "sha256": "e841c7a35030c766d041c4b0fed82f7265c0538869e126ac56e920039a88b137",
+      "processed_at": "2026-08-24T09:54:36.974834+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/08-24-a-08-28/2026-08-24-guia.md"
+    },
+    "infra-tele/08-24-a-08-28/Unidad 1 - Infraestructura.pdf": {
+      "sha256": "f7d3f8520381e15648cc3c00f35f00cb8b5570bae32d60f463a7af8a105e47bf",
+      "processed_at": "2026-08-24T09:54:44.019622+00:00",
+      "output": "content/notas-automaticas/infra-tele/08-24-a-08-28/2026-08-24-unidad.md"
+    },
+    "sistemas-operativos-ii/08-19-a-08-21/Cronograma SO II - 2° cuatrimestre 2026 (2).pdf": {
+      "sha256": "7ffdca366d6f7f9144b39458fa4f235a345f76666349a1a52aa89ab3fdd50f0b",
+      "processed_at": "2026-08-24T09:55:20.287872+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/08-19-a-08-21/2026-08-24-cronograma.md"
+    },
+    "sistemas-operativos-ii/08-24-a-08-28/FADENA - SO2 Unidad 1 - Semana 2 - 2026.docx.pdf": {
+      "sha256": "2eec33b2cc09b1f4264db83f117e09c42cb26b844d7052c35c7ea90e72616453",
+      "processed_at": "2026-08-24T09:55:40.796233+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/08-24-a-08-28/2026-08-24-fadena.md"
+    },
+    "sistemas-operativos-ii/08-24-a-08-28/FADENA SO II - S2-A2.pdf": {
+      "sha256": "6253c2c928a7c82914144cc79b6a2a57e8ae26eac5171916e514919dfe23658f",
+      "processed_at": "2026-08-24T09:55:59.763431+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/08-24-a-08-28/2026-08-24-fadena.md"
+    },
+    "lenguajes-programacion/08-24-a-08-28/Semana02 - Clase 01 - Parte 1.pptx.pdf": {
+      "sha256": "25a0d98265fe3c3c0937d84764d6c0989c7ab2c4444c5e1606b7edc4bd698935",
+      "processed_at": "2026-08-24T09:56:20.657976+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-24-a-08-28/2026-08-24-semana02.md"
+    },
+    "lenguajes-programacion/08-24-a-08-28/Semana02 - Clase 01 - Parte2.pptx.pdf": {
+      "sha256": "3494cb4903f4779f66e7ef5299eaac634e3157d7f8f93876ae26def0074d431f",
+      "processed_at": "2026-08-24T09:56:26.952624+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-24-a-08-28/2026-08-24-semana02.md"
+    },
+    "lenguajes-programacion/08-24-a-08-28/Manual de referencia Pseudocodigo.docx.pdf": {
+      "sha256": "bba62b8e08a5bb357a644a5a517473b6b3236647de96e771f02e9b991cd06216",
+      "processed_at": "2026-08-24T09:56:49.748298+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-24-a-08-28/2026-08-24-manual.md"
+    },
+    "lenguajes-programacion/08-24-a-08-28/Semana02 - Guía práctica.docx.pdf": {
+      "sha256": "2e037444a9b6afe43b325dcb266e429cbeb8164cccc0b254053b0df73ac7ea19",
+      "processed_at": "2026-08-24T09:57:00.672677+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-24-a-08-28/2026-08-24-semana02.md"
+    },
+    "tratamiento-datos/08-19-a-08-21/Programa Sistema de Tratamientos de Datos 2026.docx (1).pdf": {
+      "sha256": "8a759571cbce5ee67814b9e4b4618a684b59bd2e5b8c6bbbaa1ab54859cf88bf",
+      "processed_at": "2026-08-24T09:57:15.571676+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/08-19-a-08-21/2026-08-24-programa.md"
+    },
+    "tratamiento-datos/08-24-a-08-28/1-Conceptos Fundamentales.pdf": {
+      "sha256": "e591b5b9ca503d913ab27338e0db29d8bf839525aea9aa528fec6ef6fe1d268e",
+      "processed_at": "2026-08-24T09:57:25.706681+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/08-24-a-08-28/2026-08-24-1.md"
+    },
+    "tratamiento-datos/08-24-a-08-28/2- SIstemas de tratamientos de datos.pdf": {
+      "sha256": "e7bbe28d4d8d064d32d3f481adcb234276ca02b07b25368c604b1bf8108695c5",
+      "processed_at": "2026-08-24T09:57:36.374287+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/08-24-a-08-28/2026-08-24-2.md"
+    },
+    "tratamiento-datos/08-24-a-08-28/3- Modelos de datos y abstraccion.pdf": {
+      "sha256": "561d813e77707b383371f4aae69203e110f7f7ad1ade54b353d8dee9b7611690",
+      "processed_at": "2026-08-24T09:57:50.175121+00:00",
       "output": "content/notas-automaticas/tratamiento-datos/08-24-a-08-28/2026-08-24-3.md"
     }
   }
