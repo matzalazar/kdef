@@ -1,11 +1,11 @@
 ---
 title: fechas importantes
-date: '2026-08-20'
+date: '2026-08-24'
 tags:
 - auto-generado
 - calendario
 - tratamiento-datos
-generated_at: '2026-08-20T09:11:33.641897+00:00'
+generated_at: '2026-08-24T03:59:48.072678+00:00'
 calendar_generated: true
 calendar_event_count: 8
 ---
