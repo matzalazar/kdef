@@ -406,7 +406,7 @@ def run_pipeline(config: dict) -> None:
     # Orden de preferencia: OpenRouter → Gemini
     # GitHub Models fue retirado por completo el 2026-07-30 (su endpoint devuelve 404).
     if config["openrouter_api_key"]:
-        model = "openrouter/openai/gpt-oss-20b:free"
+        model = "openrouter/nvidia/nemotron-3-super-120b-a12b:free"
         log.info("LLM: OpenRouter (primario)")
     elif config["gemini_api_key"]:
         model = "gemini/gemini-2.5-flash"

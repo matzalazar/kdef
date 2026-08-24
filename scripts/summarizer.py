@@ -54,7 +54,7 @@ RETRY_WAIT_MAX_SECONDS = 30
 MAX_OUTPUT_TOKENS = 3800
 
 # Límite de caracteres de entrada por proveedor.
-# Los modelos de OpenRouter que usa el pipeline tienen contexto de 128k tokens;
+# Los modelos de OpenRouter que usa el pipeline tienen contexto de 256k tokens;
 # 80.000 chars ≈ 23.000 tokens, holgado incluso para el PDF más denso que admite
 # MAX_PDF_PAGES. El texto que exceda este límite se trunca antes de la llamada.
 # Gemini Flash tiene contexto de 1M tokens — el límite es igual de holgado.
@@ -502,7 +502,7 @@ def summarize_document(path: Path, model: str, academic_year: str = "") -> Docum
     Args:
         path: Path al archivo a resumir. Puede ser PDF, TXT, MD.
         model: Nombre del modelo con prefijo del proveedor.
-                Ejemplos: "openrouter/openai/gpt-oss-20b:free", "gemini/gemini-2.5-flash"
+                Ejemplos: "openrouter/nvidia/nemotron-3-super-120b-a12b:free", "gemini/gemini-2.5-flash"
         academic_year: Año académico en curso (ej: "2026"). Se incluye en el prompt
                        para que el LLM pueda inferir el año en fechas parciales como "21-may".
 

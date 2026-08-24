@@ -28,7 +28,7 @@ Archivo de referencia: `.env.example`.
 
 ### Selección de LLM
 
-- Si existe `OPENROUTER_API_KEY` → modelo `openrouter/openai/gpt-oss-20b:free`.
+- Si existe `OPENROUTER_API_KEY` → modelo `openrouter/nvidia/nemotron-3-super-120b-a12b:free`.
 - Else si existe `GEMINI_API_KEY` → modelo `gemini/gemini-2.5-flash`.
 - Else:
   - en `DRY_RUN=true` se declara modelo `dry-run/mock`,
