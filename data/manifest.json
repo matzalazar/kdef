@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-08-24T09:57:50.176617+00:00",
+  "last_run": "2026-08-27T13:14:22.523797+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -2163,9 +2163,9 @@
       "output": "content/notas-automaticas/sistemas-operativos-ii/08-19-a-08-21/2026-08-20-programa.md"
     },
     "sistemas-operativos-ii/08-19-a-08-21/Cronograma SO II - 2° cuatrimestre 2026.pdf": {
-      "sha256": "7d6b5059237ddbf6d06ef5580a35c861938325ece949650225f2262d30d6081d",
-      "processed_at": "2026-08-20T08:48:31.070068+00:00",
-      "output": "content/notas-automaticas/sistemas-operativos-ii/08-19-a-08-21/2026-08-20-cronograma.md"
+      "sha256": "a0b1b3f61e709cb915153c1ba221036f7df87628e582496c0a07c89b35e0f301",
+      "processed_at": "2026-08-27T13:13:44.860219+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/08-19-a-08-21/2026-08-27-cronograma.md"
     },
     "lenguajes-programacion/08-19-a-08-21/Semana01 - Presentación docente - Balestrini.pdf": {
       "sha256": "f0876f0f47f07642f645b99669d52266a87214847c146dc1e4fdbcfbec267ae2",
@@ -2341,6 +2341,31 @@
       "sha256": "561d813e77707b383371f4aae69203e110f7f7ad1ade54b353d8dee9b7611690",
       "processed_at": "2026-08-24T09:57:50.175121+00:00",
       "output": "content/notas-automaticas/tratamiento-datos/08-24-a-08-28/2026-08-24-3.md"
+    },
+    "lenguajes-programacion/08-24-a-08-28/Semana02 - Clase 01 - Parte 1.pdf": {
+      "sha256": "44983c2de96ad82f928060699ad244c5e9c6a31df6eeb78c817a71092380af19",
+      "processed_at": "2026-08-27T13:13:59.122435+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-24-a-08-28/2026-08-27-semana02.md"
+    },
+    "lenguajes-programacion/08-24-a-08-28/Manual de referencia Pseudocodigo.pdf": {
+      "sha256": "69c0e227d0f730f6a4c81256286b60b4cefec7562ba5d296dc72427ae34fae64",
+      "processed_at": "2026-08-27T13:14:22.514252+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/08-24-a-08-28/2026-08-27-manual.md"
+    },
+    "tratamiento-datos/seccion/2-sistemas-de-gestion-de-bases-de-datos.md": {
+      "sha256": "0f2df5b1488a34edf2d6798b0ad51ced84c7be18887d8b917a9e026c53bcc793",
+      "processed_at": "2026-08-27T13:14:22.517998+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/seccion/2026-08-27-2.md"
+    },
+    "tratamiento-datos/seccion/3-modelos-de-datos-y-abstraccion.md": {
+      "sha256": "068eca037a7981f0e603bc6ef683e71b5e6cb84c4a7f7e60ba859cf301a560b1",
+      "processed_at": "2026-08-27T13:14:22.519768+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/seccion/2026-08-27-3.md"
+    },
+    "tratamiento-datos/seccion/1-conceptos-fundamentales.md": {
+      "sha256": "3d9563abd80c46ed410e30a14c5ee05caa50ecdd41b7fe7c891c52f8449b2f1f",
+      "processed_at": "2026-08-27T13:14:22.521388+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/seccion/2026-08-27-1.md"
     }
   }
 }
