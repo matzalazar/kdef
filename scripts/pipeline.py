@@ -73,6 +73,18 @@ CONTENT_AUTO_DIR = REPO_ROOT / "content" / "notas-automaticas"
 MANIFEST_PATH = REPO_ROOT / "data" / "manifest.json"
 CATALOG_PATH = REPO_ROOT / "config" / "campus.yml"
 
+# ---------------------------------------------------------------------------
+# Tolerancia de errores por corrida
+#
+# Una corrida procesa decenas de documentos contra modelos :free compartidos,
+# así que un 502 aislado del proveedor es ruido esperable, no una corrida rota:
+# el resto del contenido se genera bien y se commitea igual. Se falla solo si
+# los errores pasan de un puñado (umbral absoluto) o si son una fracción grande
+# de lo intentado (umbral relativo, que es el que detecta al proveedor caído).
+# ---------------------------------------------------------------------------
+MAX_TOLERATED_ERRORS = 3
+MAX_TOLERATED_ERROR_RATIO = 0.25
+
 
 def load_config() -> dict:
     """
@@ -450,7 +462,7 @@ def run_pipeline(config: dict) -> None:
     # Procesar archivos no registrados en el manifest
     processed_count = 0
     skipped_count = 0
-    error_count = 0
+    failed_documents: list[str] = []
     updated_manifest = dict(manifest)
 
     for source_path in downloaded_files:
@@ -573,7 +585,7 @@ def run_pipeline(config: dict) -> None:
 
         except Exception as exc:
             log.error("Error procesando %s: %s", source_path.name, exc)
-            error_count += 1
+            failed_documents.append(source_path.name)
 
     # Guardar manifest actualizado
     updated_manifest["last_run"] = datetime.now(timezone.utc).isoformat()
@@ -585,6 +597,7 @@ def run_pipeline(config: dict) -> None:
         _update_home_last_run(generated_at)
 
     # Resumen final
+    error_count = len(failed_documents)
     log.info(
         "Pipeline completado — procesados: %d, saltados: %d, errores: %d",
         processed_count,
@@ -592,11 +605,37 @@ def run_pipeline(config: dict) -> None:
         error_count,
     )
 
-    # Salir con error si hubo errores de procesamiento
-    # Esto hace que el step de GitHub Actions muestre fallo
-    if error_count > 0:
-        log.warning("Hubo %d errores durante el procesamiento", error_count)
+    if not failed_documents:
+        return
+
+    # Los documentos que fallaron quedan sin nota y sin entrada en el manifest,
+    # así que la próxima corrida los reintenta. Listarlos acá evita tener que
+    # bucear el log del workflow para saber qué falta.
+    log.warning(
+        "%d documento(s) sin resumen, se reintentan en la próxima corrida: %s",
+        error_count,
+        ", ".join(failed_documents),
+    )
+
+    # Salir con error solo si el fallo es sistémico — ver MAX_TOLERATED_ERRORS.
+    # Un puñado de errores transitorios no debe marcar en rojo una corrida cuyo
+    # contenido igual se commitea y se publica.
+    attempted = processed_count + error_count
+    error_ratio = error_count / attempted if attempted else 1.0
+    if error_count > MAX_TOLERATED_ERRORS or error_ratio > MAX_TOLERATED_ERROR_RATIO:
+        log.error(
+            "Fallo sistémico: %d de %d documentos con error (%.0f%%)",
+            error_count,
+            attempted,
+            error_ratio * 100,
+        )
         sys.exit(1)
+
+    log.info(
+        "Errores dentro de la tolerancia (máx. %d o %.0f%%) — la corrida se considera exitosa",
+        MAX_TOLERATED_ERRORS,
+        MAX_TOLERATED_ERROR_RATIO * 100,
+    )
 
 
 if __name__ == "__main__":
