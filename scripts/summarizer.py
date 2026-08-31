@@ -45,10 +45,13 @@ log = logging.getLogger(__name__)
 # Número máximo de intentos ante errores de rate limit o errores transitorios
 MAX_RETRY_ATTEMPTS = 4
 
-# Backoff exponencial: 2s, 4s, 8s, 16s entre reintentos
-# Suficiente para sobrevivir rate limits típicos de APIs de LLM
-RETRY_WAIT_MIN_SECONDS = 2
-RETRY_WAIT_MAX_SECONDS = 30
+# Backoff exponencial: 15s, 30s, 60s entre reintentos (~105s de ventana total).
+# El mínimo arranca alto a propósito: las caídas transitorias de los proveedores
+# :free de OpenRouter duran decenas de segundos, así que una tanda de reintentos
+# demasiado junta agota los 4 intentos dentro de la misma ventana de sobrecarga
+# y no llega a ver la recuperación.
+RETRY_WAIT_MIN_SECONDS = 15
+RETRY_WAIT_MAX_SECONDS = 120
 
 # Máximo de tokens en el resumen generado.
 MAX_OUTPUT_TOKENS = 3800
@@ -481,9 +484,9 @@ def _is_rate_limit_error(exc: BaseException) -> bool:
     | retry_if_exception(_is_rate_limit_error),
     stop=stop_after_attempt(MAX_RETRY_ATTEMPTS),
     wait=wait_exponential(
-        multiplier=2,
-        min=15,
-        max=120,
+        multiplier=RETRY_WAIT_MIN_SECONDS,
+        min=RETRY_WAIT_MIN_SECONDS,
+        max=RETRY_WAIT_MAX_SECONDS,
     ),
     before_sleep=before_sleep_log(log, logging.WARNING),
     reraise=True,
