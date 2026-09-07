@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-03T07:29:24.965670+00:00",
+  "last_run": "2026-09-07T08:23:18.776951+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -2496,6 +2496,111 @@
       "sha256": "2d4015b3c3518317ccd106da028e1d8f89ec471dcd3fd6771612199064837208",
       "processed_at": "2026-09-03T07:29:24.941537+00:00",
       "output": "content/notas-automaticas/lenguajes-programacion/08-31-a-09-04/2026-09-03-guia.md"
+    },
+    "sociedad-estado/09-07-a-09-11/clase-3.md": {
+      "sha256": "1cdab5e78e5d99f168808d5f0af825bb74935b8bb069d7fb1380001d790824f9",
+      "processed_at": "2026-09-07T08:08:38.519941+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-07-a-09-11/2026-09-07-clase.md"
+    },
+    "sociedad-estado/09-07-a-09-11/Clase 3.pptx.pdf": {
+      "sha256": "fdca171e0a65829335a471a3f10d6fc2abef7dfdd87869d3d0e9513d2ddaf40a",
+      "processed_at": "2026-09-07T08:08:59.262070+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-07-a-09-11/2026-09-07-clase.md"
+    },
+    "sociedad-estado/09-07-a-09-11/Guía de lectura Galtung “Paz por medios pacíficos. Paz y conflicto, desarrollo y civilización” (U1).docx.pdf": {
+      "sha256": "926db5d8a52a42018d6249b8c1dc601b46c490b374f2f1c7087ba6a87e15fa7a",
+      "processed_at": "2026-09-07T08:09:16.679937+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-07-a-09-11/2026-09-07-guia.md"
+    },
+    "sociedad-estado/09-07-a-09-11/Guía de lectura Galtung “Tras la violencia, 3R. Afrontando los efectos visibles e invisibles de la guerra y la violencia” (U1).docx.pdf": {
+      "sha256": "edf7d81980442cd2bbcf718dc440ad3b73092a0c6c5e2bfa9bf54a8cdcfac38e",
+      "processed_at": "2026-09-07T08:10:01.995226+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-07-a-09-11/2026-09-07-guia.md"
+    },
+    "sociedad-estado/09-07-a-09-11/Guía de lectura VEENHOVEN, Ruut (U1 semana 4).docx.pdf": {
+      "sha256": "c2f446f6f9b44fa79eb111c8f09f761156b1e943d8e2c4bc37cd7f2b43806881",
+      "processed_at": "2026-09-07T08:11:12.735702+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-07-a-09-11/2026-09-07-guia.md"
+    },
+    "sociedad-estado/09-07-a-09-11/Actividad complementaria - semana 4.docx.pdf": {
+      "sha256": "38b54a12858730a9c009788a204450974a5299953f0a937da5d942b3c38e797f",
+      "processed_at": "2026-09-07T08:11:59.840191+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-07-a-09-11/2026-09-07-actividad.md"
+    },
+    "infra-tele/09-07-a-09-11/unidad-3-calculo-de-enlaces-de-comunicaciones.md": {
+      "sha256": "506091017549860f8f134fd967c59698e26553f17666407f1461ddc7e20c2a0b",
+      "processed_at": "2026-09-07T08:11:59.846654+00:00",
+      "output": "content/notas-automaticas/infra-tele/09-07-a-09-11/2026-09-07-unidad.md"
+    },
+    "infra-tele/09-07-a-09-11/Unidad 3 2026.pptx.pdf": {
+      "sha256": "da10b53f20f2a6477be12356e40a4f824cf266330855365fdf45af867004695f",
+      "processed_at": "2026-09-07T08:12:29.825391+00:00",
+      "output": "content/notas-automaticas/infra-tele/09-07-a-09-11/2026-09-07-unidad.md"
+    },
+    "infra-tele/09-07-a-09-11/Bibliografía por temas - Clase 3.pptx.pdf": {
+      "sha256": "3bb97a7dfa4335fdb06b6efad11d33f18b3c46b8689c5f4bc818407111a20946",
+      "processed_at": "2026-09-07T08:13:08.941566+00:00",
+      "output": "content/notas-automaticas/infra-tele/09-07-a-09-11/2026-09-07-bibliografia.md"
+    },
+    "sistemas-operativos-ii/09-07-a-09-11/FADENA - SO2 Unidad 2 - Semana 4 - 2026.pdf": {
+      "sha256": "a9a056742dcf69aeb4774425b3b65e3a608c920656a34bd18f0d8670d4507c11",
+      "processed_at": "2026-09-07T08:14:04.366219+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/09-07-a-09-11/2026-09-07-fadena.md"
+    },
+    "sistemas-operativos-ii/09-07-a-09-11/FADENA SO II - S4-A1 - 2026.pdf": {
+      "sha256": "d2e9f25772889d13ed4a10368df8e1812bf234bdedb9f6bbf6da79bd508d1fc9",
+      "processed_at": "2026-09-07T08:14:18.222816+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/09-07-a-09-11/2026-09-07-fadena.md"
+    },
+    "lenguajes-programacion/09-07-a-09-11/video-clase-4.md": {
+      "sha256": "ec0fd9d1139051968e2b2d14e36a22107a13bf87f3dc95f288cadf025d29730c",
+      "processed_at": "2026-09-07T08:14:19.641328+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/09-07-a-09-11/2026-09-07-video.md"
+    },
+    "lenguajes-programacion/09-07-a-09-11/Semana04 - Clase 01 - Parte 1.pptx.pdf": {
+      "sha256": "d99c85559d081f42a9f0e388056a6f5523bb821db8c1d3f909368111f26f8cdd",
+      "processed_at": "2026-09-07T08:15:11.978201+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/09-07-a-09-11/2026-09-07-semana04.md"
+    },
+    "lenguajes-programacion/09-07-a-09-11/Manual de referencia de C.pdf": {
+      "sha256": "e4cc9adfecd25346030ff21d1bc8287853da772465c742413d52d0e45e7a41d8",
+      "processed_at": "2026-09-07T08:15:50.552303+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/09-07-a-09-11/2026-09-07-manual.md"
+    },
+    "tratamiento-datos/09-07-a-09-11/fundamentos-del-modelo-relacional.md": {
+      "sha256": "113a77d839001ee8cd05b47277f1643c5feba264ee36560f642d363e318ab09e",
+      "processed_at": "2026-09-07T08:17:37.699978+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-07-a-09-11/2026-09-07-fundamentos.md"
+    },
+    "tratamiento-datos/09-07-a-09-11/1 - Fundamentos del Modelo Relacional - Presentación.pdf": {
+      "sha256": "d946d1a5a3c321444c17347bd8fd3cb3077ca3d4d7c20125d149f2703b766b61",
+      "processed_at": "2026-09-07T08:18:25.383026+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-07-a-09-11/2026-09-07-1.md"
+    },
+    "tratamiento-datos/09-07-a-09-11/algebra-relacional-y-calculo-relacional.md": {
+      "sha256": "c5a20ccfd32508af401313477e18547b594ab44f5e13d887d83fe0325165eaf8",
+      "processed_at": "2026-09-07T08:18:25.386630+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-07-a-09-11/2026-09-07-algebra.md"
+    },
+    "tratamiento-datos/09-07-a-09-11/2 - Álgebra Relacional y Cálculo Relacional - Presentación.pdf": {
+      "sha256": "0960283d5cef8deeb06467b5aaa965fe9d15659696657c49f9ddd4fb05f0fd23",
+      "processed_at": "2026-09-07T08:19:29.438543+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-07-a-09-11/2026-09-07-2.md"
+    },
+    "tratamiento-datos/09-07-a-09-11/1 - Fundamentos del Modelo Relacional.pdf": {
+      "sha256": "3e2e8abda5f55c17881627c46da8d4f3cea57cd35761cec0b89d77c6d5b537c7",
+      "processed_at": "2026-09-07T08:19:51.117630+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-07-a-09-11/2026-09-07-1.md"
+    },
+    "tratamiento-datos/09-07-a-09-11/2 - Álgebra Relacional y Cálculo Relacional.pdf": {
+      "sha256": "53ef2a7243ae3f63202148b79663fc8f99b52e52baeb175977e8cc7cc406e454",
+      "processed_at": "2026-09-07T08:21:08.441406+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-07-a-09-11/2026-09-07-2.md"
+    },
+    "tratamiento-datos/09-07-a-09-11/2 - Álgebra Relacional y Cálculo Relacional - Ejercicios.pdf": {
+      "sha256": "52ff5ff3e07c1da5f3f2103fc4d812a71d68a358452e056a89ea8095ee81a84e",
+      "processed_at": "2026-09-07T08:23:18.775268+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-07-a-09-11/2026-09-07-2.md"
     }
   }
 }
