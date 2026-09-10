@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-07T08:23:18.776951+00:00",
+  "last_run": "2026-09-10T07:36:23.161617+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -2523,9 +2523,9 @@
       "output": "content/notas-automaticas/sociedad-estado/09-07-a-09-11/2026-09-07-guia.md"
     },
     "sociedad-estado/09-07-a-09-11/Actividad complementaria - semana 4.docx.pdf": {
-      "sha256": "38b54a12858730a9c009788a204450974a5299953f0a937da5d942b3c38e797f",
-      "processed_at": "2026-09-07T08:11:59.840191+00:00",
-      "output": "content/notas-automaticas/sociedad-estado/09-07-a-09-11/2026-09-07-actividad.md"
+      "sha256": "c4e6c4397ab793f0a97a0358f517a6adf73df5a8b10478405184ac708d17ef84",
+      "processed_at": "2026-09-10T07:34:53.866431+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-07-a-09-11/2026-09-10-actividad.md"
     },
     "infra-tele/09-07-a-09-11/unidad-3-calculo-de-enlaces-de-comunicaciones.md": {
       "sha256": "506091017549860f8f134fd967c59698e26553f17666407f1461ddc7e20c2a0b",
@@ -2601,6 +2601,21 @@
       "sha256": "52ff5ff3e07c1da5f3f2103fc4d812a71d68a358452e056a89ea8095ee81a84e",
       "processed_at": "2026-09-07T08:23:18.775268+00:00",
       "output": "content/notas-automaticas/tratamiento-datos/09-07-a-09-11/2026-09-07-2.md"
+    },
+    "lenguajes-programacion/09-07-a-09-11/Manual de referencia de C v1.1.docx.pdf": {
+      "sha256": "7ba98d836c32fe4bb127a799d643009a46e988329c382e5659cae8fcec219910",
+      "processed_at": "2026-09-10T07:35:35.198112+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/09-07-a-09-11/2026-09-10-manual.md"
+    },
+    "lenguajes-programacion/09-07-a-09-11/Guia Practica 4.docx (1).pdf": {
+      "sha256": "8f65b47af40cac96a1762c6cb48a1868c05edde54b1212648279973caf27f62c",
+      "processed_at": "2026-09-10T07:36:08.928444+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/09-07-a-09-11/2026-09-10-guia.md"
+    },
+    "tratamiento-datos/09-07-a-09-11/1 - Fundamentos del Modelo Relacional - Ejercicios.pdf": {
+      "sha256": "9e866bf082e52dd7bd618196b8a9bc53b01b9c697939824e6d31dbdf7921c4ac",
+      "processed_at": "2026-09-10T07:36:23.159314+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-07-a-09-11/2026-09-10-1.md"
     }
   }
 }

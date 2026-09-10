@@ -1,11 +1,11 @@
 ---
 title: fechas importantes
-date: '2026-09-07'
+date: '2026-09-10'
 tags:
 - auto-generado
 - calendario
 - sociedad-estado
-generated_at: '2026-09-07T08:23:18.776957+00:00'
+generated_at: '2026-09-10T07:36:23.161625+00:00'
 calendar_generated: true
 calendar_event_count: 5
 ---
