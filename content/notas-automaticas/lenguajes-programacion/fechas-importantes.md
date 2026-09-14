@@ -1,11 +1,11 @@
 ---
 title: fechas importantes
-date: '2026-09-10'
+date: '2026-09-14'
 tags:
 - auto-generado
 - calendario
 - lenguajes-programacion
-generated_at: '2026-09-10T07:36:23.161625+00:00'
+generated_at: '2026-09-14T08:56:42.919849+00:00'
 calendar_generated: true
 calendar_event_count: 5
 ---
