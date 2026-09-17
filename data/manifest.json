@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-14T08:56:42.919843+00:00",
+  "last_run": "2026-09-17T08:03:42.711555+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -2741,6 +2741,11 @@
       "sha256": "6dbdc8e943261fa72af4cbc33997637ea05cd4d1dc9c17cce1c24ea30a2ce4da",
       "processed_at": "2026-09-14T08:56:42.918285+00:00",
       "output": "content/notas-automaticas/tratamiento-datos/09-14-a-09-18/2026-09-14-2.md"
+    },
+    "tratamiento-datos/09-14-a-09-18/1 - Diseño de Bases de Datos Relacionales - Ejercicios.pdf": {
+      "sha256": "a01b9809f37fb47b785b234938790347b3013f7a43c64350d36b33d73bd868e5",
+      "processed_at": "2026-09-17T08:03:42.709242+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-14-a-09-18/2026-09-17-1.md"
     }
   }
 }
