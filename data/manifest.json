@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-17T08:03:42.711555+00:00",
+  "last_run": "2026-09-21T08:59:35.727712+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -2746,6 +2746,111 @@
       "sha256": "a01b9809f37fb47b785b234938790347b3013f7a43c64350d36b33d73bd868e5",
       "processed_at": "2026-09-17T08:03:42.709242+00:00",
       "output": "content/notas-automaticas/tratamiento-datos/09-14-a-09-18/2026-09-17-1.md"
+    },
+    "sociedad-estado/09-21-a-09-25/clase-5-parte-1.md": {
+      "sha256": "3a4641a5b01b5a6830c94e7c4df184bf44744f3083d56435522add19c5cb3300",
+      "processed_at": "2026-09-21T08:47:32.275192+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-21-a-09-25/2026-09-21-clase.md"
+    },
+    "sociedad-estado/09-21-a-09-25/clase-5-parte-2.md": {
+      "sha256": "5a6c95d65bc5c7880cd8912d710badbee42753ed46c69be706fd197c47a60f19",
+      "processed_at": "2026-09-21T08:47:32.276979+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-21-a-09-25/2026-09-21-clase.md"
+    },
+    "sociedad-estado/09-21-a-09-25/Clase 5.pdf": {
+      "sha256": "0b2cfc579bd421ebfcc3d074781553e5d2404d47a8dedbc0d5a053faa7afe1e8",
+      "processed_at": "2026-09-21T08:48:36.537509+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-21-a-09-25/2026-09-21-clase.md"
+    },
+    "sociedad-estado/09-21-a-09-25/Guía de lectura Bobbio (6).docx.pdf": {
+      "sha256": "d70811536a93b527052d96022e8f14513aa66e585abed4fe7c8734a593bcd79f",
+      "processed_at": "2026-09-21T08:49:15.930468+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-21-a-09-25/2026-09-21-guia.md"
+    },
+    "sociedad-estado/09-21-a-09-25/Guía de lectura González Bernaldo (6).docx.pdf": {
+      "sha256": "1d915bc011ccbd06ef9e13adf455cf3614308187fcd6ad611ff8a1e969d9e01d",
+      "processed_at": "2026-09-21T08:49:55.110972+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-21-a-09-25/2026-09-21-guia.md"
+    },
+    "sociedad-estado/09-21-a-09-25/Guía de lectura Botana (6).docx.pdf": {
+      "sha256": "0d9e071cc434fa52ca0a2b0de6430f00f5374faa493d1baad7b6bf1ae47b7a7b",
+      "processed_at": "2026-09-21T08:50:55.910327+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-21-a-09-25/2026-09-21-guia.md"
+    },
+    "sociedad-estado/09-21-a-09-25/Guía de lectura Oszlack semana 6.docx.pdf": {
+      "sha256": "0bc08c8e21e7d54b3ca6a4df287e1bf9d1e7b7cff63b5ae654848b375387e778",
+      "processed_at": "2026-09-21T08:51:30.562965+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/09-21-a-09-25/2026-09-21-guia.md"
+    },
+    "infra-tele/09-21-a-09-25/unidad-5-transmision-banda-base.md": {
+      "sha256": "6f0224dd3b40af1cc06f5e8892fddb7ef9a51959c045cb5bac863e5df569315c",
+      "processed_at": "2026-09-21T08:51:30.571126+00:00",
+      "output": "content/notas-automaticas/infra-tele/09-21-a-09-25/2026-09-21-unidad.md"
+    },
+    "infra-tele/09-21-a-09-25/Unidad 5 2026.pptx.pdf": {
+      "sha256": "11195af8e0f2ef4081371e0a5c7c24435dc9b88e3cd0a7adde4c91293cdc35e1",
+      "processed_at": "2026-09-21T08:52:29.981996+00:00",
+      "output": "content/notas-automaticas/infra-tele/09-21-a-09-25/2026-09-21-unidad.md"
+    },
+    "sistemas-operativos-ii/09-21-a-09-25/planificacion-de-procesos.md": {
+      "sha256": "d3ea379c6e28e8fdc9a87f8f674b692e5ef59014a5d2ec039cad6b8057871b1b",
+      "processed_at": "2026-09-21T08:52:30.002220+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/09-21-a-09-25/2026-09-21-planificacion.md"
+    },
+    "sistemas-operativos-ii/09-21-a-09-25/FADENA - SO2 - Unidad 3 - Semana 6 - 2026.pdf": {
+      "sha256": "0fc90b26953694758e052e1f1bdebed4ef337809a6ab621c59cb9582a370d183",
+      "processed_at": "2026-09-21T08:53:16.362724+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/09-21-a-09-25/2026-09-21-fadena.md"
+    },
+    "sistemas-operativos-ii/09-21-a-09-25/FADENA SO II - S6-A1 - 2026 (OBLIGATORIA).pdf": {
+      "sha256": "f009c4e75f5ca3f2cabb07eaeb5ce577dfaed8a67b0f4facc51d0fa6cb0bbdd7",
+      "processed_at": "2026-09-21T08:53:25.824403+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/09-21-a-09-25/2026-09-21-fadena.md"
+    },
+    "lenguajes-programacion/09-21-a-09-25/Semana06 - Clase 01 - Parte 1.pdf": {
+      "sha256": "1149ca3399b6dd85649a12534f13ba26d67e7f46776050dd18f01d7f87da1e14",
+      "processed_at": "2026-09-21T08:54:06.531684+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/09-21-a-09-25/2026-09-21-semana06.md"
+    },
+    "lenguajes-programacion/09-21-a-09-25/semana-6.md": {
+      "sha256": "601575eac31763629d63c72fec9984b71d2fbd7d6a6bd97b8eed16176c16fd90",
+      "processed_at": "2026-09-21T08:54:06.534390+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/09-21-a-09-25/2026-09-21-semana.md"
+    },
+    "tratamiento-datos/09-21-a-09-25/sql-basico.md": {
+      "sha256": "f9b542e0abab59f544ca56b6f5f69649dbd36704d52a044dc34001db45caaf60",
+      "processed_at": "2026-09-21T08:55:53.344326+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-21-a-09-25/2026-09-21-sql.md"
+    },
+    "tratamiento-datos/09-21-a-09-25/1 - SQL Básico - Presentación.pdf": {
+      "sha256": "755be6c147ddc5ddffafed5f570b62552b72e90eddfe54c95a6e875f546e2362",
+      "processed_at": "2026-09-21T08:56:14.264224+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-21-a-09-25/2026-09-21-1.md"
+    },
+    "tratamiento-datos/09-21-a-09-25/3 - SQL Básico.pdf": {
+      "sha256": "f93b8a264e20359c6d1a06c0239f43c7665f8fd5d3624d20e386d74da97b2664",
+      "processed_at": "2026-09-21T08:57:30.263148+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-21-a-09-25/2026-09-21-3.md"
+    },
+    "tratamiento-datos/09-21-a-09-25/4 - SQL Básico - Ejercicios.pdf": {
+      "sha256": "7ec00a3365f208e68ea1b55a2b4807525432e2e1d18f37212c574c929285f4e9",
+      "processed_at": "2026-09-21T08:58:39.148600+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-21-a-09-25/2026-09-21-4.md"
+    },
+    "tratamiento-datos/09-21-a-09-25/6 - SQL Básico - Soluciones Ejercicios.pdf": {
+      "sha256": "f3352475bc0cd360ff25e05d6b8b2e5b4ebce8991f0ea9880bf5064e4e41ba58",
+      "processed_at": "2026-09-21T08:58:49.976977+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-21-a-09-25/2026-09-21-6.md"
+    },
+    "tratamiento-datos/09-21-a-09-25/sql-basico-soluciones-ejercicios.md": {
+      "sha256": "5b5c436306f30dd4fb00a3a2a3d6fb9ef2b47556c77d46017a79d7164fcba9b4",
+      "processed_at": "2026-09-21T08:58:49.979309+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-21-a-09-25/2026-09-21-sql.md"
+    },
+    "tratamiento-datos/09-21-a-09-25/7 - SQL Básico - Alternativas Entorno Interactivo.pdf": {
+      "sha256": "56cfdbe35123c49e33500f963498468078d8de075db61860f9d96f5fc4b1ae38",
+      "processed_at": "2026-09-21T08:59:35.726089+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-21-a-09-25/2026-09-21-7.md"
     }
   }
 }
