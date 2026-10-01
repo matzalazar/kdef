@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-09-28T09:37:25.954494+00:00",
+  "last_run": "2026-10-01T09:31:31.288538+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -2871,6 +2871,26 @@
       "sha256": "fdc4df20e0f9f99e14873059d77fa4631a0d54e31ac3f8122e3ff49e74145074",
       "processed_at": "2026-09-28T09:37:25.931169+00:00",
       "output": "content/notas-automaticas/lenguajes-programacion/09-21-a-09-25/2026-09-28-guia.md"
+    },
+    "infra-tele/09-28-a-10-02/unidad-6-tasa-de-transmision-de-una-fuente-de-datos-y-capacidad-del-canal-de-transmision.md": {
+      "sha256": "e6e1af75cdd2ce0ee6f161e9dba53d2fdc4ca52563387796aa3474a227677d28",
+      "processed_at": "2026-10-01T09:30:53.231672+00:00",
+      "output": "content/notas-automaticas/infra-tele/09-28-a-10-02/2026-10-01-unidad.md"
+    },
+    "infra-tele/09-28-a-10-02/Bibliografía por temas - Unidad 6.pptx.pdf": {
+      "sha256": "2de4e3e24f28f4d477a75b5acda5d069604e65fd4ab3033a5fb6bb0b4c49d994",
+      "processed_at": "2026-10-01T09:30:59.500350+00:00",
+      "output": "content/notas-automaticas/infra-tele/09-28-a-10-02/2026-10-01-bibliografia.md"
+    },
+    "tratamiento-datos/09-28-a-10-02/presentacion-y-explicacion-tp-nro1.md": {
+      "sha256": "ddf49b49c5e10b6bb240f3c80fcb0a1ef2d3f7a2e3a2c0932f9f53e06a548d76",
+      "processed_at": "2026-10-01T09:31:01.175002+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-28-a-10-02/2026-10-01-presentacion.md"
+    },
+    "tratamiento-datos/09-28-a-10-02/TP1_2026_STD.pdf": {
+      "sha256": "d27e4a7e37795ebf2b7a2802a44b96a675b432f0f80d9bb7b9e10a4d1bdd20a4",
+      "processed_at": "2026-10-01T09:31:31.287163+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/09-28-a-10-02/2026-10-01-tp1.md"
     }
   }
 }
