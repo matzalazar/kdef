@@ -22,7 +22,7 @@ import logging
 import tempfile
 import mimetypes
 import unicodedata
-from urllib.parse import urlparse, unquote
+from urllib.parse import urljoin, urlparse, unquote
 from pathlib import Path
 from typing import Optional
 
@@ -269,6 +269,34 @@ kdef_kind: "{'youtube' if is_youtube else 'link'}"
     return dest_path
 
 
+def _get_within_host(
+    session: requests.Session,
+    url: str,
+    base_host: str,
+    max_redirects: int = 10,
+) -> tuple[str, requests.Response | None]:
+    """Sigue redirecciones solo mientras se mantengan en el host de Moodle.
+
+    Si una redirección apunta a otro host (p. ej. YouTube), devuelve esa URL
+    sin pedirla: alcanza con registrarla como link, y pedirla expone al runner
+    a rate limits externos (429) que tumbarían el pipeline.
+
+    Returns:
+        (url_final, response). response es None si la URL final es externa.
+    """
+    current = url
+    for _ in range(max_redirects + 1):
+        host = urlparse(current).netloc
+        if host and host != base_host:
+            return current, None
+        response = session.get(current, timeout=HTTP_TIMEOUT_SECONDS, allow_redirects=False)
+        if not response.is_redirect:
+            response.raise_for_status()
+            return current, response
+        current = urljoin(current, response.headers["Location"])
+    raise requests.TooManyRedirects(f"Demasiadas redirecciones desde {url}")
+
+
 def _resources_from_section_page(
     session: requests.Session,
     section_url: str,
@@ -323,14 +351,8 @@ def _resources_from_section_page(
             continue
 
         if "/mod/resource/view.php" in href or "/mod/url/view.php" in href or "/mod/page/view.php" in href:
-            resolved = session.get(href, timeout=HTTP_TIMEOUT_SECONDS, allow_redirects=True)
-            resolved.raise_for_status()
-            final_url = resolved.url
-            content_type = resolved.headers.get("Content-Type", "").lower()
-
-            final_host = urlparse(final_url).netloc
-            base_host = urlparse(base_url).netloc
-            if final_host and final_host != base_host:
+            final_url, resolved = _get_within_host(session, href, urlparse(base_url).netloc)
+            if resolved is None:
                 if final_url in seen_urls:
                     continue
                 seen_urls.add(final_url)
@@ -343,6 +365,8 @@ def _resources_from_section_page(
                     }
                 )
                 continue
+
+            content_type = resolved.headers.get("Content-Type", "").lower()
 
             # If Moodle redirects to a real file, keep it.
             if content_type and "text/html" not in content_type:
