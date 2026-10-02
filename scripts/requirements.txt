@@ -17,7 +17,7 @@ python-dotenv>=1.2.3
 requests>=2.34.2
 
 # Parsing de HTML para scraping de Moodle
-beautifulsoup4>=4.14.3
+beautifulsoup4>=4.15.0
 lxml>=6.1.2
 
 # YAML para el catálogo declarativo del campus
