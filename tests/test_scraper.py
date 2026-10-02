@@ -1,11 +1,15 @@
 from __future__ import annotations
 
 import unittest
+from unittest.mock import MagicMock
+
+import requests
 
 from scripts.scraper import (
     _decode_mojibake,
     _extension_from_url,
     _extract_section_number,
+    _get_within_host,
     _is_youtube_url,
     _section_dirname,
     _slugify,
@@ -109,6 +113,60 @@ class ExtractSectionNumberTests(unittest.TestCase):
 
     def test_returns_none_for_empty_section_value(self):
         self.assertIsNone(_extract_section_number("https://example.com/course?section="))
+
+
+def _fake_response(status: int, location: str | None = None) -> requests.Response:
+    response = requests.Response()
+    response.status_code = status
+    if location is not None:
+        response.headers["Location"] = location
+    return response
+
+
+class GetWithinHostTests(unittest.TestCase):
+    BASE_HOST = "campus.example.edu"
+
+    def test_returns_response_when_no_redirect(self):
+        session = MagicMock()
+        session.get.return_value = _fake_response(200)
+        url = "https://campus.example.edu/mod/page/view.php?id=1"
+        final_url, response = _get_within_host(session, url, self.BASE_HOST)
+        self.assertEqual(final_url, url)
+        self.assertIsNotNone(response)
+
+    def test_follows_relative_redirect_on_same_host(self):
+        session = MagicMock()
+        session.get.side_effect = [
+            _fake_response(303, "/pluginfile.php/1/a.pdf"),
+            _fake_response(200),
+        ]
+        final_url, response = _get_within_host(
+            session, "https://campus.example.edu/mod/resource/view.php?id=2", self.BASE_HOST
+        )
+        self.assertEqual(final_url, "https://campus.example.edu/pluginfile.php/1/a.pdf")
+        self.assertIsNotNone(response)
+
+    def test_stops_at_external_redirect_without_requesting_it(self):
+        session = MagicMock()
+        session.get.return_value = _fake_response(303, "https://www.youtube.com/watch?v=abc")
+        final_url, response = _get_within_host(
+            session, "https://campus.example.edu/mod/url/view.php?id=3", self.BASE_HOST
+        )
+        self.assertEqual(final_url, "https://www.youtube.com/watch?v=abc")
+        self.assertIsNone(response)
+        session.get.assert_called_once()
+
+    def test_raises_on_http_error_within_host(self):
+        session = MagicMock()
+        session.get.return_value = _fake_response(500)
+        with self.assertRaises(requests.HTTPError):
+            _get_within_host(session, "https://campus.example.edu/mod/url/view.php?id=4", self.BASE_HOST)
+
+    def test_raises_on_redirect_loop(self):
+        session = MagicMock()
+        session.get.return_value = _fake_response(302, "/loop")
+        with self.assertRaises(requests.TooManyRedirects):
+            _get_within_host(session, "https://campus.example.edu/loop", self.BASE_HOST, max_redirects=3)
 
 
 if __name__ == "__main__":
