@@ -78,7 +78,7 @@
     "remark-math": "^6.0.0",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.2",
-    "remark-smartypants": "^3.0.2",
+    "remark-smartypants": "^3.0.3",
     "rfdc": "^1.4.1",
     "satori": "^0.26.0",
     "serve-handler": "^6.1.6",
