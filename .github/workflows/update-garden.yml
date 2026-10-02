@@ -154,7 +154,7 @@ jobs:
 
       # Node.js LTS con caché de npm para acelerar la instalación
       - name: Configurar Node.js 22 LTS
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: '22'
           cache: 'npm'
