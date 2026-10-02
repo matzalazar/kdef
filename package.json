@@ -34,7 +34,7 @@
   "dependencies": {
     "@clack/prompts": "^1.8.1",
     "@floating-ui/dom": "^1.8.0",
-    "@myriaddreamin/rehype-typst": "^0.6.0",
+    "@myriaddreamin/rehype-typst": "^0.7.0",
     "@napi-rs/simple-git": "0.1.22",
     "@tweenjs/tween.js": "^25.0.0",
     "ansi-truncate": "^1.4.0",
