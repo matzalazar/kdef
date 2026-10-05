@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-01T09:31:31.288538+00:00",
+  "last_run": "2026-10-05T10:17:45.627930+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -2128,9 +2128,9 @@
       "output": "content/notas-automaticas/lenguajes-programacion/08-19-a-08-21/2026-08-20-introduccion.md"
     },
     "tratamiento-datos/08-19-a-08-21/presentacion.md": {
-      "sha256": "3b20aceded9a4db27f23b19c5f294dc9a972fe17c9837108621162b81bbc7192",
-      "processed_at": "2026-08-20T08:28:27.064800+00:00",
-      "output": "content/notas-automaticas/tratamiento-datos/08-19-a-08-21/2026-08-20-presentacion.md"
+      "sha256": "8a9f7862dd386ee905bda0295a59a0af3663dc33dd1d599dd51807ef025574c3",
+      "processed_at": "2026-10-05T10:17:45.602971+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/08-19-a-08-21/2026-10-05-presentacion.md"
     },
     "sociedad-estado/08-19-a-08-21/Programa SyE actualizado con template 2026.docx.pdf": {
       "sha256": "663d9f5f72b0c72ea3a4caa2b29e1ec717b13b92fe0f26a7545d5bb1ebd77a40",
@@ -2891,6 +2891,66 @@
       "sha256": "d27e4a7e37795ebf2b7a2802a44b96a675b432f0f80d9bb7b9e10a4d1bdd20a4",
       "processed_at": "2026-10-01T09:31:31.287163+00:00",
       "output": "content/notas-automaticas/tratamiento-datos/09-28-a-10-02/2026-10-01-tp1.md"
+    },
+    "sociedad-estado/10-05-a-10-09/clase-6-1-parte.md": {
+      "sha256": "ac5e198931eea1388c9a8af1c96a948aae3692983f7b3d257e5fa86a68281dbb",
+      "processed_at": "2026-10-05T10:15:27.478585+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-05-a-10-09/2026-10-05-clase.md"
+    },
+    "sociedad-estado/10-05-a-10-09/clase-6-2-parte.md": {
+      "sha256": "301e80036991d9554500a3ec5cd0280c716d1928b426c571a99d9111176dd8c1",
+      "processed_at": "2026-10-05T10:15:27.479622+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-05-a-10-09/2026-10-05-clase.md"
+    },
+    "sociedad-estado/10-05-a-10-09/Clase 6.pptx.pdf": {
+      "sha256": "2ff4680666194e363a755108761784144078ce69c834e93581f0cb42984f72c4",
+      "processed_at": "2026-10-05T10:16:13.364321+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-05-a-10-09/2026-10-05-clase.md"
+    },
+    "sociedad-estado/10-05-a-10-09/Guía de lectura Max Weber (semana 8).docx.pdf": {
+      "sha256": "c2e77fbbd163f33ae1895a2644526a76c915bb30c37c585ea60a04afb9db58c6",
+      "processed_at": "2026-10-05T10:16:25.977776+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-05-a-10-09/2026-10-05-guia.md"
+    },
+    "sociedad-estado/10-05-a-10-09/Guía de lectura Sartori (semana 8).docx.pdf": {
+      "sha256": "082f6af60a16a7d54f6056da5c347106965bdea07b1fad6b557f9fc61194bd18",
+      "processed_at": "2026-10-05T10:16:37.145999+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-05-a-10-09/2026-10-05-guia.md"
+    },
+    "sociedad-estado/10-05-a-10-09/Guía de lectura Lafferriere_Sociedad, nación y nacionalismo (semana 8).docx.pdf": {
+      "sha256": "8784b1932a06b924b67e1ede0c7e324d7cd57b31cb362f9950c4e3686f800f56",
+      "processed_at": "2026-10-05T10:16:43.420408+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-05-a-10-09/2026-10-05-guia.md"
+    },
+    "sociedad-estado/10-05-a-10-09/Guía de lectura Lafferriere_El sistema totalitario. El sistema autoritario (semana 8).docx.pdf": {
+      "sha256": "1fb02cc99b50ffae443a32938ea7789ca84057363edeff8907cb60b35daac5d5",
+      "processed_at": "2026-10-05T10:17:00.871378+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-05-a-10-09/2026-10-05-guia.md"
+    },
+    "sociedad-estado/10-05-a-10-09/Guía de lectura O’DONNELL (semana 8).docx.pdf": {
+      "sha256": "f92438299a927ed204529f460299137acfbff7b07871bee7a02269759c41c036",
+      "processed_at": "2026-10-05T10:17:17.958360+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-05-a-10-09/2026-10-05-guia.md"
+    },
+    "lenguajes-programacion/10-05-a-10-09/Unidad 07 - Clase 01.pptx (1).pdf": {
+      "sha256": "aa67f3739197b880ebc5d67bbb4aa90061aa5d0720977e3f467ca9f13094cd98",
+      "processed_at": "2026-10-05T10:17:30.154166+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-05-a-10-09/2026-10-05-unidad.md"
+    },
+    "lenguajes-programacion/10-05-a-10-09/video-clase-unidad-7.md": {
+      "sha256": "e396931fa58afa8e503c8ece8a9305e397e3ddbd5f313b0387c08a0b77fb099c",
+      "processed_at": "2026-10-05T10:17:30.156117+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-05-a-10-09/2026-10-05-video.md"
+    },
+    "lenguajes-programacion/10-05-a-10-09/Unidad 07.docx.pdf": {
+      "sha256": "96c4baedf1fa0c6181cf4e26bc3230ee681b5125ad36430e4d17d8fed1d83dc7",
+      "processed_at": "2026-10-05T10:17:39.257909+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-05-a-10-09/2026-10-05-unidad.md"
+    },
+    "lenguajes-programacion/10-05-a-10-09/Unidad 07 - Guía práctica.pdf": {
+      "sha256": "211e978d06c66c51c8baa61fbcfa90ed8410fe56b5f889c4110a0be3bb1d0f6e",
+      "processed_at": "2026-10-05T10:17:45.600753+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-05-a-10-09/2026-10-05-unidad.md"
     }
   }
 }
