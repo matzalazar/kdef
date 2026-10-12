@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-08T09:37:00.966709+00:00",
+  "last_run": "2026-10-12T10:37:57.344582+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -2393,14 +2393,14 @@
       "output": "content/notas-automaticas/sociedad-estado/08-31-a-09-04/2026-08-31-p2jhhds23xc.md"
     },
     "infra-tele/08-24-a-08-28/unidad-1-introduccion-a-la-transmision-de-datos.md": {
-      "sha256": "ca4b3fedbbc545df3f5b25ef7c6f8784d3bcce77e69b006ceb55cad9c81abbbb",
-      "processed_at": "2026-09-14T08:48:35.704736+00:00",
-      "output": "content/notas-automaticas/infra-tele/08-24-a-08-28/2026-09-14-unidad.md"
+      "sha256": "d4338fe2c46b696e1fcb97ab04978c386208a885d728d7392754467b39946a1c",
+      "processed_at": "2026-10-12T10:34:41.596322+00:00",
+      "output": "content/notas-automaticas/infra-tele/08-24-a-08-28/2026-10-12-unidad.md"
     },
     "infra-tele/08-31-a-09-04/unidad-2-parametros-de-las-senales-digitales-y-analogicas-el-espectro-electromagnetico.md": {
-      "sha256": "30bd64e760fd60fc779579d6e63be446b82c8925086e143156ee7ff2f6ebdfc1",
-      "processed_at": "2026-09-14T08:48:35.707689+00:00",
-      "output": "content/notas-automaticas/infra-tele/08-31-a-09-04/2026-09-14-unidad.md"
+      "sha256": "36de8ee5531eef93b5c0ee7dc99898ae3bab9a7b100a064994eb1f3baaceac79",
+      "processed_at": "2026-10-12T10:34:41.599324+00:00",
+      "output": "content/notas-automaticas/infra-tele/08-31-a-09-04/2026-10-12-unidad.md"
     },
     "infra-tele/08-31-a-09-04/Unidad 2 2026.pptx.pdf": {
       "sha256": "2f1a5843cd1693bac1c96f8b73cc8e92b75ff32eef48b690ceefc237edaddf7b",
@@ -2528,9 +2528,9 @@
       "output": "content/notas-automaticas/sociedad-estado/09-07-a-09-11/2026-09-10-actividad.md"
     },
     "infra-tele/09-07-a-09-11/unidad-3-calculo-de-enlaces-de-comunicaciones.md": {
-      "sha256": "ffe82fecdc444f2eb60b9856d2deb07c590e671ecd5ab365bdf5533cdc117efd",
-      "processed_at": "2026-09-14T08:48:35.710713+00:00",
-      "output": "content/notas-automaticas/infra-tele/09-07-a-09-11/2026-09-14-unidad.md"
+      "sha256": "2b3d3ca7a8aa0694a9c38d4df4f61c01d05b09d38f8778a142350adad865fd7c",
+      "processed_at": "2026-10-12T10:34:41.602342+00:00",
+      "output": "content/notas-automaticas/infra-tele/09-07-a-09-11/2026-10-12-unidad.md"
     },
     "infra-tele/09-07-a-09-11/Unidad 3 2026.pptx.pdf": {
       "sha256": "da10b53f20f2a6477be12356e40a4f824cf266330855365fdf45af867004695f",
@@ -2648,9 +2648,9 @@
       "output": "content/notas-automaticas/sociedad-estado/09-14-a-09-18/2026-09-14-watch.md"
     },
     "infra-tele/09-14-a-09-18/unidad-4-relacion-entre-el-ancho-de-banda-del-canal-y-la-velocidad-de-modulacion.md": {
-      "sha256": "dc77481c460310c5251d059976d7f02af5e2a95c8290cafa6815908f24716517",
-      "processed_at": "2026-09-14T08:48:35.713831+00:00",
-      "output": "content/notas-automaticas/infra-tele/09-14-a-09-18/2026-09-14-unidad.md"
+      "sha256": "df04c5ae9d4e51ea7c006ef8f8b0f990a0dafeba5641ce46d14423f842d2be3d",
+      "processed_at": "2026-10-12T10:34:41.605176+00:00",
+      "output": "content/notas-automaticas/infra-tele/09-14-a-09-18/2026-10-12-unidad.md"
     },
     "infra-tele/09-14-a-09-18/Unidad 4 2026.pptx.pdf": {
       "sha256": "001b27137cf6680c4eb4a9e4716ea208cf9bf362d384785f3ced1cfcd71f775c",
@@ -2783,9 +2783,9 @@
       "output": "content/notas-automaticas/sociedad-estado/09-21-a-09-25/2026-09-21-guia.md"
     },
     "infra-tele/09-21-a-09-25/unidad-5-transmision-banda-base.md": {
-      "sha256": "6f0224dd3b40af1cc06f5e8892fddb7ef9a51959c045cb5bac863e5df569315c",
-      "processed_at": "2026-09-21T08:51:30.571126+00:00",
-      "output": "content/notas-automaticas/infra-tele/09-21-a-09-25/2026-09-21-unidad.md"
+      "sha256": "55c12cfe957830836869cc21d613db0ae81f6b77819a77f89dd9ee27b88a6938",
+      "processed_at": "2026-10-12T10:34:41.607440+00:00",
+      "output": "content/notas-automaticas/infra-tele/09-21-a-09-25/2026-10-12-unidad.md"
     },
     "infra-tele/09-21-a-09-25/Unidad 5 2026.pptx.pdf": {
       "sha256": "11195af8e0f2ef4081371e0a5c7c24435dc9b88e3cd0a7adde4c91293cdc35e1",
@@ -2873,9 +2873,9 @@
       "output": "content/notas-automaticas/lenguajes-programacion/09-21-a-09-25/2026-09-28-guia.md"
     },
     "infra-tele/09-28-a-10-02/unidad-6-tasa-de-transmision-de-una-fuente-de-datos-y-capacidad-del-canal-de-transmision.md": {
-      "sha256": "e6e1af75cdd2ce0ee6f161e9dba53d2fdc4ca52563387796aa3474a227677d28",
-      "processed_at": "2026-10-01T09:30:53.231672+00:00",
-      "output": "content/notas-automaticas/infra-tele/09-28-a-10-02/2026-10-01-unidad.md"
+      "sha256": "76468b6b96fa7c549b47173dc00d79d4d067a0500717ffb554d8ff559b103229",
+      "processed_at": "2026-10-12T10:34:41.609935+00:00",
+      "output": "content/notas-automaticas/infra-tele/09-28-a-10-02/2026-10-12-unidad.md"
     },
     "infra-tele/09-28-a-10-02/Bibliografía por temas - Unidad 6.pptx.pdf": {
       "sha256": "2de4e3e24f28f4d477a75b5acda5d069604e65fd4ab3033a5fb6bb0b4c49d994",
@@ -2951,6 +2951,121 @@
       "sha256": "211e978d06c66c51c8baa61fbcfa90ed8410fe56b5f889c4110a0be3bb1d0f6e",
       "processed_at": "2026-10-05T10:17:45.600753+00:00",
       "output": "content/notas-automaticas/lenguajes-programacion/10-05-a-10-09/2026-10-05-unidad.md"
+    },
+    "sociedad-estado/10-12-a-10-16/clase-7.md": {
+      "sha256": "c00950526598dd072fff981a77587d783abd04f384c950b0b0b43413a75ca3fe",
+      "processed_at": "2026-10-12T10:33:26.970328+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-12-a-10-16/2026-10-12-clase.md"
+    },
+    "sociedad-estado/10-12-a-10-16/Clase 7 - Lafferriere.pptx.pdf": {
+      "sha256": "af09d8949558093a4e648e6dc2319c5da11754fc15c2d41f70c6daf7a1ef307c",
+      "processed_at": "2026-10-12T10:33:42.372971+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-12-a-10-16/2026-10-12-clase.md"
+    },
+    "sociedad-estado/10-12-a-10-16/Clase 7 - Mann.pptx.pdf": {
+      "sha256": "dac389526fe5b19a39aa568dc78ceb6380074ef4e424bdd0464291dec4f0d3d9",
+      "processed_at": "2026-10-12T10:34:02.814010+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-12-a-10-16/2026-10-12-clase.md"
+    },
+    "sociedad-estado/10-12-a-10-16/Guía de lectura LAFFERRIERE, Augusto Diego (semana 9).docx.pdf": {
+      "sha256": "40703ecc9a85c60830848b0f3b601ea132fdfccd853ed424dad0a7a164c6f930",
+      "processed_at": "2026-10-12T10:34:20.906808+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-12-a-10-16/2026-10-12-guia.md"
+    },
+    "sociedad-estado/10-12-a-10-16/Guía de lectura MANN, Michael.docx.pdf": {
+      "sha256": "daf133f55cdcaaf68fa99dc4156ca4e1b9396ee35974d211e723f0b60e070858",
+      "processed_at": "2026-10-12T10:34:41.592953+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-12-a-10-16/2026-10-12-guia.md"
+    },
+    "infra-tele/10-12-a-10-16/unidad-7-tratamiento-de-errores-en-los-canales-de-comunicacion-de-datos.md": {
+      "sha256": "0bed042b818e03429b7cc39820a8abef282601587cb8d7ea9112fd2530bdc763",
+      "processed_at": "2026-10-12T10:34:41.613367+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-12-a-10-16/2026-10-12-unidad.md"
+    },
+    "infra-tele/10-12-a-10-16/Unidad 7 2026.pptx.pdf": {
+      "sha256": "ecfbe8343e9721851ee8407a07a0bca73870866031b689c9de90655ef18f0ed1",
+      "processed_at": "2026-10-12T10:34:53.889339+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-12-a-10-16/2026-10-12-unidad.md"
+    },
+    "infra-tele/10-12-a-10-16/unidad-8-modulacion-analogica-y-digital.md": {
+      "sha256": "81863bb0e646ddd93196554da245ca1d1fe28c71738494c78192efd13500aaed",
+      "processed_at": "2026-10-12T10:34:53.892367+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-12-a-10-16/2026-10-12-unidad.md"
+    },
+    "infra-tele/10-12-a-10-16/Unidad 8 2026.pptx.pdf": {
+      "sha256": "c56eb46102817ad8cfac81c7699aa1040f395fdbe0ee478091794a87ece71109",
+      "processed_at": "2026-10-12T10:35:19.992352+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-12-a-10-16/2026-10-12-unidad.md"
+    },
+    "infra-tele/10-12-a-10-16/Bibliografía por temas - Unidad 7.pptx.pdf": {
+      "sha256": "4741e4696e89af07bd8634c3515df934f88dea2c8e21b103cffc28b709d98f7b",
+      "processed_at": "2026-10-12T10:35:29.325414+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-12-a-10-16/2026-10-12-bibliografia.md"
+    },
+    "infra-tele/10-12-a-10-16/Bibliografía por temas - Unidad 8.pptx.pdf": {
+      "sha256": "ba370464845c085297649db2bba06d2fca11b6d998d3ae0acae0d7fa58adad98",
+      "processed_at": "2026-10-12T10:35:37.644037+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-12-a-10-16/2026-10-12-bibliografia.md"
+    },
+    "sistemas-operativos-ii/10-12-a-10-16/FADENA - SO2 - Unidad 4 - Semana 9 - 2026.pdf": {
+      "sha256": "fe22aa65c85d08423ae9a5d98702f5349016e9724885e8274f8e0d638b60130e",
+      "processed_at": "2026-10-12T10:35:59.476774+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/10-12-a-10-16/2026-10-12-fadena.md"
+    },
+    "sistemas-operativos-ii/10-12-a-10-16/FADENA SO II - S9-A1 - 2026.pdf": {
+      "sha256": "fc448a92a2ac4dded2d7aa2fa2df1d5c74f9eb1060f4d9fd0cd93e34b8a5a08a",
+      "processed_at": "2026-10-12T10:36:11.729019+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/10-12-a-10-16/2026-10-12-fadena.md"
+    },
+    "lenguajes-programacion/10-12-a-10-16/unidad-8.md": {
+      "sha256": "f766e77329a981a94511c1dffa72ba98424190f8ed6bb314c6502bec2059806f",
+      "processed_at": "2026-10-12T10:36:12.909193+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-12-a-10-16/2026-10-12-unidad.md"
+    },
+    "lenguajes-programacion/10-12-a-10-16/Unidad 08 - Clase 01.pptx.pdf": {
+      "sha256": "c915feb32b541c13c619e38a4859aaf2763ce9cecc76ab1176efa91b45771cfd",
+      "processed_at": "2026-10-12T10:36:21.213713+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-12-a-10-16/2026-10-12-unidad.md"
+    },
+    "lenguajes-programacion/10-12-a-10-16/Unidad 08 - Guía práctica.docx.pdf": {
+      "sha256": "b871a1f0ea4589e9a3ee157d59a1f966926cd7e1a226c0c36dec6e8c4ce745da",
+      "processed_at": "2026-10-12T10:36:33.885184+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-12-a-10-16/2026-10-12-unidad.md"
+    },
+    "tratamiento-datos/10-12-a-10-16/1-sql-avanzado.md": {
+      "sha256": "290f50d5b5306060a7d1b7b07df69bfda36d4d3c6ce7dd88f7f2871aaf33e127",
+      "processed_at": "2026-10-12T10:36:33.922322+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-12-1.md"
+    },
+    "tratamiento-datos/10-12-a-10-16/2 - SQL Avanzado - Presentación.pdf": {
+      "sha256": "5abe9ed194beabea5ce704d96a4208d187e6ac795c5c2954ab7df3ff55569141",
+      "processed_at": "2026-10-12T10:36:51.902243+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-12-2.md"
+    },
+    "tratamiento-datos/10-12-a-10-16/1 - SQL Avanzado.pdf": {
+      "sha256": "fe8a268625354f0e970de020c85323a810c970e44dceacd9e5bdea0a1049646f",
+      "processed_at": "2026-10-12T10:37:10.538972+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-12-1.md"
+    },
+    "tratamiento-datos/10-12-a-10-16/SQL Avanzado - Ejercicios.pdf": {
+      "sha256": "39b566aed8b3cc2d283e4477f4fae2e76d7eefcca43c40f0d7ccd7f53f0204a2",
+      "processed_at": "2026-10-12T10:37:30.776408+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-12-sql.md"
+    },
+    "tratamiento-datos/10-12-a-10-16/sql-avanzado-soluciones-ejercicios.md": {
+      "sha256": "5a9eefa4c7cc74e4d09200fb9cf56d86b93bcb91dc6cf1b4518af7940b398d24",
+      "processed_at": "2026-10-12T10:37:30.778773+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-12-sql.md"
+    },
+    "tratamiento-datos/10-12-a-10-16/SQL Avanzado - Soluciones Ejercicios.pdf": {
+      "sha256": "79ac0e3badd7404194c755012ca0e756a9b71fe9631ff51c54a23c1c51315100",
+      "processed_at": "2026-10-12T10:37:45.179703+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-12-sql.md"
+    },
+    "tratamiento-datos/10-12-a-10-16/SQL Avanzado - Alternativas Entorno Interactivo.pdf": {
+      "sha256": "f59029ca142a477ed93f9281847a10620d0aee8f3246a21b0b539836ea20fa1c",
+      "processed_at": "2026-10-12T10:37:57.342812+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-12-sql.md"
     }
   }
 }
