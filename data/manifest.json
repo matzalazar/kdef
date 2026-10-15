@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-12T10:37:57.344582+00:00",
+  "last_run": "2026-10-15T07:49:23.701571+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -3053,9 +3053,9 @@
       "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-12-sql.md"
     },
     "tratamiento-datos/10-12-a-10-16/sql-avanzado-soluciones-ejercicios.md": {
-      "sha256": "5a9eefa4c7cc74e4d09200fb9cf56d86b93bcb91dc6cf1b4518af7940b398d24",
-      "processed_at": "2026-10-12T10:37:30.778773+00:00",
-      "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-12-sql.md"
+      "sha256": "d0f7d183c92d6fa912906eb62ac5baf9f1fde04fea1e6520152b34a128b29a90",
+      "processed_at": "2026-10-15T07:49:23.700170+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-15-sql.md"
     },
     "tratamiento-datos/10-12-a-10-16/SQL Avanzado - Soluciones Ejercicios.pdf": {
       "sha256": "79ac0e3badd7404194c755012ca0e756a9b71fe9631ff51c54a23c1c51315100",
@@ -3066,6 +3066,26 @@
       "sha256": "f59029ca142a477ed93f9281847a10620d0aee8f3246a21b0b539836ea20fa1c",
       "processed_at": "2026-10-12T10:37:57.342812+00:00",
       "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-12-sql.md"
+    },
+    "infra-tele/10-12-a-10-16/crc.md": {
+      "sha256": "a5a6ffb9c1846949eb46d836134e2573d2c481542538fb0b82da2d6e43592f57",
+      "processed_at": "2026-10-15T07:48:29.861994+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-12-a-10-16/2026-10-15-crc.md"
+    },
+    "infra-tele/10-12-a-10-16/hamming.md": {
+      "sha256": "ab42d635f32e75b510ed40d0cddd2370cb93cfc0958eae961838e2cc558276f2",
+      "processed_at": "2026-10-15T07:48:29.863901+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-12-a-10-16/2026-10-15-hamming.md"
+    },
+    "lenguajes-programacion/10-05-a-10-09/Unidad 07 v02.docx.pdf": {
+      "sha256": "7042765828841130221756deb6b135b0af6aff311054441d1bd2a01b3f5dfd99",
+      "processed_at": "2026-10-15T07:49:23.571406+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-05-a-10-09/2026-10-15-unidad.md"
+    },
+    "tratamiento-datos/10-12-a-10-16/sql-avanzado.md": {
+      "sha256": "54da4949ce07065a857106f8980750ba45c0f3f9c590facc91a7996417ee0a3c",
+      "processed_at": "2026-10-15T07:49:23.695343+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-15-sql.md"
     }
   }
 }
