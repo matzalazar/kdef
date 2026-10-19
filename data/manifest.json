@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-15T07:49:23.701571+00:00",
+  "last_run": "2026-10-19T08:48:26.817424+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -3086,6 +3086,86 @@
       "sha256": "54da4949ce07065a857106f8980750ba45c0f3f9c590facc91a7996417ee0a3c",
       "processed_at": "2026-10-15T07:49:23.695343+00:00",
       "output": "content/notas-automaticas/tratamiento-datos/10-12-a-10-16/2026-10-15-sql.md"
+    },
+    "sociedad-estado/10-19-a-10-23/clase-8.md": {
+      "sha256": "f449c0ba4f1786c938bbe7ee66b24f70f39bf9efe8807e41128dd0e93f1c43ad",
+      "processed_at": "2026-10-19T08:42:46.651523+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-19-a-10-23/2026-10-19-clase.md"
+    },
+    "sociedad-estado/10-19-a-10-23/Clase 8 - Amartya Sen.pptx.pdf": {
+      "sha256": "6f7523ce6338fbbfb024dc27cf5496135ba823e8b7c51d8d2c8fbc41c627fd39",
+      "processed_at": "2026-10-19T08:43:25.140442+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-19-a-10-23/2026-10-19-clase.md"
+    },
+    "sociedad-estado/10-19-a-10-23/Guía de lectura Amartya Sen (semana 10).docx.pdf": {
+      "sha256": "b0d5767e2d24455356a791bf3bfbe24167c2835d2eb3b95fb02d677013ed56b0",
+      "processed_at": "2026-10-19T08:44:18.972550+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-19-a-10-23/2026-10-19-guia.md"
+    },
+    "sociedad-estado/10-19-a-10-23/watch.md": {
+      "sha256": "a56cfef5489205b2e1aa2393a7451b5242cc0495a53706da7f247c1365725f35",
+      "processed_at": "2026-10-19T08:44:18.974425+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-19-a-10-23/2026-10-19-watch.md"
+    },
+    "infra-tele/10-19-a-10-23/unidad-9-introduccion-a-redes.md": {
+      "sha256": "8d564a55655fc5dfa42d2109204355ec02fe8d73befcee3574a5a65d229e996d",
+      "processed_at": "2026-10-19T08:44:18.986269+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-19-a-10-23/2026-10-19-unidad.md"
+    },
+    "infra-tele/10-19-a-10-23/Unidad 9 Introducción a redes_2026.pptx.pdf": {
+      "sha256": "42f28a9029304f78c40713e25a8f284b44734dad8c0708540f368eedb4dd2f85",
+      "processed_at": "2026-10-19T08:45:00.596867+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-19-a-10-23/2026-10-19-unidad.md"
+    },
+    "infra-tele/10-19-a-10-23/unidad-9-modelos-y-protocolos.md": {
+      "sha256": "8a0985ace25e87f1d49e752c55c52deee54839b8f51076372de87ec443b1167d",
+      "processed_at": "2026-10-19T08:45:00.599441+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-19-a-10-23/2026-10-19-unidad.md"
+    },
+    "sistemas-operativos-ii/10-19-a-10-23/FADENA - SO2 - Unidad 4 - Semana 10 - 2026.pdf": {
+      "sha256": "fdac65d827b21030e2802d1710ffe5829a25a476729396bf94b1a4de4589fe5a",
+      "processed_at": "2026-10-19T08:45:51.113798+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/10-19-a-10-23/2026-10-19-fadena.md"
+    },
+    "sistemas-operativos-ii/10-19-a-10-23/Sistemas-operativos_WStallings-274-321-13-17.pdf": {
+      "sha256": "c0abaebe99512c85de1fc0ca70324cd2c799e03cb8441333a3dd81530d840986",
+      "processed_at": "2026-10-19T08:46:29.262361+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/10-19-a-10-23/2026-10-19-sistemas.md"
+    },
+    "sistemas-operativos-ii/10-19-a-10-23/FADENA SO II - S10-A1 - 2026.pdf": {
+      "sha256": "9f244b456890dbc766d2d4baa3134eea239da9cf777656ecd1b8c56fe241a06a",
+      "processed_at": "2026-10-19T08:46:47.040687+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/10-19-a-10-23/2026-10-19-fadena.md"
+    },
+    "lenguajes-programacion/10-19-a-10-23/unidad-9.md": {
+      "sha256": "ca2fb0c4be44299fbecc0e05bb9038ed39ac9ca62dc57699e41c8e14fa7d5d3f",
+      "processed_at": "2026-10-19T08:46:47.964963+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-19-a-10-23/2026-10-19-unidad.md"
+    },
+    "lenguajes-programacion/10-19-a-10-23/Semana09 - Clase 01.pdf": {
+      "sha256": "be59e08635ca9d681f89c058000f012ee9ea68511cd965469546e381793e98e6",
+      "processed_at": "2026-10-19T08:47:11.702791+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-19-a-10-23/2026-10-19-semana09.md"
+    },
+    "lenguajes-programacion/10-19-a-10-23/Bilbiografia_Auxiliar_Introducción al UML.pdf": {
+      "sha256": "458e6d1c488744179e4226b7515a4315cb7ca7abe2be4adeaf7231a74f1977d7",
+      "processed_at": "2026-10-19T08:47:44.499077+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-19-a-10-23/2026-10-19-bilbiografia.md"
+    },
+    "lenguajes-programacion/10-19-a-10-23/Semana09 - Guía práctica.pdf": {
+      "sha256": "4414b2eb9675890b88bd54efb553f574bdeceb2924103c65952a85f955faf603",
+      "processed_at": "2026-10-19T08:48:03.989896+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-19-a-10-23/2026-10-19-semana09.md"
+    },
+    "tratamiento-datos/10-19-a-10-23/administracion-de-base-de-datos.md": {
+      "sha256": "af78b7cca60a42b3984076ff42bc17e0a439adf7a9ad51c70723f06601e5e198",
+      "processed_at": "2026-10-19T08:48:04.024648+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/10-19-a-10-23/2026-10-19-administracion.md"
+    },
+    "tratamiento-datos/10-19-a-10-23/TP2_SQL_Avanzado_2026.pdf": {
+      "sha256": "80527b88431b92150b395eda6913b76fe612b4212856827266aa9987504c696b",
+      "processed_at": "2026-10-19T08:48:26.814952+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/10-19-a-10-23/2026-10-19-tp2.md"
     }
   }
 }
