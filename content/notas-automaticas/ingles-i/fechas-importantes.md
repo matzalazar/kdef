@@ -1,11 +1,11 @@
 ---
 title: fechas importantes
-date: '2026-10-22'
+date: '2026-10-26'
 tags:
 - auto-generado
 - calendario
 - ingles-i
-generated_at: '2026-10-22T08:03:05.625500+00:00'
+generated_at: '2026-10-26T08:45:32.744830+00:00'
 calendar_generated: true
 calendar_event_count: 9
 ---

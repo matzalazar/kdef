@@ -1,0 +1,14 @@
+---
+title: administracion
+date: '2026-10-26'
+tags:
+- auto-generado
+- video
+source: administracion-de-base-de-datos.md
+generated_at: '2026-10-26T08:45:32.714537+00:00'
+important_dates: []
+---
+
+> Este recurso es un video de YouTube.
+>
+> [Ver video →](https://youtu.be/ErLOeHb-EHE)

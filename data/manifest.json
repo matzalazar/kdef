@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-22T08:03:05.625484+00:00",
+  "last_run": "2026-10-26T08:45:32.744820+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -3171,6 +3171,36 @@
       "sha256": "ad7dc8d115ad9efb59f5a3f482e016af6b9447a2357abfee498b4f3f19e9695a",
       "processed_at": "2026-10-22T08:03:04.283809+00:00",
       "output": "content/notas-automaticas/infra-tele/10-19-a-10-23/2026-10-22-intro.md"
+    },
+    "sociedad-estado/10-26-a-10-30/clase-9.md": {
+      "sha256": "0153af6d67fa67ec1c1c5bf2511f15f02dce2034a8e3f02522601301060ca5c4",
+      "processed_at": "2026-10-26T08:45:22.697269+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/10-26-a-10-30/2026-10-26-clase.md"
+    },
+    "infra-tele/10-26-a-10-30/unidad-10-redes-lan.md": {
+      "sha256": "fb9a766110df3e3486ed2cc9a4e5b03adc88de7c4daf6f5ec67381e934a58c26",
+      "processed_at": "2026-10-26T08:45:23.448350+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-26-a-10-30/2026-10-26-unidad.md"
+    },
+    "infra-tele/10-26-a-10-30/seguridad-switch.md": {
+      "sha256": "5930c2df353a85f9fd8a7c4836f8d16732d55ac63c0eaca1ee12c1a675e5e067",
+      "processed_at": "2026-10-26T08:45:23.766948+00:00",
+      "output": "content/notas-automaticas/infra-tele/10-26-a-10-30/2026-10-26-seguridad.md"
+    },
+    "lenguajes-programacion/10-26-a-10-30/unidad-10-clase-01-introduccion-al-lenguaje-html.md": {
+      "sha256": "6c7897c2ac3917f321e1c1947f0de43738696f7539831d304f57a2b5dacdb059",
+      "processed_at": "2026-10-26T08:45:30.696411+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-26-a-10-30/2026-10-26-unidad.md"
+    },
+    "lenguajes-programacion/10-26-a-10-30/unidad-10-clase-02-introduccion-al-lenguaje-php.md": {
+      "sha256": "30f6dc8c1207630278469f710bcf486b941361d3804fa76ad74a8bf79c2e8331",
+      "processed_at": "2026-10-26T08:45:30.915940+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/10-26-a-10-30/2026-10-26-unidad.md"
+    },
+    "tratamiento-datos/10-26-a-10-30/administracion-de-base-de-datos.md": {
+      "sha256": "438b9b7724540db1f0e0789708ebd35ba75983c254c46483ae84042d958a0bf1",
+      "processed_at": "2026-10-26T08:45:32.714468+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/10-26-a-10-30/2026-10-26-administracion.md"
     }
   }
 }
