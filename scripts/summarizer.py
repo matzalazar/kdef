@@ -505,7 +505,7 @@ def summarize_document(path: Path, model: str, academic_year: str = "") -> Docum
     Args:
         path: Path al archivo a resumir. Puede ser PDF, TXT, MD.
         model: Nombre del modelo con prefijo del proveedor.
-                Ejemplos: "openrouter/nvidia/nemotron-3-super-120b-a12b:free", "gemini/gemini-2.5-flash"
+                Ejemplos: "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free", "gemini/gemini-2.5-flash"
         academic_year: Año académico en curso (ej: "2026"). Se incluye en el prompt
                        para que el LLM pueda inferir el año en fechas parciales como "21-may".
 
