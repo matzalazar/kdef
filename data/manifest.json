@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-26T08:45:32.744820+00:00",
+  "last_run": "2026-10-29T09:03:31.102420+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -2853,9 +2853,9 @@
       "output": "content/notas-automaticas/tratamiento-datos/09-21-a-09-25/2026-09-21-7.md"
     },
     "infra-tele/seccion/unidad-6-tasa-de-transmision-de-una-fuente-de-datos-y-capacidad-del-canal-de-transmision.md": {
-      "sha256": "ba0c4ffe19ce26e4760a2e9f2aa8f1cfd9480f946337fb5352dced018457641b",
-      "processed_at": "2026-09-28T09:36:41.931858+00:00",
-      "output": "content/notas-automaticas/infra-tele/seccion/2026-09-28-unidad.md"
+      "sha256": "75b0bdd4c445173caaacdc765f672b8d8fe1f0bf0ecaac67c477c115e69ac042",
+      "processed_at": "2026-10-29T09:03:22.283771+00:00",
+      "output": "content/notas-automaticas/infra-tele/seccion/2026-10-29-unidad.md"
     },
     "infra-tele/09-21-a-09-25/Bibliografía por temas - Unidad 5.pptx.pdf": {
       "sha256": "ff57716eb29871789f96570d398a153bb026ad31dc8d5e8e5325b4875965f4d6",
@@ -3201,6 +3201,41 @@
       "sha256": "438b9b7724540db1f0e0789708ebd35ba75983c254c46483ae84042d958a0bf1",
       "processed_at": "2026-10-26T08:45:32.714468+00:00",
       "output": "content/notas-automaticas/tratamiento-datos/10-26-a-10-30/2026-10-26-administracion.md"
+    },
+    "infra-tele/seccion/unidad-10-redes-lan.md": {
+      "sha256": "4740b673ec4c2e2fa5d7e245526e60d19a7a039bed6dc50d0cb8b05bae5e71f8",
+      "processed_at": "2026-10-29T09:03:22.279549+00:00",
+      "output": "content/notas-automaticas/infra-tele/seccion/2026-10-29-unidad.md"
+    },
+    "infra-tele/seccion/unidad-8-modulacion-analogica-y-digital.md": {
+      "sha256": "1d15a916162494b9551193b9f7c7a9f4d9da68d0f8363724709b4a100a02eaee",
+      "processed_at": "2026-10-29T09:03:22.280997+00:00",
+      "output": "content/notas-automaticas/infra-tele/seccion/2026-10-29-unidad.md"
+    },
+    "infra-tele/seccion/unidad-7-tratamiento-de-errores-en-los-canales-de-comunicacion-de-datos.md": {
+      "sha256": "c56b3b0c8776f2d083828ed1680855b84dbd25d122b91f33314e907e5238412a",
+      "processed_at": "2026-10-29T09:03:22.282264+00:00",
+      "output": "content/notas-automaticas/infra-tele/seccion/2026-10-29-unidad.md"
+    },
+    "infra-tele/seccion/unidad-5-transmision-banda-base.md": {
+      "sha256": "202d5501fd4fe3adb4255ae8681b9e14151728be4a0690fe2435ee5db33e826a",
+      "processed_at": "2026-10-29T09:03:22.285126+00:00",
+      "output": "content/notas-automaticas/infra-tele/seccion/2026-10-29-unidad.md"
+    },
+    "infra-tele/seccion/unidad-4-relacion-entre-el-ancho-de-banda-del-canal-y-la-velocidad-de-modulacion.md": {
+      "sha256": "5c27ad911439636a0922ae939300cb014c8a5aa3d79cc06d775e31f556cd3f81",
+      "processed_at": "2026-10-29T09:03:22.286403+00:00",
+      "output": "content/notas-automaticas/infra-tele/seccion/2026-10-29-unidad.md"
+    },
+    "sistemas-operativos-ii/10-26-a-10-30/modelo-tcp-ip.md": {
+      "sha256": "49a4b03d836d3ffebc33b2dcb3a52aa0b5c7133ce847c27b403f385be4eaca75",
+      "processed_at": "2026-10-29T09:03:27.157486+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/10-26-a-10-30/2026-10-29-modelo.md"
+    },
+    "tratamiento-datos/seccion/administracion-de-base-de-datos.md": {
+      "sha256": "e75ecb11e05b3a819f9a187d974a5e8300ed77bdd9b92271eeef2a4078c1aadc",
+      "processed_at": "2026-10-29T09:03:30.867528+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/seccion/2026-10-29-administracion.md"
     }
   }
 }
