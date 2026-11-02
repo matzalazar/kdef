@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-10-29T09:40:02.467679+00:00",
+  "last_run": "2026-11-02T11:02:30.096323+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -3296,6 +3296,116 @@
       "sha256": "23cd5a9f81d12fa76de57b97a8994fcc7d92284448cd4ebb495a5351d198a76e",
       "processed_at": "2026-10-29T09:39:25.758241+00:00",
       "output": "content/notas-automaticas/lenguajes-programacion/10-26-a-10-30/2026-10-29-unidad.md"
+    },
+    "sociedad-estado/11-02-a-11-06/clase-10.md": {
+      "sha256": "657f7c419b69aaf0f4f6567fc6ca5d52c8673e1fc3ed46cb59a3326d8ccc3611",
+      "processed_at": "2026-11-02T10:51:20.822548+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-02-a-11-06/2026-11-02-clase.md"
+    },
+    "sociedad-estado/11-02-a-11-06/Clase 10 - Semana 12.pptx.pdf": {
+      "sha256": "c2626a9dd27fe98ccb96337ab652cdfb037fff5a912026db924a279bf6a39e00",
+      "processed_at": "2026-11-02T10:51:52.732270+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-02-a-11-06/2026-11-02-clase.md"
+    },
+    "sociedad-estado/11-02-a-11-06/Guía de lectura Castells- La revolución de la tecnología.docx.pdf": {
+      "sha256": "662cc387e9910eabae53cf5644a2180969c6aa97f54af43785e0d15cb30872f6",
+      "processed_at": "2026-11-02T10:52:45.515095+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-02-a-11-06/2026-11-02-guia.md"
+    },
+    "sociedad-estado/11-02-a-11-06/Guía de lectura Castells  La Empresa Red.docx.pdf": {
+      "sha256": "c6ba8178252c5f7cafb514ac354753a30840f215da7cf850d571057e6af39589",
+      "processed_at": "2026-11-02T10:53:55.269924+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-02-a-11-06/2026-11-02-guia.md"
+    },
+    "sociedad-estado/11-02-a-11-06/Guia de lectura Pleyers.docx.pdf": {
+      "sha256": "4b38afd009d5f55bf0ef0cdbc9076c73e0aacd7b1f9472b4584262e85d038adf",
+      "processed_at": "2026-11-02T10:54:38.740142+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-02-a-11-06/2026-11-02-guia.md"
+    },
+    "sociedad-estado/11-02-a-11-06/Guia de lectura Torre Juan Carlos.docx.pdf": {
+      "sha256": "4202d5c0a4f470e1178ed9c2375220432ef0fb78caa8cda194cac49474dbd9be",
+      "processed_at": "2026-11-02T10:55:41.757664+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-02-a-11-06/2026-11-02-guia.md"
+    },
+    "infra-tele/seccion/vlsm-completo.md": {
+      "sha256": "7c3a268021ea90a599a791b2ca9ee8bc13bde8654ea056b6a0355c1941d5158a",
+      "processed_at": "2026-11-02T10:55:41.759867+00:00",
+      "output": "content/notas-automaticas/infra-tele/seccion/2026-11-02-vlsm.md"
+    },
+    "infra-tele/11-02-a-11-06/capa-de-red.md": {
+      "sha256": "9638c53080945d1804f3548f6ea59acb15985faba8c9f9ecbadbd829f8787ed5",
+      "processed_at": "2026-11-02T10:55:41.782302+00:00",
+      "output": "content/notas-automaticas/infra-tele/11-02-a-11-06/2026-11-02-capa.md"
+    },
+    "infra-tele/11-02-a-11-06/direccionamiento-ipv4.md": {
+      "sha256": "5009b071f2629305b53b00f8dd48b86fb89dbc33549d3d8e72355ba3dec12554",
+      "processed_at": "2026-11-02T10:55:41.796768+00:00",
+      "output": "content/notas-automaticas/infra-tele/11-02-a-11-06/2026-11-02-direccionamiento.md"
+    },
+    "infra-tele/11-02-a-11-06/FADENA-IP v 4 subredes vlsm.pdf": {
+      "sha256": "9969a0a4b27b3065994bdbba44081304bfe6e659ef22d36439474ca56a3758fb",
+      "processed_at": "2026-11-02T10:56:32.589329+00:00",
+      "output": "content/notas-automaticas/infra-tele/11-02-a-11-06/2026-11-02-fadena.md"
+    },
+    "infra-tele/11-02-a-11-06/subredes-completo.md": {
+      "sha256": "88f7aa723cab2eca11bbd0c83a21b225116dbbdeec898bfcd76c2c132ba2ab66",
+      "processed_at": "2026-11-02T10:56:32.592134+00:00",
+      "output": "content/notas-automaticas/infra-tele/11-02-a-11-06/2026-11-02-subredes.md"
+    },
+    "infra-tele/11-02-a-11-06/vlan.md": {
+      "sha256": "4ca14de4921dd9d67529a99c46c745e0d602812a70767ce215b406fc7350167c",
+      "processed_at": "2026-11-02T10:56:32.593640+00:00",
+      "output": "content/notas-automaticas/infra-tele/11-02-a-11-06/2026-11-02-vlan.md"
+    },
+    "sistemas-operativos-ii/11-02-a-11-06/FADENA - SO2 - Unidad 6 - Semana 12 - 2026.pdf": {
+      "sha256": "d0ddea9b6c1b6560c837e3ce5a9438e39156cc1be83936d644e1f841d4dbf23b",
+      "processed_at": "2026-11-02T10:58:18.506044+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/11-02-a-11-06/2026-11-02-fadena.md"
+    },
+    "lenguajes-programacion/11-02-a-11-06/Unidad 11.pdf": {
+      "sha256": "6eddb048036a5cffe16a7b35a99a4a11b499d7261bfd9729e563cb6a3946b974",
+      "processed_at": "2026-11-02T10:58:45.445325+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/11-02-a-11-06/2026-11-02-unidad.md"
+    },
+    "lenguajes-programacion/11-02-a-11-06/video-clase-unidad-11.md": {
+      "sha256": "aa0de9f6a1e168bbbb4007d46ebbab126d9cab275b15326bb4859fbef9ca4668",
+      "processed_at": "2026-11-02T10:58:45.448567+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/11-02-a-11-06/2026-11-02-video.md"
+    },
+    "lenguajes-programacion/11-02-a-11-06/Unidad 11 - Material oficial - Formularios y funciones.pdf": {
+      "sha256": "f63b2402378d7d0c366d3668e2911c478f4699d8db7c7f6d6bb452bba9a2b42e",
+      "processed_at": "2026-11-02T10:59:15.855353+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/11-02-a-11-06/2026-11-02-unidad.md"
+    },
+    "lenguajes-programacion/11-02-a-11-06/Unidad 11 - Guía práctica.pdf": {
+      "sha256": "ee70b1e667f3244fc44bb4818831b860e2ebf559ac2bfc4885b70a15d3a39928",
+      "processed_at": "2026-11-02T10:59:50.512072+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/11-02-a-11-06/2026-11-02-unidad.md"
+    },
+    "tratamiento-datos/11-02-a-11-06/formatos-de-intercambio-de-datos-y-logs.md": {
+      "sha256": "698872dcce5722a880ee70ee034ce82a9aeb83b6201eefd8f32164e45aa92339",
+      "processed_at": "2026-11-02T10:59:50.653965+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/11-02-a-11-06/2026-11-02-formatos.md"
+    },
+    "tratamiento-datos/11-02-a-11-06/clase-practica-regex.md": {
+      "sha256": "cb404ea12d3df99c4f1aa282e32aee582dc282426e67c3cf34ff3ce5298ffa8a",
+      "processed_at": "2026-11-02T10:59:50.655595+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/11-02-a-11-06/2026-11-02-clase.md"
+    },
+    "tratamiento-datos/11-02-a-11-06/2 - Formatos de intercambio de datos y Logs.pdf": {
+      "sha256": "153d085a14fc7db3721548cb0aad43bd659b861e7ac31b82a8de993ca835d92d",
+      "processed_at": "2026-11-02T11:00:38.998754+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/11-02-a-11-06/2026-11-02-2.md"
+    },
+    "tratamiento-datos/11-02-a-11-06/3 - Introducción a las Expresiones Regulares (REGEX).pdf": {
+      "sha256": "d92ede58de187c117a2a66b65385747f22b3b9059a73f2cf57903597f0f5b966",
+      "processed_at": "2026-11-02T11:01:56.931519+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/11-02-a-11-06/2026-11-02-3.md"
+    },
+    "tratamiento-datos/11-02-a-11-06/5- Ejercicios Expresiones Regulares (REGEX).pdf": {
+      "sha256": "96b81129454c5c4406f8476ed3dba8454a5fda361a18714d357c4c2de8c8ee96",
+      "processed_at": "2026-11-02T11:02:30.094678+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/11-02-a-11-06/2026-11-02-5.md"
     }
   }
 }
