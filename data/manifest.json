@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_run": "2026-11-05T10:00:45.574720+00:00",
+  "last_run": "2026-11-09T11:23:37.829509+00:00",
   "files": {
     "analisis-i/06-04-a-10-04/intro-analisis.md": {
       "sha256": "74f6e17a91b01642b491bf75592a2f5d25ebf467c901188cf29fe9fbcf47bcdd",
@@ -3411,6 +3411,116 @@
       "sha256": "704825f249b391315547a2170e98fe2a6a25cbdbebf31c29f1acff5d0569a579",
       "processed_at": "2026-11-05T10:00:43.788668+00:00",
       "output": "content/notas-automaticas/infra-tele/11-02-a-11-06/2026-11-05-vlsm.md"
+    },
+    "sociedad-estado/11-09-a-11-13/clase-11-parte-1.md": {
+      "sha256": "62981efc02c8157892365d18f28ba2b7bb250aac25ee243d9389a0ff2e5d9b0e",
+      "processed_at": "2026-11-09T11:14:37.721470+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-09-a-11-13/2026-11-09-clase.md"
+    },
+    "sociedad-estado/11-09-a-11-13/clase-11-parte-2.md": {
+      "sha256": "a96b2a9fcd2d6ee28c15992890963f9091fe65203695fbde5fce30c58b7fef30",
+      "processed_at": "2026-11-09T11:14:37.722889+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-09-a-11-13/2026-11-09-clase.md"
+    },
+    "sociedad-estado/11-09-a-11-13/Clase 11 - Semana 13.pptx.pdf": {
+      "sha256": "ad464595a5700256f8cb8f9070c159912a7f9b796bca427757ca5b1cfbb06358",
+      "processed_at": "2026-11-09T11:15:29.254446+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-09-a-11-13/2026-11-09-clase.md"
+    },
+    "sociedad-estado/11-09-a-11-13/Guía de lectura Giddens - Sociología. El cambio social hoy La globalización.docx.pdf": {
+      "sha256": "6356d980315d5f397c9f18e6c71ed9ca78df4f6abeeb35811d06dbca38992d56",
+      "processed_at": "2026-11-09T11:15:54.787177+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-09-a-11-13/2026-11-09-guia.md"
+    },
+    "sociedad-estado/11-09-a-11-13/Guía de lectura Giddens - Sociología. Medios de comunicación y cultura popular.docx.pdf": {
+      "sha256": "df64cce5a98e5194649c69f7f187828469bbdd70297e6fb34b81086bc8bae806",
+      "processed_at": "2026-11-09T11:16:52.987173+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-09-a-11-13/2026-11-09-guia.md"
+    },
+    "sociedad-estado/11-09-a-11-13/Guía de lectura Schmeider y Karcher.docx.pdf": {
+      "sha256": "d2fc7cd833bbb2f6fdae696888dce61ba6ca285aaaabbf96d16c928adce67dcf",
+      "processed_at": "2026-11-09T11:18:00.509359+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-09-a-11-13/2026-11-09-guia.md"
+    },
+    "sociedad-estado/11-09-a-11-13/Guía de lectura Strange.docx.pdf": {
+      "sha256": "72ce19fd009a6f295e6488047f98f82afbd0d9a0809a2658b99327038283c034",
+      "processed_at": "2026-11-09T11:19:34.799693+00:00",
+      "output": "content/notas-automaticas/sociedad-estado/11-09-a-11-13/2026-11-09-guia.md"
+    },
+    "infra-tele/11-09-a-11-13/capa-de-transporte.md": {
+      "sha256": "826d07a950e28751fa4ec72e6f4b330ba487e6480f5ffc658f09e886b9d48902",
+      "processed_at": "2026-11-09T11:19:34.832904+00:00",
+      "output": "content/notas-automaticas/infra-tele/11-09-a-11-13/2026-11-09-capa.md"
+    },
+    "sistemas-operativos-ii/seccion/Cronograma SO II - 2° cuatrimestre 2026.pdf": {
+      "sha256": "1c413f29621b6fc8a5ea8a81888b3b49e042abf714330383ea3455f8bdf0b6a3",
+      "processed_at": "2026-11-09T11:20:32.390324+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/seccion/2026-11-09-cronograma.md"
+    },
+    "sistemas-operativos-ii/11-09-a-11-13/FADENA - SO2 - Unidad 6 - Semana 13 - 2026.pdf": {
+      "sha256": "2b16d89694d699ea94553ccf6725aaacc232ca9348ed8b7f0c6336c533a2fc36",
+      "processed_at": "2026-11-09T11:21:21.261207+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/11-09-a-11-13/2026-11-09-fadena.md"
+    },
+    "sistemas-operativos-ii/11-09-a-11-13/FADENA SO II - S13-A1 - 2026 (OBLIGATORIA).pdf": {
+      "sha256": "706d586e074c58aa95a573efe724dbeb2c4b84f708b2032e027e631313f49f03",
+      "processed_at": "2026-11-09T11:21:51.581246+00:00",
+      "output": "content/notas-automaticas/sistemas-operativos-ii/11-09-a-11-13/2026-11-09-fadena.md"
+    },
+    "lenguajes-programacion/11-09-a-11-13/Unidad 12 - Clase 01.pdf": {
+      "sha256": "6208754fa3f5376b566f66d312a180c91d920bcafd25397ab82c3d5a8b6463c2",
+      "processed_at": "2026-11-09T11:22:08.974558+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/11-09-a-11-13/2026-11-09-unidad.md"
+    },
+    "lenguajes-programacion/11-09-a-11-13/video-clase-unidad-12.md": {
+      "sha256": "5f4997ac564445489e6bdcbcb8c3f0a4d73c12efacb678b4ff8c1f14d8afefba",
+      "processed_at": "2026-11-09T11:22:08.977133+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/11-09-a-11-13/2026-11-09-video.md"
+    },
+    "lenguajes-programacion/11-09-a-11-13/Unidad 12 - Material oficial  - Programacion orientada a objetos.pdf": {
+      "sha256": "cb43dee74ed8f288ee2383795655a58bf6b9fb117d7bb93bb5555bab27678f77",
+      "processed_at": "2026-11-09T11:22:23.636422+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/11-09-a-11-13/2026-11-09-unidad.md"
+    },
+    "lenguajes-programacion/11-09-a-11-13/Unidad 12 - Guía práctica.pdf": {
+      "sha256": "b00d62c4c0188d0635a3d5fcd5ac784467ac923e28b0db41a307efa897c87414",
+      "processed_at": "2026-11-09T11:22:41.812625+00:00",
+      "output": "content/notas-automaticas/lenguajes-programacion/11-09-a-11-13/2026-11-09-unidad.md"
+    },
+    "tratamiento-datos/11-09-a-11-13/nosql-teoria.md": {
+      "sha256": "26904e6bc89178ab7f902c01c1b3a121ca4181ee10b317577b14c5504ef57d68",
+      "processed_at": "2026-11-09T11:22:41.881070+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/11-09-a-11-13/2026-11-09-nosql.md"
+    },
+    "tratamiento-datos/11-09-a-11-13/nosql-clase-practica.md": {
+      "sha256": "939229d05fdbc7dc9754892c60f8928132bfc8a774a821bbd160d19950e1027c",
+      "processed_at": "2026-11-09T11:22:41.882311+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/11-09-a-11-13/2026-11-09-nosql.md"
+    },
+    "tratamiento-datos/11-09-a-11-13/etl-practica.md": {
+      "sha256": "6205ef2d69396a812fa6a1f094681ff190282e84ae2a337eed91a6f6980a40ca",
+      "processed_at": "2026-11-09T11:22:41.883559+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/11-09-a-11-13/2026-11-09-etl.md"
+    },
+    "tratamiento-datos/11-09-a-11-13/big-data-practica.md": {
+      "sha256": "0ee181472789f23df4aaa6454fe78582bf0ef4495e6181f00f4d67095962db4c",
+      "processed_at": "2026-11-09T11:22:41.884740+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/11-09-a-11-13/2026-11-09-big.md"
+    },
+    "tratamiento-datos/11-09-a-11-13/ciencia-de-datos-practica.md": {
+      "sha256": "6cad41aa9b8bd657ae698b3d3d079d0c2bd3ee766f45bc4cbe534f33da37c1a0",
+      "processed_at": "2026-11-09T11:22:41.885879+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/11-09-a-11-13/2026-11-09-ciencia.md"
+    },
+    "tratamiento-datos/11-09-a-11-13/tendencias-tecnologicas-teoria.md": {
+      "sha256": "e86bc5a6d7fbc985769b19f10109417db7384d57ac9782f34bc1fb14c3518a90",
+      "processed_at": "2026-11-09T11:22:41.887052+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/11-09-a-11-13/2026-11-09-tendencias.md"
+    },
+    "tratamiento-datos/11-09-a-11-13/NoSQL_Tendencias_2026.pdf": {
+      "sha256": "a38172413951d9274a99cb1317e42172722b369a6929c9eb9a3665f753f2125c",
+      "processed_at": "2026-11-09T11:23:37.827796+00:00",
+      "output": "content/notas-automaticas/tratamiento-datos/11-09-a-11-13/2026-11-09-nosql.md"
     }
   }
 }
