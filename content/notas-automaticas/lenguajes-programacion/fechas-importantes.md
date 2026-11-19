@@ -1,13 +1,13 @@
 ---
 title: fechas importantes
-date: '2026-11-16'
+date: '2026-11-19'
 tags:
 - auto-generado
 - calendario
 - lenguajes-programacion
-generated_at: '2026-11-16T10:55:01.974189+00:00'
+generated_at: '2026-11-19T10:54:29.986347+00:00'
 calendar_generated: true
-calendar_event_count: 5
+calendar_event_count: 6
 ---
 
 ## Con fecha confirmada
@@ -24,3 +24,4 @@ calendar_event_count: 5
 
 - **30-nov 4-dic** · `otro` · **Cierre** — [lenguajes-programacion / 08-19-a-08-21](08-19-a-08-21/2026-09-03-ldp) Semana de cierre de actividades del cuatrimestre.
 - **9-dic 15-dic** · `final` · **Mesa de examen Final** — [lenguajes-programacion / 08-19-a-08-21](08-19-a-08-21/2026-09-03-ldp) Periodo destinado a la toma del examen final de la materia.
+- **Próximo paso (semana 6)** · `parcial` · **Parcial - Lenguajes de programación** — [lenguajes-programacion / seccion](seccion/2026-11-19-semana06) Evaluación de los contenidos vistos en la comparativa de lenguajes imperativos clásicos (COBOL, Assembler, Pascal, BASIC), funciones/procedimientos y pasaje de parámetros.
